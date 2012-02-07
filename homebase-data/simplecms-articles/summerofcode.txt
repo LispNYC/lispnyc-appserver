@@ -1,0 +1,59 @@
+      title: Summer of Code 2011
+   uri-path: soc
+    section: soc
+     author: H Goodman
+       tags: SOC
+description: Mentoring organization for Google's Summer of Code
+
+We're gearing up for Google's 2011 Summer of Code, now would be a great time to <a href="/soc/idea">send us an idea</a> and <a href="/soc/proposal">start preparing your proposal</a>.
+
+For proposal inspiration, see some ideas from previous years:
+
+* [2009 ideas](/soc/2009)
+* [2008 ideas](/soc/2008)
+* [2007 ideas](/soc/2007)
+* [2006 ideas](/soc/2006)
+* [2005 ideas](/soc/2005)
+
+We're available at [#summeroflisp at irc.freenode.net](irc://irc.freenode.net:6667/summeroflisp) (9-5 EST) if you'd like to discuss in realtime.
+
+<p><span class="header">( ideas )</span></p>
+
+* [Native Lisp SSH](http://www.snailbook.com/protocols.html) implement the SSH 2.0 authentication and transport protocols as a Common Lisp lib
+* [cl-fuse NFS client](http://common-lisp.net/project/cl-fuse/) NFSv4 Common Lisp native client using cl-fuse
+* [CIFSSMB CL Client](http://en.wikipedia.org/wiki/Server_message_block) write a CIFSSMB client andor server in Common Lisp
+* [StarLisp for GPUs](http://en.wikipedia.org/wiki/*Lisp) StarLisp on CL-GPU for GPU programming
+* [Emacs on CL](http://clocc.cvs.sourceforge.net/viewvc/clocc/clocc/src/cllib/elisp.lisp?view=markup) implement ELisp and GNU Emacs core functions to port GNU Emacs to Common Lisp allowing scripting in CL CLPython CL-JavaScript etc.
+* [Hunchentoot vhosts with SNI](http://cyrusharmon.org/projects?project=hunchentoot-vhost) fix Harmons hunchentoot-vhost to work wlatest Hunchentoot implement Server Name Indication SNI for vhost TLS support
+* [node.js on CL](http://marijnhaverbeke.nl/cl-javascript/) port node.js to CL-JavaScript
+* [XCVB Farm](http://common-lisp.net/project/xcvb/doc/TODO.html) distribute builds across machines
+* [StumpWM scripting](http://www.nongnu.org/stumpwm/) Add CLPython or CL-JavaScript scripting support to StumpWM window manager
+* [cltl2-style environments](http://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node102.html) Library to provide CLtL2 environment-style declaration and environment information for macros
+* [JavaScript for Closure](http://common-lisp.net/project/closure/) Integrate CL-JavaScript into the Closure web browser.
+* [lisp-daemon](http://www.cliki.net/Vladimir%20Sedach)  Portable daemonization library for running Lisp servers without screen/detachtty
+* [cl-cpu-affinity](http://www.cliki.net/sb-cpu-affinity) cross-platform library for detecting SMP multicore information and setting thread affinity
+* [Overtone Livecoding](http://groups.google.com/group/overtone/msg/c6c34fd20c9e3a5c?pli=1) livecoding Clojure editor/repl
+* [Overtone Networked Jamming](http://groups.google.com/group/overtone/msg/c6c34fd20c9e3a5c?pli=1) networked jamming support (using lamina and aleph)
+* [Overtone Visual Patching System](http://groups.google.com/group/overtone/msg/c6c34fd20c9e3a5c?pli=1) visual patching system (PD style, but cooler) for patching ugens 
+* [Overtone API Expansion](http://groups.google.com/group/overtone/msg/c6c34fd20c9e3a5c?pli=1) general musical API expansion (rhythm & note generators) 
+* [R6RS on Gambit Scheme](http://smyles.com/projects/r6gambit/) Finish implementation of R6RS on Gambit Scheme.
+* [clj-facebook-graph](https://github.com/maxweber/clj-facebook-graph) improve and flesh out the idiomatic Clojure FB API.
+* [clj-azure](http://www.cliki.net/cl-azure) Extend cl-azure with more features and functionality, make it feature complete.
+* [ABCL D-M-C](http://trac.common-lisp.net/armedbear/wiki/GSoC2011) improve the implementhation of DEFINE-METHOD-COMBINATION 
+* [ABCL Metaclasses for Generic Functions](http://trac.common-lisp.net/armedbear/wiki/GSoC2011)
+* [ABCL LispObject](http://trac.common-lisp.net/armedbear/wiki/GSoC2011/LispObject-as-java-interface) - make LispObject a Java interface, as God and Gosling intended
+* [Embed CLISP](http://clisp.org/wanted.html#embed) into your favorite application (VIM, Firefox, Gnumeric, OpenOffice or pick your own)
+* [Antlr for Clojure](http://www.antlr.org/wiki/display/ANTLR3/How+to+build+an+ANTLR+code+generation+target) - Antlr back-end for Clojure
+* [Cabbaje](http://www.jstor.org/pss/2331231) - Clojure framework to genetically evolve financial instrument trading strategies
+* ClojureMultiArrays - Library implementing an APL-style array language inside Clojure
+* DistributedClojure - Clojure library for distributed-memory parallel computing
+* Clojure MongoDB Driver - an idiomatic API for the MongoDB library
+* [CLISP/MT](http://clisp.org/wanted.html#mt) - Finish multithreading in CLISP by replacing the hash table implenentation with a lock-free open-addressing ones.
+* R6 Gambit - Complete implementation of R6RS for Gambit Scheme
+* [Optimize Clojure on Android](http://www.deepbluelambda.org/programming/clojure/creating-android-applications-with-clojure) 
+* [CL-GPU support for Nvidia](https://github.com/angavrilov/cl-gpu )
+* [Improvements to the Acheron CL to JS Compiler](http://sourceforge.net/projects/acheron/develop) - details to follow
+
+<p><span class="header">( LispNYC special! )</span></p>
+
+![Brandorr Logo](/static/images/bg-logo.png) Brandorr Group, an [Amazon Web Services Solutions Provider](http://aws.amazon.com/solutions/solution-providers/brandorr/) supports open-source initiatives by offering LispNYC's Summer of Code students a **free Business Class Virtual Machine** for use on their project.  Any justified request for CPU, bandwidth or storage will be honored.

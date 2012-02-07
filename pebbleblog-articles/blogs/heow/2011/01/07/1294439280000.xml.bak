@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>Templating Enlive</title>
+<subtitle>Selectors for templating HTML's metadata</subtitle>
+<excerpt/>
+<body><![CDATA[<p>Christophe Grand's <a href="https://github.com/cgrand/enlive">Enlive</a> is a great tool, it makes HTML generation and parsing a breeze, that is if you're moderately familiar with CSS selectors.<br />
+<br />
+When templating (or seaching) HTML/XML, most of the time you will be selecting by ID or CLASS.</p>
+<p>For those times when you're not, such as making the HTML metadata SEO-friendly, you're going to need a special selector...</p>
+<p>&nbsp;</p>]]></body>
+<date>07 Jan 2011 22:28:00:0 +0000</date>
+<timeZone>America/New_York</timeZone>
+<state>unpublished</state>
+<author>heow</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags>Clojure Enlive CSS html metadata</tags>
+</blogEntry>

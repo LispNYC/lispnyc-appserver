@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>What is Acheron Lisp?</title>
+<subtitle/>
+<excerpt/>
+<body><![CDATA[<p>Well, I always explain it like this: Acheron is like the Google Web Toolkit (GWT), but instead of Java with Common Lisp (kind of).<br />
+<br />
+If you don't know what GWT does, this doesn't help you much. So let me explain what GWT does in its essence.<br />
+GWT allows you to write a program in (almost) ordinary Java and compiles this program to JavaScript. The compiled JavaScript code can then be executed <strong>natively</strong> in almost any webbrowser. This is great for a Java programmer that doesn't know much about JavaScript. He can write a web application almost like any other Java application.<br />
+<br />
+While some people like to program in Java, some prefer Lisp over Java. This spawned the idea to create something like GWT for the Lisp world. Acheron is similar to GWT. It allows you to write an application in (a subset of) Common Lisp and compiles<br />
+your application to JavaScript. GWT has of course much more features than Acheron, since Acheron is currently only a single-person project. But you can some decent things with it already.<br />
+<br />
+I will explain in this Blog some basics of Acheron (the documentation is currently non-existing, unless you speak German).&nbsp; The next Blog entry will be about how to start the Acheron REPL to get started with Acheron Lisp. In the meantime you can download the compiler and play around with it if you want. The compiler<br />
+is open-source and you can get it from Sourceforge:<br />
+<a href="http://sourceforge.net/projects/acheron/">http://sourceforge.net/projects/acheron/</a></p>]]></body>
+<date>02 Feb 2011 19:31:00:0 +0000</date>
+<timeZone>CET</timeZone>
+<state>unpublished</state>
+<author>17</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags/>
+</blogEntry>

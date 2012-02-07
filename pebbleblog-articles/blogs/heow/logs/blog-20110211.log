@@ -1,0 +1,5 @@
+60.47.33.5 - - [11/Feb/2011:03:00:52 -0500] "GET /templating-enlive" 200 - "http://lispnyc.org/blog/" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.13) Gecko/20110207 Firefox/3.6.13"
+66.249.72.43 - - [11/Feb/2011:13:43:47 -0500] "GET /" 200 - - "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.72.43 - - [11/Feb/2011:15:34:23 -0500] "GET /2011/02/11" 200 - - "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.72.43 - - [11/Feb/2011:18:31:06 -0500] "GET /replyToBlogEntry.action?entry=1294763820000" 200 - - "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.72.43 - - [11/Feb/2011:18:59:54 -0500] "GET /templating-enlive" 200 - - "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"

@@ -1,0 +1,47 @@
+      title: Simple Idea for Summer of Code
+   uri-path: /soc/idea
+    section: soc
+     author: H Goodman
+       tags: Simple Idea for 2011 Summer of Code 
+description: Simple Idea for Summer of Code
+
+
+<form method="post" action="/soc/idea"> 
+<input type="hidden" name="subject" value="soc idea">
+
+<center><table border="0" width="100%">
+
+<tr><td valign="top" align="right"><p>Your name:</p></td>
+    <td><input type="text" name="name" width="60"></td></tr>
+
+<tr><td valign="top" align="right"><p>Your email: (won't be published)</p></td>
+    <td valign="top"><input type="text" name="email"></td></tr>
+
+<tr><td valign="top" align="right"><p>What is the name of your idea?</p></td>
+    <td valign="top"><input type="text" name="proj_name" size="20"></td></tr>
+
+<tr><td valign="top" align="right"><p>Describe your idea in 10 words</p></td>
+    <td valign="top"><input type="text" name="short_desc" size="60"></td></tr>
+
+<!-- tr><td valign="top" align="right"><p>(optional) Tell us more about it and why is this important to the<br> Lisp/Scheme community?</p></td>
+    <td><textarea wrap="virtual" name="why" rows="12"
+    cols="60"></textarea></td></tr -->
+
+<tr><td valign="top" align="right"><p>(optional) URL for further reading</p></td>
+    <td valign="top"><input type="text" name="url" size="60"></td></tr>
+
+<tr><td valign="top" align="right"><p>What skills do you think this
+      idea requires?</p></td>
+    <td valign="top"><input type="text" name="skills" size="60"></td></tr>
+
+<tr><td valign="top" align="right" width="50%"><p>How difficult would you rate this?</p></td>
+    <td valign="top"><p class="body"><input type="radio" value="1" name="level">very easy<br>
+                                     <input type="radio" value="2" name="level">easy<br>
+                                     <input type="radio" value="3" name="level">moderate<br>
+                                     <input type="radio" value="4" name="level">hard<br>
+                                     <input type="radio" value="5" name="level">very hard
+</p></td></tr>
+
+<tr><td></td><td><input type="submit" value=" submit idea "></td></tr>
+                                               
+</table></center></form>

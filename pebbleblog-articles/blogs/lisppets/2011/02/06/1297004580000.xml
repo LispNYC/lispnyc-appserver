@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>A Variation on a Nursery Rhyme</title>
+<subtitle/>
+<excerpt/>
+<body><![CDATA[<p>
+Humpty-Dumpty to Lisp was in thrall,<br/>
+Humpty-Dumpty played with <code>eval</code> and <code>funcall</code>.<br/>
+All the King's conses on the royal PDP-10<br/>
+Couldn't intern Humpty-Dumpty again.<br/>
+</p>
+
+<p>
+By the way, did you know that there is a
+<a href="http://google.com/search?q=%22Humpty-Dumpty%22+%22LISP+1.5%22">
+Humpty-Dumpty reference in the LISP 1.5 Programmer's Manual</a>?
+</p>
+
+]]></body>
+<date>06 Feb 2011 15:03:00:0 +0000</date>
+<timeZone>America/New_York</timeZone>
+<state>published</state>
+<author>van</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags>humpty-dumpty</tags>
+</blogEntry>

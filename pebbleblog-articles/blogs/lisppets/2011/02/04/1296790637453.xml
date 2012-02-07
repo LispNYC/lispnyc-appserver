@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>The Inverse of A Famous Equation</title>
+<subtitle/>
+<excerpt/>
+<body><![CDATA[<!-- <p>The type of <code>(/ (log -1) (sqrt -1))</code>.</p> -->
+<p>Happy New Year!</p>
+<p>Even if you have seen this before, I&nbsp;hope you will admire the quality of a good numeric implementation:</p>
+<pre>
+[1]&gt; (/ (log -1) (sqrt -1))
+3.1415927
+[2]&gt; (typep * 'real)
+T
+</pre>
+<p>&nbsp;</p>]]></body>
+<date>04 Feb 2011 03:37:17:453 +0000</date>
+<timeZone>America/New_York</timeZone>
+<state>published</state>
+<author>van</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags/>
+<comment>
+<title>Re: The Inverse of A Famous Equation</title>
+<body><![CDATA[<p>Numbers are so specific, true elegance is meta:</p>
+<p style="margin-left: 40px;">user=&gt; (/ (Math/log -1) (Math/sqrt -1))<br />
+NaN</p>
+<p>:-)</p>]]></body>
+<author>Heow Goodman</author>
+<email>heow@lispnyc.org</email>
+<website>http://lispnyc.org:80/blog/lisppets/authors/heow/</website>
+<avatar/>
+<ipAddress>68.175.66.95</ipAddress>
+<date>04 Feb 2011 18:59:08:206 +0000</date>
+<state>pending</state>
+<authenticated>true</authenticated>
+</comment>
+</blogEntry>

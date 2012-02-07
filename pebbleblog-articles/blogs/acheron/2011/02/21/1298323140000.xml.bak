@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>Using the REPL</title>
+<subtitle/>
+<excerpt><![CDATA[<p>In this blog post I will explain how to use the REPL and play around with it.</p>]]></excerpt>
+<body><![CDATA[<p>In this blog post I will explain how to use the REPL and play around with it.</p>
+<p>First you need to download the Acheron compiler from Sourceforge: <a href="http://sourceforge.net/projects/acheron/files/">Acheron Download</a>. Additionally, you have to install Java (at least 1.6) because the compiler is completely written in Java.</p>
+<p>After you unzipped the downloaded file to a proper location on your machine you have to direct your console to this location. If your on a *nix system you then simply have to type:</p>
+<p><code> sh ./repl.sh </code></p>
+<p>If your on a Windows system you have to type the following:</p>
+<p><code> java -jar acheron.jar </code></p>
+<p>In both cases the Acheron Lisp interpreter will start and wait for your input: <img src="http://download.defmacro.de/lispnyc/repl/REPL1.png" alt="" /></p>
+<p>As expected you can use some built-in functions: <img src="http://download.defmacro.de/lispnyc/repl/REPL2.png" alt="" /></p>
+<p>Or define your own functions: <img src="http://download.defmacro.de/lispnyc/repl/REPL3.png" alt="" /></p>
+<p>Or a macro: <img src="http://download.defmacro.de/lispnyc/repl/REPL4.png" alt="" /></p>
+<p>Note that Acheron Lisp currently only supports the &amp;rest keyword in lambda lists (&amp;optional will be supported in the future).</p>
+<p>And you can do some nice things with closures: <img src="http://download.defmacro.de/lispnyc/repl/REPL5.png" alt="" /></p>
+<p>All this code can be compiled to native JavaScript code and be executed in the browser. In the next entry I will explain how to compile and execute a simple <em>Hello World</em> program.</p>]]></body>
+<date>21 Feb 2011 21:19:00:0 +0000</date>
+<timeZone>CET</timeZone>
+<state>published</state>
+<author>17</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags/>
+<comment>
+<title>Re: Using the REPL</title>
+<body><![CDATA[<p>Looking forward to the next installment</p>]]></body>
+<author>Heow Goodman</author>
+<email>heow@lispnyc.org</email>
+<website>http://lispnyc.org:80/blog/acheron/authors/heow/</website>
+<avatar/>
+<ipAddress>68.175.66.95</ipAddress>
+<date>22 Feb 2011 22:47:40:886 +0000</date>
+<state>approved</state>
+<authenticated>true</authenticated>
+</comment>
+</blogEntry>

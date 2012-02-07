@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>Programming Power Font</title>
+<subtitle>...for Lisp</subtitle>
+<excerpt/>
+<body><![CDATA[<p>I've always liked the <strong>Proggy</strong> font, the bold punctuation really makes things stand out especially, especially if you program in Lisp where parens aren't just syntactic sugar, they represent functions and power.<br />
+<br />
+So after getting my mits on the <strong>Inconsolata</strong> font, I did some modifications to create a version with bold punctuation.&nbsp; It's especially helpful in environments that don't offer syntax coloration.<br />
+<br />
+An example:</p>
+<p><img alt="Inconsolata Bold Punct example" src="https://github.com/heow/inconsolata-boldpunct/raw/master/screenshot.png" /><br />
+<br />
+<a href="https://github.com/heow/inconsolata-boldpunct/raw/master/Inconsolata-BoldPunct.ttf">Grab the TTF here.</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></body>
+<date>20 Feb 2011 22:44:00:0 +0000</date>
+<timeZone>America/New_York</timeZone>
+<state>published</state>
+<author>heow</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags/>
+<comment>
+<title>Re: Programming Power Font</title>
+<body><![CDATA[<p>Wow! This is my new default font.</p>]]></body>
+<author>Arthur Smyles</author>
+<email/>
+<website/>
+<avatar/>
+<ipAddress>68.54.55.116</ipAddress>
+<date>17 Feb 2011 20:56:24:495 +0000</date>
+<state>approved</state>
+<authenticated>false</authenticated>
+</comment>
+<comment>
+<title>Re: Programming Power Font</title>
+<body><![CDATA[<p>That's excellent! The font is under the SIL (a GPLish font license) and thus you made a derivative! Brilliant!</p>
+<p>&nbsp;</p>]]></body>
+<author>Anonymous</author>
+<email/>
+<website/>
+<avatar/>
+<ipAddress>169.237.10.137</ipAddress>
+<date>17 Feb 2011 21:46:55:282 +0000</date>
+<state>approved</state>
+<authenticated>false</authenticated>
+</comment>
+<comment>
+<title>Re: Programming Power Font</title>
+<body><![CDATA[at 12pt. and 9pt. on windows 7, the # character looks like more like || (the horizontal lines disappear). i can make this change if i change the magnification, but then the problem just shifts to other font sizes.
+it would be great if this could be fixed.]]></body>
+<author>avi</author>
+<email>iceman400@gmail.com</email>
+<website/>
+<avatar/>
+<ipAddress>81.218.193.39</ipAddress>
+<date>22 Feb 2011 14:41:02:550 +0000</date>
+<state>approved</state>
+<authenticated>false</authenticated>
+</comment>
+<comment>
+<title>Re: Programming Power Font</title>
+<body><![CDATA[<p>Have you tried fiddling around with your cleartype settings?&nbsp; </p>
+<p>http://www.online-tech-tips.com/windows-7/windows-7-font-rendering-smoothing/</p>]]></body>
+<author>Heow Goodman</author>
+<email>heow@lispnyc.org</email>
+<website>http://lispnyc.org:80/blog/heow/authors/heow/</website>
+<avatar/>
+<ipAddress>68.175.66.95</ipAddress>
+<date>24 Feb 2011 21:08:53:747 +0000</date>
+<state>approved</state>
+<authenticated>true</authenticated>
+<parent>1298385662550</parent>
+</comment>
+<comment>
+<title>Re: Programming Power Font</title>
+<body><![CDATA[<p>I&nbsp;like the font. On my macbook pro, in Coda, the &quot; and @ are almost completely filled in and dificult to recognize. Is there a non-bold version in the works that keeps the bold punctuation?</p>]]></body>
+<author>Greg McMahan</author>
+<email>Greg@MisterGreggy.com</email>
+<website>http://www.GregMcMahan.com</website>
+<avatar/>
+<ipAddress>99.157.49.95</ipAddress>
+<date>24 Feb 2011 01:10:52:636 +0000</date>
+<state>approved</state>
+<authenticated>false</authenticated>
+</comment>
+<comment>
+<title>Re: Programming Power Font</title>
+<body><![CDATA[<p>I've got access to a Mac and will see what I can do.</p>]]></body>
+<author>Heow Goodman</author>
+<email>heow@lispnyc.org</email>
+<website>http://lispnyc.org:80/blog/heow/authors/heow/</website>
+<avatar/>
+<ipAddress>68.175.66.95</ipAddress>
+<date>24 Feb 2011 21:13:21:699 +0000</date>
+<state>approved</state>
+<authenticated>true</authenticated>
+<parent>1298509852636</parent>
+</comment>
+</blogEntry>

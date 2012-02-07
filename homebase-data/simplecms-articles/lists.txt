@@ -1,0 +1,31 @@
+      title: Mailing Lists
+   uri-path: /lists
+    section: home
+     author: H Goodman
+       tags: mail, email, lists
+description: Mailing Lists
+
+Our mailing lists are handled by [Google Groups](http://groups.google.com/a/lispnyc.org/groups/dir) (http://groups.lispnyc.org).  [Join our general discussion list](http://groups.google.com/a/lispnyc.org/group/lisp/subscribe) or [any others](http://groups.google.com/a/lispnyc.org/groups/dir)!
+
+Subscription usually requires a GMail account, if you don't have one just fill out this form:
+
+<form method="post" action="/contact">
+<input type="hidden" name="subject" value="list subscribe">
+<input type="hidden" name="message" value="Sign me up for the mailing list.">
+<input type="hidden" name="email_list" value="checked">
+<input type="text" name="jobtitle" width="20" style="display: none;">
+<center>                          
+<table border="0" width="50%">
+<tr><td valign="top"><p>email:</p></td>
+    <td valign="top"><p><input type="text" name="email" width="60"></p></td></tr>
+
+<tr><td valign="top"><p>name:</p></td>
+    <td valign="top"><p><input type="text" name="from" width="60"></p></td></tr>
+
+<tr><td><br></td></tr>
+
+<tr><td></td><td><input type="submit" value=" sign me up for the discussion list "></td></tr>
+                                               
+</table>
+
+</table></center></form>

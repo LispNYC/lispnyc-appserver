@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>Secret Alien Technology FTW!</title>
+<subtitle/>
+<excerpt><![CDATA[<p>Okay, I want to start off this blog with my personal must-read list for  young hackers. Because, you know, you can tell everything about a person  when you see his/her bookshelf, right?</p>]]></excerpt>
+<body><![CDATA[<p>Okay, I want to start off this blog with my personal must-read list for young hackers. Because, you know, you can tell everything about a person when you see his/her bookshelf, right? Disclaimer: This is not a very original list at all. Here you go:</p>
+<ul>
+    <li>Richard Feynman, &quot;Surely You're Joking, Mr. Feynman!&quot;</li>
+    <li>Douglas Hofstadter, &quot;G&ouml;del, Escher, Bach: An Eternal Golden Braid&quot;</li>
+    <li>Yutaka Takano, &quot;A Message from root to / (root)&quot; (in Japanese)</li>
+    <li>Gerald Weinberg, &quot;The Psychology of Computer Programming&quot;</li>
+</ul>
+<p>In a sense, this is a chronological list. I first read the Feynman's book when I was about 15. After getting into a college, the GEB has totally dictated my research interest. I was hooked onto stuff like Artificial Intelligence, Natural Language Processing, etc. Later, my interest slightly shifted and I tend to view programming as a part of broader human activities. At age 25, Takano's book was an inspiring one to me and I started taking sysadmin jobs just as noble as maintaining bridges, trains, power plants and so on. Now I am more interested in general principles behind designing things, including machines, education and social systems, because laws are, after all, like declarative programs. They should be simple, clear and correct in representing our value judgement. &quot;The Psychology of Computer Programming,&quot; which I read when I was 30, was an excellent lead to this complex, but fascinating world. My interest is still pretty much in programming, but these books somehow opened up the deeper connections between what I care and what I didn't care (or at least I wasn't so sure about).</p>
+<p>Takano's book was fascinating. The funny thing is that, although this is a book about Unix system administration, he barely writes about Unix itself. Instead, he keeps pointing out how the design principle on train systems can also work for system administration, or what is like digging a tunnel safely and what sysadmins can learn from it, etc. etc. Too bad it's missing a whole bunch of audiences because it's written in Japanese.</p>]]></body>
+<date>04 Feb 2011 12:44:00:0 +0000</date>
+<timeZone>Asia/Tokyo</timeZone>
+<state>published</state>
+<author>euske</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags>book life</tags>
+<comment>
+<title>Re: Secret Alien Technology FTW!</title>
+<body><![CDATA[<p>Sounds really interesting, is there a Takano tranlation?</p>
+<p>GEB&nbsp;and The Little Lisper (now Little Schemer etc.) was a big one for me.</p>]]></body>
+<author>Heow</author>
+<email/>
+<website/>
+<avatar/>
+<ipAddress>68.175.66.95</ipAddress>
+<date>04 Feb 2011 12:59:52:351 +0000</date>
+<state>approved</state>
+<authenticated>false</authenticated>
+</comment>
+<comment>
+<title>Re: Secret Alien Technology FTW!</title>
+<body><![CDATA[<p>No. Unfortunately, the book is not popular even in Japan, partly because this is a very old book (he talks about VAX days.) But the idea itself still stands out today. I guess people are not seeing practical values in books like this unless there're concrete examples or up-to-date techniques, etc.</p>]]></body>
+<author>Yusuke Shinyama</author>
+<email>yusuke@cs.nyu.edu</email>
+<website>http://lispnyc.org:80/blog/euske/authors/euske/</website>
+<avatar/>
+<ipAddress>58.93.34.139</ipAddress>
+<date>05 Feb 2011 00:19:01:903 +0000</date>
+<state>approved</state>
+<authenticated>true</authenticated>
+<parent>1296824392351</parent>
+</comment>
+</blogEntry>

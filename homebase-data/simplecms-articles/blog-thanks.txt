@@ -1,0 +1,8 @@
+      title: Prepare to blog!
+   uri-path: /blog-thanks
+    section: home
+     author: H Goodman
+       tags: blog signup
+description: Prepare to blog!
+
+Thank you!  We'll set up your personalized LispNYC blog and email you the login details within 24 hours.

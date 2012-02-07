@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>Programming Power Font</title>
+<subtitle>...for Lisp</subtitle>
+<excerpt/>
+<body><![CDATA[<p>I've always liked the <strong>Proggy</strong> font, the bold punctuation really makes things stand out especially, especially if you program in Lisp where parens aren't just syntactic sugar, they represent functions and power.<br />
+<br />
+So after getting my mits on the <strong>Inconsolata</strong> font, I did some modifications to create a version with bold punctuation.&nbsp; It's especially helpful in environments that don't offer syntax coloration.<br />
+<br />
+An example:</p>
+<p><img alt="Inconsolata Bold Punct example" src="https://github.com/heow/inconsolata-boldpunct/raw/master/screenshot.png" /><br />
+<br />
+<a href="https://github.com/heow/inconsolata-boldpunct/raw/master/Inconsolata-BoldPunct.ttf">Grab the TTF here.</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></body>
+<date>17 Feb 2011 20:08:00:0 +0000</date>
+<timeZone>America/New_York</timeZone>
+<state>unpublished</state>
+<author>heow</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags/>
+<comment>
+<title>Re: Programming Power Font</title>
+<body><![CDATA[<p>Wow! This is my new default font.</p>]]></body>
+<author>Arthur Smyles</author>
+<email/>
+<website/>
+<avatar/>
+<ipAddress>68.54.55.116</ipAddress>
+<date>17 Feb 2011 20:56:24:495 +0000</date>
+<state>pending</state>
+<authenticated>false</authenticated>
+</comment>
+<comment>
+<title>Re: Programming Power Font</title>
+<body><![CDATA[<p>That's excellent! The font is under the SIL (a GPLish font license) and thus you made a derivative! Brilliant!</p>
+<p>&nbsp;</p>]]></body>
+<author>Anonymous</author>
+<email/>
+<website/>
+<avatar/>
+<ipAddress>169.237.10.137</ipAddress>
+<date>17 Feb 2011 21:46:55:282 +0000</date>
+<state>pending</state>
+<authenticated>false</authenticated>
+</comment>
+<comment>
+<title>Re: Programming Power Font</title>
+<body><![CDATA[at 12pt. and 9pt. on windows 7, the # character looks like more like || (the horizontal lines disappear). i can make this change if i change the magnification, but then the problem just shifts to other font sizes.
+it would be great if this could be fixed.]]></body>
+<author>avi</author>
+<email>iceman400@gmail.com</email>
+<website/>
+<avatar/>
+<ipAddress>81.218.193.39</ipAddress>
+<date>22 Feb 2011 14:41:02:550 +0000</date>
+<state>pending</state>
+<authenticated>false</authenticated>
+</comment>
+</blogEntry>

@@ -1,0 +1,47 @@
+      title: Summer of Code 2007
+   uri-path: /soc/2007
+    section: soc
+     author: H Goodman
+       tags: 2007 Summer of Code
+description: Summer of Code 2007
+
+Funded proposals:
+
+* <a href="http://common-lisp.net/project/iolib/">IOLib</a> by Luis Manuel Borges de Oliveira
+* <a href="http://common-lisp.net/project/cl-objc/">CL-ObjC</a> by Luigi Panzeri
+* <a href="http://common-lisp.net/project/funds/">Purely Functional Data Structures</a> in Common Lisp by Andrew Longfellow Baine
+* <a href="http://common-lisp.net/project/gsharp/">Gsharp</a> Music interchange format support by Brian Gruber
+* <a href="http://common-lisp.net/project/nxtlisp/">NXTLisp</a> - a Common Lisp library for the NXT Mindstorms Platform by Milan Cermak
+
+CLAPPA by Andreas Fuchs has been funded privately by <a href="http://www.clozure.com/">Clozure Associates</a>
+
+Proposal ideas:
+
+* Grobner Basis Framework: For algebraic computing framework
+* AI File Shrink: Using AI to make files smaller
+* CLSH - Common Lisp Shell: Unix Shell implementation in Lisp
+* Enhancing Exscribe: Extend Exscribe into a full-fledged document authoring system.
+* Erlang-in-Lisp: Robust Distributed Programming in Lisp.
+* Nintendo DS Lisp: Port a complete lisp environment to the Nintendo DS.
+* GBBopen: Extend GBBopen blackboard system with fault-tolerance and security modules.
+* CL-OPT: Start a comprehensive optimization package in Common Lisp
+* SBCL Win32 Threads: Impelement win32 threading in SBCL on Windows
+* Celtk Jabber Client: Create a Jabber IM client library with Celtk
+* NXTLisp: CL library for MindStorms NXT platform 
+* CL-MADNESS: Make Webactions play nicely with the other children
+* lisp-matrix: A better Matlab, in CL; nice LAPACK / BLAS interface
+* CL-to-JS: Extend one of the existing CL-to-JS translators with advanced HOP-like functionality
+* CL-AMQP: Implement the Advanced Message Queuing Protocol (AMQP) for Common Lisp
+* QC CL: Port the QuickCheck testing tool to Common Lisp
+* Twexter: Twexter provides comprehensible input for language learners
+* CFFI+QT: Expand/improve existing work on creating QT bindings in Common Lisp. 
+* Gsharp interchange: Support for Music interchange formats in the Gsharp score editor
+* CL-MPI: Common Lisp wrapper around MPI
+* Linear and quadratic Optimization Library: Implement a Library of Algorithms for (constrained) linear and quadratic Optimization
+* CL based collaborative development environment: implement a secure, multi-user world with declaritive rule definitions.
+* <a href="http://wiki.axiom-developer.org/SummerOfCode2007">Axiom All</a>
+* Axiom: Create a HyperDoc replacement/enhancement
+* Axiom: Zero test for algebraic differential equations
+* Axiom: Extending SPAD to understand "extend"
+* Axiom: Create a package management system for Axiom
+* Axiom: Improve the Sage interface to Axiom

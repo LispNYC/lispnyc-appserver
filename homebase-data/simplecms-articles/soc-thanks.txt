@@ -1,0 +1,8 @@
+      title: Simple Idea for Summer of Code
+   uri-path: /soc/thanks
+    section: soc
+     author: H Goodman
+       tags: Simple Idea for 2011 Summer of Code 
+description: Simple Idea for Summer of Code
+
+Thanks for your idea submission, we'll get back to you shortly.

@@ -1,0 +1,58 @@
+      title: Summer of Code 2011
+   uri-path: soc/proposal
+    section: soc
+     author: H Goodman
+       tags: SOC
+description: Suggested proposal outline
+
+[Starting March 28th, register](http://www.google-melange.com/document/show/gsoc_program/google/gsoc2011/faqs) as a student with Google and submit a project proposal. Some helpful hints to think about when submitting your proposal to Google...
+
+
+<p><span class="header">( what's in a proposal )</span></p>
+
+Briefly, a proposal should more or less contain the following:
+
+* Abstract
+* Introduction - include community benefits
+* Proposal Details
+* Implementation Timeline - you get extra points for this!
+* Short biography
+* References - if any
+
+At minimum you should have no less than two sentences per section. If your proposal is short it's best not to label or highlight the sections.
+
+<p><span class="header">( proposal hints )</span></p>
+
+Do your homework - ping LispNYC if you have any questions, we're usually hanging around [#summeroflisp at irc.freenode.net](irc://irc.freenode.net:6667/summeroflisp)
+
+Use <a href="http://www.plainenglish.co.uk/">plain English</a>, even with technical papers.  It's much easier to read.
+
+Use present tense whenever you can, past tense has a shelf-life.
+
+Avoid using the first-person tense ("I", "me", "my").  This might
+even feel painful in your bio so here is a short example:
+
+> Doe, John - is the laboratory director of the Washington State of
+> Investigation. He has more than 15 years of experience in bloodstain
+> pattern analysis. John has been teaching classes in bloodstain pattern
+> analysis for more than 8 years and has taught at forensic
+> laboratories, universities and professional organizations in more than
+> fourteen states and Canada. John is currently the chairmen of the IAI
+> Bloodstain Pattern Identification Sub-Committee and is certified by
+> the IAI as a Senior Crime Scene Analyst, Certified Bloodstain Pattern
+> Examiner and a Certified Latent Print Examiner.
+
+If you have a plan, break your deliverables down no smaller than 2-week
+increments.
+
+Keep the total application under 7500 characters in length.
+
+Leave out unnecessary phrases and sentences:  *"...nobody
+thought it would work, but by-golly the experiment ran correctly
+the first time!"*
+
+Spell check.
+
+Remember: People read these and they have to read a LOT of them, be concise and keep it easy to read.
+
+Good luck!

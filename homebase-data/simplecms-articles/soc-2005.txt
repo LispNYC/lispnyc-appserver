@@ -1,0 +1,51 @@
+      title: Summer of Code 2005
+   uri-path: /soc/2005
+    section: soc
+     author: H Goodman
+       tags: 2005 Summer of Code
+description: Summer of Code 2005
+
+Funded Proposals:
+
+* <a href="http://common-lisp.net/project/cl-sockets/">Lisp Sockets</a> by William Bendick
+* <a href="http://common-lisp.net/project/fetter/">Fetter FFI</a> by Rayiner Hashem
+* <a href="http://www.axiom-developer.org/">Axiom UI</a> by Kai Kaminski
+* <a href="http://common-lisp.net/project/cl-godb/">Go DB</a> by Samantha Kleinberg
+* Hello-C FFI by Luis Oliveira
+* <a href="http://www.plt-scheme.org/">Plt Stepper</a> by John Clements
+* <a href="http://common-lisp.net/project/erlisp/">ErLisp</a> by Eric Lavigne
+* <a href="http://www.plt-scheme.org/">PLT DB</a> by Corey Sweeney
+* <a href="http://common-lisp.net/project/slime/">Slime Stepper</a> by Svein Ove Aas
+
+The FireLisp project had a private funding offer
+  from <a href="http://wwwfranz.com/">Franz</a>, unfortunately a
+  sutiable candidate was not found.
+
+
+Proposal Ideas:
+
+* Optimizing the SBCL calling convention on the x86(-64) architectures
+* Peephole optimizations for SBCL
+* Loop optimizations for SBCL
+* Protocol extensions for CLX
+* Spatial indexing for graphical user interfaces
+* Low level Common Lisp interface to Win32 API for GCL 
+* Multithreaded GCL on Windows and Unix
+* Lilac: UFFI interface auto-generation
+* Lisp Resource Kit multi-media indexing and display system
+* Complete CLISP's native threading
+* Extend CMUCL for systems programming
+* Addition of a Lisp language to WikiTalk
+* Modify storage requirements of Persistent Lisp Objects
+* Programmable Protein Structure Environment
+* Clojure Lisp Compiler: Compiles Common Lisp to Java and C# (formally DotLisp)
+* Failover Feature for the BKNR Transactional Engine
+* Distributed Versioning based on Epistemic Monotonic Logic
+* Dynamic Persistent Web Proxy
+* Session-aware Web Server Multiplexer
+* Upgrade CL-glade
+* Hyperreal Dictionary of Mathematics
+* Wiki-like collaborative hypertext system in CL
+* Embedding a Common Lisp interpreter in the Apache web server
+* Parsing Expression Grammars in PLT Scheme
+

@@ -1,0 +1,18 @@
+123.125.71.102 - - [12/Feb/2011:00:25:07 +0000] "GET /what-if-lisp-was-invented-by-the-japanese" 404 - - "Baiduspider+(+http://www.baidu.com/search/spider.htm)"
+66.249.72.43 - - [12/Feb/2011:07:23:58 +0000] "GET /2011/02/04" 200 - - "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.72.43 - - [12/Feb/2011:07:26:01 +0000] "GET /2011/02/07" 200 - - "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+174.24.52.81 - - [12/Feb/2011:09:33:24 +0000] "GET /what-if-lisp-was-invented-by-the-japanese?" 404 - "http://www.lispnyc.org/" "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.70 Safari/533.4"
+67.195.112.43 - - [12/Feb/2011:09:46:29 +0000] "GET /what-if-lisp-was-invented-by-the-japanese?" 404 - - "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"
+66.249.72.43 - - [12/Feb/2011:09:49:48 +0000] "GET /2011/02/12" 200 - - "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+95.135.67.196 - - [12/Feb/2011:13:54:31 +0000] "GET /welcome-to-the-new-website" 200 - - -
+95.135.67.196 - - [12/Feb/2011:13:54:43 +0000] "GET /welcome-to-the-new-website" 200 - - -
+95.135.67.196 - - [12/Feb/2011:13:54:47 +0000] "GET /welcome-to-the-new-website" 200 - - -
+95.135.67.196 - - [12/Feb/2011:13:54:54 +0000] "GET /welcome-to-the-new-website" 200 - - -
+95.135.67.196 - - [12/Feb/2011:13:54:59 +0000] "GET /welcome-to-the-new-website" 200 - - -
+66.249.72.43 - - [12/Feb/2011:15:41:12 +0000] "GET /2011/02/09" 200 - - "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.72.43 - - [12/Feb/2011:16:04:42 +0000] "GET /2011/02/08" 200 - - "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.72.43 - - [12/Feb/2011:16:28:14 +0000] "GET /2011/02/02" 200 - - "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+67.195.114.220 - - [12/Feb/2011:17:20:23 +0000] "GET /welcome-to-the-new-website" 200 - - "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"
+67.195.114.220 - - [12/Feb/2011:18:17:10 +0000] "GET /2011/02/12" 200 - - "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"
+66.249.72.43 - - [12/Feb/2011:18:41:50 +0000] "GET /2011/02/09" 200 - - "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+99.233.2.20 - - [12/Feb/2011:19:45:04 +0000] "GET /welcome-to-the-new-website" 200 - "http://www.lispnyc.org/" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.13) Gecko/20101229 Mandriva Linux/1.9.2.13-0.2mdv2010.0 (2010.0) Firefox/3.6.13"

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>Expected Blog Contents</title>
+<subtitle>CS Books with LISP, LISP Observations, Self Experiments on LISP</subtitle>
+<excerpt><![CDATA[A general summary of what to expect in this blog.]]></excerpt>
+<body><![CDATA[<p>   Overall this blog is to chronicle me playing around with and thinking about LISP.  I intend to go through two computer science books based on LISP (see <a href="#sicp">SICP</a> and <a href="#eopl">EOPL</a>).<br /><br />
+Also, I will chronicle other adventures/observations that are LISP related.  For two quick examples 1) LISP has made me appreciate Javascript and realize that I don't hate the language, just the DOM.  2) Lambda as well as other LISPy features seem to be finding their way into other programming languages, even C++ is not safe from the tentacles of LISP.<br /><br />
+Finally, I do need to find a LISP platform to play with.  Both SICP and EOPL use Scheme which is a good teaching language (currently I am using <a href="http://www.iro.umontreal.ca/~gambit/doc/gambit-c.html">Gambit-C</a> as my Scheme Interpreter).  Nevertheless, other dialects seem to have more extensive libraries (Common LISP seems to have many more standard libraries than Scheme).  No matter the LISP, a lot of libraries seem not to be standard across implementations (even of the same dialect).  Some examples that seem to depend on the implementation are: databases, GUIs, and networking.  Most modern applications use one or more of these features, many use all three.  A library written for one compiler/interpreter may not work on another one, so it is important to pick one where people are actively writing/maintaining libraries.  So in short, picking the right implementation is important.  This is in contrast to say Java where most libraries work on Sun's JVM and you can almost write once run anywhere (also networking, GUIs, and the JDBC database interface come standard).  Also some compilers/interpreters are faster than others (for an example of speed check out <a href="http://shootout.alioth.debian.org/">Programming Language Shootout</a> and compare Lisp SBCL to most scripting languages).
+</P>
+
+<p>
+<h1><a name="SICP">SICP</a></h1>
+As the description says, I expect to chronicle my trip through SICP (<a href="http://mitpress.mit.edu/sicp/">Structure and Interpretation of Computer Programs</a> by Harold Abelson and Gerald Jay Sussman).  I think this might help other people going through the book as well.  Nevertheless I don't think anyone will get much by just reading the entries.  In order to get the information out of the book, you really need to do the exercises yourself.  I will post my solutions/thoughts on the exercises, but I would advise trying them yourself before looking at my solutions.  If you find an error, please let me know.<br><br>
+I originally read Chapters 1 and 2 of the book and got some stuff out of it, but not much.  Then after putting it down for a few years, I read Chapter 1 again and did almost all the exercises which did give me a new appreciation for passing functions around as first class objects.  Unfortunately life and graduate school got in the way, so now it is time to start over.  Admittedly one purpose of this blog is to motivate me to go through the entire book.
+<br><br>
+The book contains a lot of good exercises and it appears as if among other things it will help me to better abstract my code.  This is essential in order to write maintainable code as giant monolithic do everything functions are harder to maintain and introduce duplication.  So overall this is what I hope to get out of the book more than anything else.  Still hopefully I won't go overboard.  There's nothing worse than needing to jump through 100 small functions to see how a piece of code, that should be relatively simple, works.
+</p>
+<p>
+<h1><a name="EOPL">EOPL</a></h1>
+After completing <u>Structure and Interpretation of Computer Programs</u> I will move on to EOPL (<a href="http://www.eopl3.com/">Essentials of Programming Languages</a> by Daniel P. Friedman and Mitchell Wand).  Way back in 2002 I took a programming languages class as an undergraduate and was bored out of my mind.  Mostly we went over the various programming language structures, talked about them, talked about some differences between a few languages, and overall it was kind of boring.  However the class did have some value, now I know some formal names for structures I have seen in various programming languages.  I did get some stuff out of it, but the experience was painful and we really didn't get into implementation details.  Also very little was new, the majority was just naming stuff I already knew.  If EOPL lives up to its summary, I will be implementing the various structures in Scheme.  This seems a lot more fun than just discussing them to boredom without seeing concrete examples.  Also I'm sure I will come into new appreciation for some language features after seeing the implementation challenges they present.  Again, I hope the Blog will pressure me to go through the book.
+</p>
+<h1> Why? </h1>
+<p> Overall I think both books have a wealth of computer science knowledge and going through them both will be very useful.  For example, in a graduate class I had a professor do a real bad job explaining the fast divide and conquer exponentiation algorithm.  This was not an issue because SICP has an exercise in Chapter 1 with that algorithm which I already did.  A lot of the exercises just happen to be useful tidbits like that.  As another example look at C.  A lot of people's C code is a total mess, nevertheless you can program C in an object oriented type way, and the insight on how to do that comes from knowing how classes are implemented.  Really I figured that out from Python because passing the "self" parameter to every method gave me the insight I needed, it kind of exposes the implementation of classes.  Who knows what other insight is hidden under the hidden implementation of programming language details.
+</P>
+
+]]></body>
+<date>13 Feb 2011 14:19:00:0 +0000</date>
+<timeZone>America/New_York</timeZone>
+<state>published</state>
+<author>cfield</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags/>
+</blogEntry>

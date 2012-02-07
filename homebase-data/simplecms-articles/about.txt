@@ -1,0 +1,10 @@
+      title: About the LispNYC Website
+   uri-path: /about
+    section: home
+     author: H Goodman
+       tags: webapp, Clojure, Java, WAR
+description: Technologies behind LispNYC 3.0
+
+Written in Clojure, LispNYC 3.0 is smaller and more featureful than the previous codebase.
+
+

@@ -1,0 +1,24 @@
+      title: Summer of Code 2009
+   uri-path: /soc/2009
+    section: soc
+     author: H Goodman
+       tags: 2009 Summer of Code
+description: Summer of Code 2009
+
+Proposal ideas:
+
+* Clojure Datalog:  Add an in-memory logical <a href="http://en.wikipedia.org/wiki/Datalog">datalog</a>.  Rich Hickey will mentor.
+* Clojure Predicate Dispatch: Implement predicate dispatch in Clojure.  Rich Hickey will mentor.
+* <a href="http://sourceforge.net/tracker/index.php?func=detail&aid=423264&group_id=1355&atid=351355">Embeddeble CLISP</a>: into something useful such as VIM, gnumeric, firefox.
+* ABCL ANSI Compliant: Of the 21702 ANSI tests, Armed Bear Common Lisp fails 44 (48 in compiled mode), also aiming at the Maxima test suite failures.  <i>"Because legacy code should 'just work'(TM)"</i>
+* Lexicons: First-Class Global Lexical Environments for Common Lisp.  Mentorship by Ron Garret.
+* <a href="http://common-lisp.net/project/elephant/">Elephant</a> Work on the pure Lisp database backend by adding transaction support, designing a disk layout with fragments and extents, devise ways to overcome Skiplist deficiencies and/or add multi-process/-thread locking support.
+* Elephant Query Compiler: Implement a contraint-based query language for Elephant. Strong algorithmic skills, good taste in language design; lots of lisp experience. Difficulty level 4.
+* <a href="http://code.google.com/p/montezuma/">Montezuma</a> Develop a new backend for storing indices persistently, for example based on Elephant.
+* <a href="http://weblocks.viridian-project.de/">Weblocks</a> the web framework needs help, <a href="http://weblocks.lighthouseapp.com/projects/18897-weblocks/tickets">a list of Weblocks tasks</a>.
+* Android Lisp: Get a Lisp running on Google's Android cell-phone.
+* <a href="http://dynamo.iro.umontreal.ca/~gambit/wiki/index.php/R6RS">R6RS on Gambit Scheme</a>: Finish an implementation of R6RS on Gambit Scheme.  Requires skills in Scheme, Gambit, understanding of R6RS.  Difficulty level: 3   Mentorship offered by Arthur Smyles
+* <a href="http://common-lisp.net/project/cl-berkeley-db/">cl-berkeley-db</a>: Add locking, logging, mutexes, replication and sequence support.  Skills in CFFI, C, common-lisp, SWIG.  Difficulty level 3. Mentorship offered by Arthur Smyles
+* Parenscript Development Environment (PSDE): Develop a SLIME clone that uses web browsers as backends using Parenscript. Requires skills in JavaScript, cursory knowledge of compilers. Difficulty level 3.
+* Climc : An XMPP client in McClim. Skills in xmpp and mcclim. Difficulty level 3
+* cl-cocoon: Implement the Apache <a href="http://cocoon.apache.org/">Cocoon</a> in Common Lisp. Skills in macros, xml, web programming. Difficulty level 3.

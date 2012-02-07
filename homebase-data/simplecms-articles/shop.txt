@@ -1,0 +1,17 @@
+      title: buy mechandise
+   uri-path: /shop
+    section: home
+     author: H Goodman
+       tags: CafePress, shop, buy, merchandise
+description: Shop for your favorite Lisp items!
+
+<p align="center">Don't have any friends?</p>
+
+<p align="center">Nobody understand you?</p>
+
+<p align="center">Are the uninspiring Java/Python/Ruby/C++ kids picking on your parenthesis?</p>
+
+<p align="center"><a href="http://cafepress.com/lispnyc/" border="0"><img src="http://images.cafepress.com/product/119099080v1_240x240_Front.jpg"></a></p>
+
+<p align="center"><b>Ensure</b> that you have no friends and are misunderstood</p>
+<p align="center">as your paren-power kicks butt while showing off your Lisp Pride!</p>

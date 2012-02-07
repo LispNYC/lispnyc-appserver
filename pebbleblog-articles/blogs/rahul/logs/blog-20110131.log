@@ -1,0 +1,2 @@
+108.14.227.120 - - [31/Jan/2011:16:31:59 +0000] "GET /" 200 - "http://lispnyc.org/blog/" "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13"
+108.14.227.120 - - [31/Jan/2011:17:42:25 +0000] "GET /" 200 - "http://lispnyc.org/blog/default/" "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13"

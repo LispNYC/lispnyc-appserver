@@ -1,0 +1,8 @@
+      title: Google Meeting RSVP
+   uri-path: /meeting/rsvp-thanks
+    section: home
+     author: H Goodman
+       tags: meeting, RSVP
+description: Google Meeting RSVP
+
+Thanks, see you at the meeting!

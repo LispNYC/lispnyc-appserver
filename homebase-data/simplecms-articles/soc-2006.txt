@@ -1,0 +1,57 @@
+      title: Summer of Code 2006
+   uri-path: /soc/2006
+    section: soc
+     author: H Goodman
+       tags: 2006 Summer of Code
+description: Summer of Code 2006
+
+Funded Proposals:
+
+* <a href="http://common-lisp.net/project/clarity/">CLARITY</a> by Samantha Kleinberg, mentored by Carl Shapiro and Marco Antonioti.
+* <a href="http://common-lisp.net/project/wispylisp/">Wispy Lisp</a> by Howard Yeh, mentored by Edward Marco Baringer.
+* <a href="http://common-lisp.net/project/cl-stm/">CL-STM</a> by Cam-Hoan Ton-That, mentored by Robert Swindells.
+
+Croma project by Patrick Collison has been privately funded by Ron
+  Garret, sadly Patrick was unable to accept Ron's generous offer.
+
+Proposal Ideas:
+
+* GL-PDF-Refinement -- A Common Lisp implementation of the Quartz API to OpenGL and PDF
+* cl-molecule -- A Common Lisp library for computational chemistry with applications
+* Lithp -- Speech synthesis with a Lisp
+* PyCells -- Port Cells to Python
+* Dynamically load Python extensions written in C. Lisp programmers will automagically get access to all the low-level code written for Python, though you still have to write the high-level libraries in Lisp.</li>
+* Create an interface to Apple&#039;s Cocoa library using CFFI, so that it&#039;s portable to many Common Lisps.  The programmer should be allowed to subclass Cocoa objects, which requires CLOS and MOP work.
+* Survey the various Common Lisp socket interfaces. [Dave Roberts has that somewhere on www.FindingLisp.com] Design a socket API that allows access to all the features of Berkeley sockets and implement it for one or two Lisps.
+* Port some aspects of SCSH (OS interface and IPC) to one Common Lisp implementation.
+* Substantially improve ABCL&#039;s CLOS and MOP implementation.
+* Improve ABCL so that it&#039;s easy for Lisp code to inherit from Java classes and vice versa.
+* Reimplement the Slim Devices music server for the Squeezebox in Common Lisp.  It&#039;s currently written in Perl.
+* Implement a Google Talk (Jabber) chat client for McCLIM.
+* Add software transactional memory (STM) to a threaded Common Lisp implementation.
+* Use SWIG and/or CFFI to create a Common Lisp interface to a large C or C++ library.
+* Finish implementing Verrazano, a package that reads C++ code and generates a Common Lisp interface.
+* Start writing a Common Lisp implementation of GFS, the Google File System.
+* Identify a popular Python library that has no Common Lisp equivalent and port it to Lisp.
+* Implement a coverage testing library that works well with CLOS.
+* Write an application using McCLIM or make a substantial improvement an existing one, such as the Climacs editor.
+* Write an interpreter or compiler for the latest version of Javascript.  Integrate it into the Closure web browser.
+* UFFI cleanup.  What needs to be cleaned up?  Isn&#039;t CFFI a suitable replacement for UFFI?
+* Sockets that work.  (Please add more descriptive text to this item.)
+* Productize Lisp on Lines.  Get it to the point where a single asdf install pulls areneida, lol, etc., and you can get a small site up and running in an hour or so.
+* Implement a Lisp library for computational chemistry.  (actually, any domain that uses bad languages should be considered fair game, but we do have a computational chemist with several ideas that don&#039;t require extensive chemistry knowledge).
+* Port Postore to CL  (it&#039;s an object database) (what&#039;s wrong with AllegroStore, BKNR, Elephant, etc.? Wouldn&#039;t it be better to improve them?)
+* Write a Common Lisp plugin for Firefox, so that Lisp can be used instead of Javascript for client-side scripting.
+* Write a Common Lisp plugin for Firefox and other browsers, so that Lisp can be used instead of Macromedia Flash for multimedia and game applications
+* write your own app or library that will win fame and fortune for lisp and you.
+* Port the Apache Lucene library to lisp (I think <a href="http://projects.heavymeta.org/montezuma">Montezuma</a> already fills this need, so you could help out with it?)
+* Create an implementation of SSL in Common Lisp.
+* Work on merging GCL, the GNU Common Lisp implementation, into GCC, the GNU Compiler Collection.
+* Add multi-threading capability to clisp
+* Create an (installable) live cd, with sbcl, araneida, slime, ucw, mod_lisp working out of the box.  Along with prominently placed copies of the cookbook, manuals, video tutorials and hopefully the freely available books. The optimistic idea is that this would give people an opportunity to try lisp at its best where everything just works. &amp;rarr; [[Knoppix]]? Extend <a href="http://common-lisp.net/project/lispbox/">Lispbox</a>?  (The Lisp Resource Kit is working on that right now.) <a href="http://common-lisp.net/project/lisp-res-kit/">Lisp-Res-Kit</a> It might be a good idea making lisp resource kit a SOC entry in that case, where a student can work over the summer to add polish to it. 
+* CL-MUD
+* sunrise/sunset calculator or related app. For a specific city or location it generates weekly or monthly pdf files with cl-pdf and cl-typesetting
+* Implement the Erlang concurrency model in Lisp, including the most important correct/safe handling of asynchronous events related to process termination. (mentor: Far&amp;eacute;)
+* Implement a distributed versioning system based on monotonic epistemic logic. (mentor: Far&amp;eacute;)
+* Add distributed robustness to AllegroCache or BKNR. (mentor: Far&amp;eacute;)
+* Implement a new (N)Hibernate level ORM / extend CLSQL ORM. Why? <a href="http://groups.gogroup/comp.lang.lisp/browse_thread/thread/10ba4520eb66b2L

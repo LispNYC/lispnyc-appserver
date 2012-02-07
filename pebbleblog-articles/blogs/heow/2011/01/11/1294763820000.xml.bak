@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>Templating Enlive</title>
+<subtitle>Selectors for templating HTML's metadata</subtitle>
+<excerpt/>
+<body><![CDATA[<p>Christophe Grand's <a href="https://github.com/cgrand/enlive">Enlive</a> is a great tool, it makes HTML generation and parsing a breeze, that is if you're moderately familiar with CSS selectors.<br />
+<br />
+When templating (or seaching) HTML/XML, most of the time you will be selecting by ID or CLASS, but for those times when you're not, such as making the HTML metadata SEO-friendly, you're going to need a special selector.</p>
+<p>The HTML metadata looks like this:</p>
+<p>&nbsp;&lt;meta content=&quot;example I want to replace&quot; name=&quot;description&quot; /&gt;</p>
+<p>If what you want to change is the content, then it's not selectable by either CLASS&nbsp;or ID.&nbsp; You just have to dig in a bit and use a boolean along with a few of Enlive's helper funcitons.&nbsp; Here is the code to do a template replacement of the metadata's content:</p>
+<p>[(and (enlive/has [:meta]) (enlive/attr-has :name &quot;description&quot;))] (enlive/set-attr :content &quot;Word's Eye: Converting Simple English Into 3D Scenes&quot;)</p>]]></body>
+<date>11 Jan 2011 16:37:00:0 +0000</date>
+<timeZone>America/New_York</timeZone>
+<state>published</state>
+<author>heow</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags/>
+</blogEntry>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>What if Lisp was invented by the Japanese?</title>
+<subtitle/>
+<excerpt><![CDATA[<p>It's fun to speculate the cultural influence on a programming language design. One of the notable characteristics of <a href="http://en.wikipedia.org/wiki/Japanese_language">Japanese language</a> is that a verb always comes at the end of a sentence.</p>]]></excerpt>
+<body><![CDATA[<p>It's fun to speculate the cultural influence on a programming language design.&nbsp; One of the notable characteristics of <a href="http://en.wikipedia.org/wiki/Japanese_language">Japanese language</a> is that a verb always comes at the end of a sentence.&nbsp; For example, when you say &quot;I ate an apple&quot; we actually say in Japanese &quot;I apple ate.&quot; I heard a couple of times people complaining about Japanese grammar forcing you to think everything in a reversed way, but hey, to Japanese speakers like me, it's English that have got everything upside down! From a programmer's point of view, though, this must be a tricky situation for our brain. Because we don't know how many / what kind of arguments a verb will take until reaching the end of a sentence, doesn't this cause a stack overflow on Japanese speakers? (To be fair, it's relatively easy to construct such a sentence in English too, see <a href="http://en.wikipedia.org/wiki/Garden_path_sentence">Garden path sentence</a>)</p>
+<p>Anyhow, let's talk about Lisp. What if it was invented by the Japanese? I imagine it would look like this:</p>
+<p>&nbsp;<code>(((4 5 +) 3 *) print)</code><br />
+&nbsp;<code>((((make-hash-table) table)) let ((table &quot;one&quot; gethash) 1 setf) table)</code></p>
+<p>Oh no! This seems a major screwup. But wait, doesn't this look familiar?&nbsp; It's a <a href="http://en.wikipedia.org/wiki/Forth_%28programming_language%29">Forth</a> with parentheses! Years ago, I've seen someone actually arguing that Forth is a great language for Japanese people to learn because of its grammatical acquaintance. Of course, it is ridiculous to think of programming languages with its syntactic feature only. But since computer languages are becoming almost a second nature to us, I guess a language syntax can make a profound (yet unmeasurable) impact on our thought pattern.&nbsp; Ruby is notably invented by Japanese people and it still has a strong community in Japan, but in this respect it doesn't seem very Japanese to me.&nbsp; Since most other notable languages are developed by English speakers (C, Java, Perl, ...except Python), I can't go on with this thinking any longer.</p>]]></body>
+<date>11 Feb 2011 05:21:00:0 +0000</date>
+<timeZone>Asia/Tokyo</timeZone>
+<state>published</state>
+<author>euske</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags>lisp culture</tags>
+<comment>
+<title>Re: What if Lisp was invented by the Japanese?</title>
+<body><![CDATA[<p>Begin not however English sentences with a verb, love anyway Kenny Lisp.&nbsp;</p>]]></body>
+<author>Kenny</author>
+<email>kentilton@gmail.com</email>
+<website>http://stuckonalgebra.com</website>
+<avatar/>
+<ipAddress>98.203.36.21</ipAddress>
+<date>13 Feb 2011 11:36:03:430 +0000</date>
+<state>approved</state>
+<authenticated>false</authenticated>
+</comment>
+<comment>
+<title>Re: What if Lisp was invented by the Japanese?</title>
+<body><![CDATA[<p>So Lisp was invented by Yoda?</p>]]></body>
+<author>Anonymous</author>
+<email/>
+<website/>
+<avatar/>
+<ipAddress>82.41.216.213</ipAddress>
+<date>13 Feb 2011 16:17:10:60 +0000</date>
+<state>approved</state>
+<authenticated>false</authenticated>
+<parent>1297596963430</parent>
+</comment>
+<comment>
+<title>Re: What if Lisp was invented by the Japanese?</title>
+<body><![CDATA[<p>&nbsp;Actually I think Yoda speaks Japanese but with English words.</p>
+<p>ヨダさんは日本語を話しますでも英語の言葉で</p>
+<p>(sorry for the awful Japanese attempt, I'm not even a begginer yet).</p>]]></body>
+<author>JC</author>
+<email>juancn@gmail.com</email>
+<website/>
+<avatar/>
+<ipAddress>137.254.4.9</ipAddress>
+<date>14 Feb 2011 19:02:03:628 +0000</date>
+<state>approved</state>
+<authenticated>false</authenticated>
+<parent>1297613830060</parent>
+</comment>
+<comment>
+<title>Re: What if Lisp was invented by the Japanese?</title>
+<body><![CDATA[<p>you can omit the parentheses with that syntax :)&nbsp;</p>]]></body>
+<author>Anonymous</author>
+<email/>
+<website/>
+<avatar/>
+<ipAddress>88.74.182.20</ipAddress>
+<date>13 Feb 2011 17:29:55:677 +0000</date>
+<state>approved</state>
+<authenticated>false</authenticated>
+</comment>
+<comment>
+<title>Re: What if Lisp was invented by the Japanese?</title>
+<body><![CDATA[<p>Not with optional args (same reason as in regular Lisp).</p>]]></body>
+<author>someguy</author>
+<email>landofdreams@gmail.com</email>
+<website/>
+<avatar/>
+<ipAddress>98.250.106.64</ipAddress>
+<date>14 Feb 2011 19:32:29:849 +0000</date>
+<state>approved</state>
+<authenticated>false</authenticated>
+<parent>1297618195677</parent>
+</comment>
+<comment>
+<title>Re: What if Lisp was invented by the Japanese?</title>
+<body><![CDATA[<p>In RPN, you can omit the parens even with optional arguments; all that needs to happen is that the procedures consume and produce the appropriate number of symbols from the stack.</p>
+<p>Parens merely help enable code validation; they're not required for your code to work.</p>]]></body>
+<author>Anonymous</author>
+<email/>
+<website/>
+<avatar/>
+<ipAddress>78.32.101.249</ipAddress>
+<date>15 Feb 2011 00:03:06:695 +0000</date>
+<state>approved</state>
+<authenticated>false</authenticated>
+<parent>1297711949849</parent>
+</comment>
+<comment>
+<title>Re: What if Lisp was invented by the Japanese?</title>
+<body><![CDATA[<p>Almost all languages of India are based on Sanskrit, which has a similar structure, with the verb coming at end of the sentence.</p>
+<p>Please take a look at the following article --</p>
+<p><a href="http://www.aaai.org/ojs/index.php/aimagazine/article/viewArticle/466">Knowledge Representation in Sanskrit and Artificial Intelligence | Briggs | AI Magazine</a></p>
+<p>&nbsp;</p>]]></body>
+<author>Viswakarma</author>
+<email/>
+<website/>
+<avatar/>
+<ipAddress>174.24.141.150</ipAddress>
+<date>13 Feb 2011 19:35:55:177 +0000</date>
+<state>approved</state>
+<authenticated>false</authenticated>
+</comment>
+<comment>
+<title>Re: What if Lisp was invented by the Japanese?</title>
+<body><![CDATA[<p>Actually, about 46% of the world's languages are Subject-Object-Verb.&nbsp; It's the most common configuration for the world's languages, followed by Subject-Verb-Object (like English and Chinese) at about 44%.</p>
+<p>I read somewhere (I can't remember where) that Verb-Subject-Object languages are in some way better (or more convenient?) from a <em>logical </em>perspective (and thus, I imagine, for machine languages).&nbsp; It's too bad I&nbsp;can't remember where I&nbsp;read that (it may not have been online).</p>]]></body>
+<author>Andrew McIntosh</author>
+<email>andrewmcintosh@yahoo.com</email>
+<website/>
+<avatar/>
+<ipAddress>218.223.78.101</ipAddress>
+<date>14 Feb 2011 00:35:09:154 +0000</date>
+<state>approved</state>
+<authenticated>false</authenticated>
+<parent>1297625755177</parent>
+</comment>
+<comment>
+<title>Re: What if Lisp was invented by the Japanese?</title>
+<body><![CDATA[<p>So we have assembly in Verb-Subject-Object pattern isn't it?</p>
+<p>I personally only fluent in languages that are Subject-Verb-Object (well, Chinese and English) and also know some Japanese (which is argueablly, not all the time Subject-Object-Verb) and found that not as hard to grasp once you have heard enough in the other pattern.</p>]]></body>
+<author>itsnotvalid</author>
+<email>itsnotvalid@gmail.com</email>
+<website/>
+<avatar/>
+<ipAddress>119.237.154.111</ipAddress>
+<date>15 Feb 2011 12:42:59:974 +0000</date>
+<state>approved</state>
+<authenticated>false</authenticated>
+<parent>1297643709154</parent>
+</comment>
+<comment>
+<title>Re: What if Lisp was invented by the Japanese?</title>
+<body><![CDATA[<p>From a programming perspective this is just switching to postfix. Postfix is brilliant at cleanly expressing an algorithin and is very easy to parse and process. It also removes any requirment for parentheses.</p>
+<p><code>(((4 5 +) 3 *) print)</code></p>
+<p>becomes:</p>
+<p><code>45+ 3* print</code></p>
+<p>The original infix version of this would be:</p>
+<p>print ( ( 4+5 ) *3 )</p>
+<p>As pointed out by previous commenter postfix was the syntax used by Forth although what really distinguished Forth was that it was primarily a stack machine  and a threaded interpreter (whole other topics). Using a stack machine to proces postfix expressions is simple and efficent.</p>
+<p>&nbsp;</p>]]></body>
+<author>Anonymous</author>
+<email>a@b.com</email>
+<website/>
+<avatar/>
+<ipAddress>86.43.233.182</ipAddress>
+<date>15 Feb 2011 08:57:28:231 +0000</date>
+<state>approved</state>
+<authenticated>false</authenticated>
+</comment>
+</blogEntry>

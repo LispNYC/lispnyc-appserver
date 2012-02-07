@@ -1,0 +1,100 @@
+      title: Student's Rights and Responsibilities
+   uri-path: /soc/student-responsibilities
+    section: soc
+     author: H Goodman
+       tags: Summer of Code
+description: Summer of Code Student's Rights and Responsibilities
+
+
+For all practical purposes, this boils down to funding a project.  The reality is that it is a real-life technical consulting position, nobody is going to babysit you.  LispNYC is looking for mature people who are able to manage their time and resources in order to to succeed.
+
+This gives you a lot of latitude.  We expect you won't betray our trust, that you will be honest about the work you're doing and that you'll be proactive regarding any technical/social/infastructure problems that you run into.
+
+As with most things involving technology, it's only about 50% technical.  In &quot;real-life&quot; you're challenged with new and ambiguous situations.  All that LispNYC asks is that you approach this with openness, candor and grace.
+
+We want you to succeed in this endeavor and we're willing to help you with any and all stumbling blocks.
+
+**Step 1: You Have a Great Proposal Idea**
+
+Word-wide, geeks tend to be cut from the same cross-cultural stock, we see and try to solve many of the same problems.   Just apply 10 minutes of Googling to your idea.  If you don't apply due-diligence, LispNYC will be forced to and that burns resources that could be better spent. As the old science-joke states: <i>&quot;Three months in the lab will save you three hours in the library.&quot;</i>
+
+If someone has already attempted your idea it's not excluded, it just means the scope of yours may need to be re-framed to include the current state of the art.
+
+* You have the responsibility to do a minimum amount (10 minutes) of research.
+* You have the right to submit any idea, all ideas will be approached seriously.
+* You have the right to ask that your idea be kept in confidence.
+* You have the right to know the community's honest opinion of your idea.
+
+**Step 2: Proposal Planning**
+
+You have a good idea and are thinking of great new ways to attack the problem.  Before you go through the effort of putting together a proposal, LispNYC can help you plan it.
+
+What LispNYC does is apply due-diligence to your proposal idea. We have experts and resources who have decades of experience in the target domain, so it'll be good to know if you're barking up the wrong tree earlier rather than later.  The mentors and domain-experts are here for a reason and are investing their time to seeing you succeed.
+
+* You have the right to know if your proposal is technically possible and within the scope of a summer's worth of effort.
+* You have the right to ask questions.  Every effort is made to get an honest answer.
+
+
+**Step 3: Proposal Preparation**
+
+It is our goal to see that your proposal is properly prepared.  We are dedicated to ensuring that your proposal is in the correct format, that it passes technical and social due-diligence, is free from obvious grammatical errors and is presented in clear, conventional English.
+
+Additionally we'll help you scope out the work required to create an implementation plan and will get you the resources you need.  Whether it is software, hardware, time, expertise or effort; we're willing to bend over backwards to make it happen.
+
+This also requires effort on your part.  Every proposal goes through at least one editing cycle, so be prepared for constructive criticism and a certain amount of flexibility.
+
+Keep in mind that what you're applying for is a summer-job.  When the plan is scoped out, the expectation is that you'll be working 30 to 40 hours each and every week of the 12 or so weeks of summer.  Do not apply if there is any reason you cannot devote the time.
+
+Behind the scenes of the proposal process, LispNYC is also seeking out qualified mentors and domain-experts who show interest or are otherwise qualified.
+
+Keep in mind this phase consumes most of LispNYC's time and effort.  Waiting until the last minute is a serious constraint and will result in a sub-optimal proposal.
+
+* It is your responsibility to prepare the proposal.  LispNYC will help but will not do it for you.
+* It is your responsibility to ask questions early.
+* It is your responsibility to clear your summer schedule in order to devote 30-40 hours each week.
+* You have the right to present more than one proposal.
+* You have the right to present the the best possible proposal to Google, complete with every supporting asset.
+
+
+**Step 4: Google Proposal Presentation**
+
+Because it the responsibility of LispNYC to present proposals to Google, in order of importance, many factors apply in this difficult decision.
+
+Generally, ideas and proposals fall into categories of utilitarian, purely academic and artistic/fun.  Thus a certain amount of consideration is given to which category a proposal lands in.
+
+For instance, LispNYC is not interested in presenting nothing but video-game related proposals.  Therefore, if many students respond to the same idea, we'll let you know that your chances are being lowered and will help to re-scope your idea or implementation such that every student has a good but fair chance of getting funding.  On the other hand, if no/few students have responded to a particularly hot project or category, we'll let it be known.
+
+Consideration is given to the needs of the community, the quality of proposals, community feedback and the capabilities of you the student.
+
+This phase is also where the final decisions of which mentors and domain-experts you'll be working with you.  Every effort is made to select mentors based not only on technical merit, but also on timezone and native language considerations.
+
+Please, don't try to game our system.  Just as LispNYC is dependent on you to prepare and deliver a proposal, you are dependent on LispNYC and we have your best interest in mind.
+
+* You have the right to a fair assessment and know, in a very general sense, what the standing of your proposal is.
+* You do NOT have the right to know anything that will tilt the playing field or betray the confidence of other students.
+* You have the right to know that LispNYC is dedicated to giving you the best but fairest shot possible of getting funding through Google.
+
+
+**Unfunded Proposals**
+
+If for any reason Google does not fund your proposal, remember that there are many (sometimes competing) considerations and it is not a value judgment on you or your abilities.
+
+In years past, LispNYC has found secondary funding through community and businesses.  Therefore you may have a second chance of getting funded.
+
+
+**Step 5: Funded Proposals Become Projects**
+
+Getting your proposal funded through Google is a badge of honor.  For as much money that Google is dedicating to your project, LispNYC is dedicating it's expertise and energy.
+
+As mentioned before, this is a consulting position!  It is real-life experience that is invaluable in the business and academic world.  You'll be exposed to research, planning, negotiation, unfamiliar code and interesting technology.
+
+Knowing that, it is important that you be proactive involving any problems.  If you're stuck and can't reach your mentor for a few days you can always escalate.
+
+Be honest about your progress, if the schedule is slipping (most do) we can all work together to target specific areas or to even re-scope the project if that is what is needed.
+
+Almost by definition this will not be easy, be prepared to be challenged but also to learn a great deal.  Because technology is only 50% technical, you will experience the all of the hardships and joys of delivering great software.
+
+* You have the responsibility to submit honest weekly reports via any blog of your choosing.
+* You have the right to have quick access to your mentor, to be able to ask any question and get a quick reply.
+* You have the right to escalate any problem that cannot be resolved in a timely manner by you or your mentor.
+* You have the responsibility to properly manage your time and resources.

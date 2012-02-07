@@ -1,0 +1,2 @@
+127.0.0.1 - - [30/Jan/2011:03:05:59 +0000] "GET /" 200 - "http://tako:8080/blog/rahul/" "Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.13) Gecko/20101206 Ubuntu/10.04 (lucid) Firefox/3.6.13"
+127.0.0.1 - - [30/Jan/2011:03:06:23 +0000] "GET /" 200 - "http://tako:8080/blog/rahul/" "Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.13) Gecko/20101206 Ubuntu/10.04 (lucid) Firefox/3.6.13"

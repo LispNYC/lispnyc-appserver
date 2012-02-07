@@ -1,0 +1,101 @@
+      title: Summer of Code 2008
+   uri-path: /soc/2008
+    section: soc
+     author: H Goodman
+       tags: 2008 Summer of Code
+description: Summer of Code 2008
+
+Funded proposals:
+
+* ErlangInLisp by Matthew Bone, mentored by Francois-Rene Rideau
+* SBCL Windows Threading by Elliott Slaughter, mentored by Christophe Rhodes
+* cl-openid: OpenID Provider and Relying Party Implementation by Maciej Pasternacki, mentored by Anton Vadanosau
+
+Privately funded:
+
+* Lexicons First-Class Global Lexical Environments for Common Lisp.  Mentorship and <b>sponsorship by Ron Garret</b>.
+
+Proposal ideas:
+
+* <a href="/wiki.clp?page=soc08-details/montezuma">Montezuma Search Engine</a>: Support fuzzy, proximity and range searches.  Dificulty level 3.
+* <a href="http://code.google.com/p/symbolicweb/issues/list">SymbolicWeb</a>: Add better GUI widgets. <a href="http://swchat.nostdal.org/">See demo of SymbolicWeb and IRC lib</a>.
+* Open AIR: RIAs via Ajax and Cells, and desktop apps via Cello, a la Adobe AIR.  Requires skills in Lisp, Javascript, Ajax.  Dificulty level 3.  Mentorship offered by Kenny
+* <a href="http://lisa.sourceforge.net/">LISA</a>: Add backward chaining support to LISA (Lisp-based Intelligent Software Agents).  Difficulty level 3.  Mentorship offered by author David Young.
+* Rails-in-Lisp: create a functional and easy-to-use version of the rails framework that uses Lisp features (macros, CLOS) instead of Ruby ones (metaprogramming) to provide the same ease of development and use.  Mentorship offered by 
+Matt Knox
+* <a href="http://method-combination.net/lisp/ironclad/">Ironclad SSL</a>: Add SSL support to Ironclad.  Level 4.  Mentorship offered by the author Nathan Froyd
+* <a href="http://method-combination.net/lisp/ironclad/">Ironclad Public Key Crypto</a>: Add public key crypto to Ironclad.  Level 4  Mentorship offered by the author Nathan Froyd
+* <a href="http://common-lisp.net/project/cl-uri/">cl-url</a> A framework for connecting using uri's (think curl) and implement scheme specific parsing as specified by IANA.  Required skills: common-lisp.  Level 3.  Mentorship offered
+ by Arthur Smyles
+* <a href="http://dynamo.iro.umontreal.ca/~gambit/wiki/index.php/R6RS">R6RS on Gambit Scheme</a>: Finish an implementation of R6RS on Gambit Scheme.  Requires skills in Scheme, Gambit, understanding of R6RS.  Difficulty level: 3   Men
+torship offered by Arthur Smyles
+* <a href="/wiki.clp?page=soc08-details/ldmdl">LDMDL</a>: Lisp Data Manipulation and Description Language.  Dificulty level 5.  Mentorship offered by Marco Antoniotti.
+* <a href="http://common-lisp.net/project/defdoc/">DefDoc HTML Backend</a> Write an HTML backend for DefDoc. Difficulty level 3.  Mentorship offered by author Rahul Jain
+* <a href="http://common-lisp.net/project/defdoc/">DefDoc PDF Backend</a> Write a PDF backend for DefDoc.  Difficulty level 4. Mentorship offered by author Rahul Jain
+* <a href="http://www.doc.gold.ac.uk/~mas01cr/papers/ilc2007/sequences-20070301.pdf">Extensible sequences</a>  Port Christophe Rhodes's extensible sequences in SBCL to other implementations.    Difficulty level 4.
+* <a href="http://common-lisp.net/project/cl-berkeley-db/">Berkeley-db</a>: Add locking, logging, mutexes, replication and sequence support.  Skills in CFFI, C, common-lisp, SWIG.  Diffilulty level 3. Mentorship offered by Arthur Smyl
+es
+* <a href="/wiki.clp?page=soc07-details/excribe">Excribe</a>: Extend Exscribe into a full-fledged document authoring system..
+* cl-openid: OpenID implementation for Common Lisp (using Drakma and Hunchentoot most likely).  Difficulty level 3.
+* CL-Arc: Implement Arc in CL capable of running the YC Hacker News.  Mentorship offered by Ron Garret
+* Add multi-threading capability to CLISP - mentorship offered by CLISP maintainters Sam Steingold and Bruno Haible!  Difficulty level 4.
+* Windows threading in SBCL.  Difficulty level 3.
+* <a href="http://common-lisp.net/project/cl-typesetting/">cl-typesetting</a>: Improved math typesetting.  Add ability for cl-typesetting to handle mathematics using Knuth's algorithms in TeX. Requires knowledge of TeX/LaTeX and types
+etting.  Difficulty level 4
+* <a href="http://common-lisp.net/project/cl-typesetting/">cl-typesetting</a>: Add Add TeX's line-breaking algorithm to cl-typesetting.
+* Vectorizing SBCL: Add automatic vectorization to SBCL's compiler for user code.  Requires skills in compilers, data structures, assembly language.  Dificulty level 5.
+* <a href="/wiki.clp?page=soc07-details/cl-to-js">CL-to-JS</a>: Extend one of the existing CL-to-JS translators with advanced HOP-like functionality
+* <a href="/wiki.clp?page=soc07-details/celtk">Celtk Jabber Client</a>: Create a Jabber IM client library with Celtk
+* <a href="/wiki.clp?page=soc07-details/gbbopen">GBBopen</a>: Extend GBBopen blackboard system with fault-tolerance and security modules.
+* Detailed Condition Hierarchy: Come up with a fleshed-out condition hierarchy and implement in sbcl, ccl, and clisp.  Requires spec-reading, code forensics, CL conditions API.  Difficulty level: 2 
+* <a href="http://common-lisp.net/project/closure/">JS for Clozure</a>: Write an interpreter or compiler for the latest version of Javascript.  Integrate it into the Closure web browser.
+* <a href="/wiki.clp?page=soc08-details/ajax-mcclim">Ajax McCLIM Backend</a>: Provide an Ajax/Canvas Backend for the McCLIM UI framework.  Dificulty level 4
+* Write a Common Lisp plugin for Firefox, so that Lisp can be used instead of Javascript for client-side scripting.  Difficulty level 4.
+* <a href="http://trac.clozure.com/openmcl/ticket/123">Backtrace-Flow</a>: Implement a GUI similar to iTune's CoverFlow to display stack backtraces.  Requires an appreciation of Apple's UI, at least passing familiarity with Cocoa API'
+s and Core Animation.  Difficulty level: 3   Mentorship offered by Matt Emerson
+* Storage engine for various databases. The Idea would be to produce a lib that is incorporated into other projects. to handle efficient storage on disk of data. 
+* <a href="/wiki.clp?page=soc08-details/module">Module system for CL</a> Write a module system for CL, based on the PLT module system.  Requires familiarity with macros, understanding of language semantics in general, and symbols and 
+bindings in particular.  Dificulty level 4.
+* cl-amf or cl-flex or cl-BlazeDS: Adobe Flex backend for Common Lisp (AMF protocol implementation).  Difficulty level 3.
+</ul>
+
+(note difficulty levels: 1 - very easy, 3 - moderate, 5 - very hard)
+
+Axiom propsal ideas:
+
+* Axiom Integrate Graphics: One of the tasks is to integrate the
+existing graphics into the Firefox browser. The planned direction for
+this over the coming months is to write the graphics onto the new
+CANVAS object. This involves figuring out an interface to the
+graphics, working out the correct API, and constructing an AJAX
+* Axiom Affordance Design: There are several ideas being prototyped for
+the new crystal firefox interface. This project would involve reading
+in design (Winograd "Understanding Computers and Cognition. A New
+Foundation for Design"; Winograd "Bringing Design to Software",
+Alexander, "A Pattern Language", etc) and high level discussions. It
+also involves prototyping design ideas. You do not need to know how to
+write code but a strong background in design is important.
+* Axiom Contextual Menus: The new Firefox interface now has menus
+similar to wxMaxima. However, in Axiom the menu items are not static
+but depend on the type of the current expression. For instance,
+"solve" does not exist for integers and thus should not be in the menu
+when the last result is an integer.  A mechanism needs to be worked
+out to compute the menu-set for a given type. This will involve
+writing Lisp code to manipulate the category and type hierarchy of
+Axiom.
+* Axiom Pamphlet Awareness: Axiom's native file format is the pamphlet,
+which is a literate program that combines latex and source code. There
+is a need to make the system pervasively aware of this format so that
+one can, for example, compile directly from the pamphlet or spool
+output directly to pamphlets. This involves Lisp programing and a
+working knowledge of Latex.
+* Axiom Asdf Rewrite: Axiom will move away from Makefiles soon after the
+Firefox front end is fully viable. This will involve redesigning and
+reimplementing the current build architecture to use asdf rather than
+make as the primary organizing machine. This will involve several
+subtasks and assumes a strong ANSI lisp background and a working
+knowledge of asdf.
+* Axiom Special Functions: Axiom lacks support for many special
+functions. These are implemented in either Lisp or Axiom. This
+requires a strong math background and an ability to program in common
+lisp.

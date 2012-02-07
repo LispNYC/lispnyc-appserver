@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>This post was written in Emacs</title>
+<subtitle/>
+<excerpt/>
+<body><![CDATA[
+
+<p>Before I really get started on posting blog entries for this, it was
+imperative I figure out a way to blog from Emacs. Cause really, what
+self-respecting Lisper blogs from a tiny text field in a web browser?
+Madness.</p>
+
+<p>So, if you also want or have a blog on this site and want to do it in
+ emacs:</p>
+<ol>
+<li>go get <a href="https://launchpad.net/weblogger-el">weblogger.el</a>
+ I just used ELPA, but there's a later version available.</li>
+<li>Once you've got that loaded, do <code>M-x
+ weblogger-setup-weblog</code>. When it asks you for the Server
+ Endpoint, enter <code>http://www.lispnyc.org/blog/xmlrpc</code>. The
+ other parameters (username, password, blog name) should be self
+ explanatory.</li>
+<li>Profit</li>
+</ol>
+
+<p>There are some issues. Authentication is plaintext, I have to
+manually type the entries in HTML. But it's still better than a web
+form!</p>]]></body>
+<date>01 Mar 2011 23:49:23:770 +0000</date>
+<timeZone>America/New_York</timeZone>
+<state>published</state>
+<author>brian</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags/>
+<comment>
+<title>Re: This post was written in Emacs</title>
+<body><![CDATA[<p>That's great, I'll have to try it!</p>]]></body>
+<author>Heow Goodman</author>
+<email>heow@lispnyc.org</email>
+<website>http://lispnyc.org:80/blog/brian/authors/heow/</website>
+<avatar/>
+<ipAddress>68.175.66.95</ipAddress>
+<date>02 Mar 2011 21:41:37:522 +0000</date>
+<state>approved</state>
+<authenticated>true</authenticated>
+</comment>
+<comment>
+<title>Re: This post was written in Emacs</title>
+<body><![CDATA[<p>&nbsp;This reply was written in Emacs.</p>
+<p>I used a Chrome extension called 'Edit with Emacs'. &nbsp;It puts tiny edit&nbsp;buttons around all the text areas in Chrome. &nbsp;When you click on them,&nbsp;it brings up a new frame from your running Emacs session. &nbsp;You edit&nbsp;away, and when you're done, you type C-x s. &nbsp;I find this pretty useful&nbsp;in general, and it gets me far enough so that I don't feel I need&nbsp;stuff like weblogger.el.</p>
+<p>Good luck!</p>]]></body>
+<author>jfm3</author>
+<email/>
+<website>http://jfm3.org</website>
+<avatar/>
+<ipAddress>98.221.143.95</ipAddress>
+<date>06 Mar 2011 16:54:22:803 +0000</date>
+<state>pending</state>
+<authenticated>false</authenticated>
+<parent>1299102097522</parent>
+</comment>
+<comment>
+<title>Re: This post was written in Emacs</title>
+<body><![CDATA[<p>Worked for me. Thanks!</p>
+<p>I accidentaly posted a test entry :)</p>]]></body>
+<author>Yusuke Shinyama</author>
+<email>yusuke@cs.nyu.edu</email>
+<website>http://lispnyc.org:80/blog/brian/authors/euske/</website>
+<avatar/>
+<ipAddress>220.108.210.20</ipAddress>
+<date>03 Mar 2011 12:43:20:549 +0000</date>
+<state>pending</state>
+<authenticated>true</authenticated>
+</comment>
+<comment>
+<title>Re: This post was written in Emacs</title>
+<body><![CDATA[<p>Have you noticed anyone else using it?</p>]]></body>
+<author>Anonymous</author>
+<email/>
+<website/>
+<avatar/>
+<ipAddress>184.218.134.47</ipAddress>
+<date>07 Mar 2011 14:21:25:493 +0000</date>
+<state>approved</state>
+<authenticated>false</authenticated>
+</comment>
+</blogEntry>

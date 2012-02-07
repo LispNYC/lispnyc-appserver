@@ -1,0 +1,8 @@
+      title: Contact LispNYC
+   uri-path: /contact-thanks
+    section: home
+     author: H Goodman
+       tags: website feedback
+description: Thanks!
+
+We appreciate the input!

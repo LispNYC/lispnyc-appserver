@@ -1,0 +1,31 @@
+      title: Frequenly Asked Questions for Summer of Code 
+   uri-path: /soc/faq
+    section: soc
+     author: H Goodman
+       tags: FAQ, Summer of Code
+description: Frequenly Asked Questions for Summer of Code
+
+*Do I have to be a student?* Students are the only ones who can implement the code.  If you are not a student you can formally participate as a mentor or informally as a domain-expert.
+
+*Do I have to live in New York City?* No, you can live anywhere in the world.  If you do not live in New York, LispNYC tries to associate students and mentors in the same timezone.
+
+*Do I need to speak English?* Yes, Google speaks English and the proposal must be in English.  If English is not your native tongue, LispNYC tries to match students and mentors based on native language.
+
+*How does the process work?* A quick overview: First we solicit ideas from the community at large.  
+Then LispNYC works closely with students to plan and create a great proposal.
+Next we assign mentors and experts with the student proposals and submit the entire package to Google for funding.
+If Google accepts the package, coding starts.  Details can be found in the <a href="/soc/student-responsibilities">Student's Rights and Responsibilities</a>
+
+*Do I need to code in lisp?* Surprisingly: no.  Not every mentoring organization is accepted by Google, which is why LispNYC extends professional courtesy to equally-misunderstood functionally-oriented languages such as: Haskell, Dylan, etc.  Erlang and Smalltalk are included just because we like the way they roll.
+
+*Do I need to propose something base on your ideas list?*  No.  They're just ideas to get you thinking, you can submit a proposal on anything.
+
+*Will my proposal be funded?* Not all proposals are funded.  Good ideas along with a well worked-out proposal by an interested student stands significantly higher chance.  We're here to help you with that, please read the <a href="/soc/student-responsibilities">Student's Rights and Responsibilities</a>
+
+*What is the student time requirement?* This is a summer job, it is expected to be near full-time work for the duration of the summer.
+
+*What is the mentors time requirement?* Mentors should be prepared to spend 10 hours per week.
+
+*How much will I get paid?* This is how it worked last year: If accepted, students are paid $4500 in two installments and mentors are paid $500 in one installment.
+
+

@@ -1,0 +1,165 @@
+2011-03-07 17:23:21.543:INFO::jetty-7.2.2.v20101205
+2011-03-07 17:23:21.559:INFO::Deployment monitor /home/heow/prj-personal/lispnyc-jetty/webapps at interval 1
+2011-03-07 17:23:21.562:INFO::Deployable added: /home/heow/prj-personal/lispnyc-jetty/webapps/blog.war
+2011-03-07 17:23:21.652:INFO::Copying WEB-INF/lib jar:file:/home/heow/prj-personal/lispnyc-jetty/webapps/blog.war!/WEB-INF/lib/ to /tmp/jetty-0.0.0.0-8000-blog.war-_blog-any-/webinf/WEB-INF/lib
+2011-03-07 17:23:22.089:INFO::Copying WEB-INF/classes from jar:file:/home/heow/prj-personal/lispnyc-jetty/webapps/blog.war!/WEB-INF/classes/ to /tmp/jetty-0.0.0.0-8000-blog.war-_blog-any-/webinf/WEB-INF/classes
+2011-03-07 17:23:23.952:INFO:blog:Loading Spring root WebApplicationContext
+2011-03-07 17:23:24,606 [main] WARN  org.acegisecurity.intercept.AbstractSecurityInterceptor  - Could not validate configuration attributes as the MethodDefinitionSource did not return a ConfigAttributeDefinition Iterator
+2011-03-07 17:23:24,624 [main] INFO  net.sourceforge.pebble.web.listener.PebbleContextListener  - Starting Pebble
+2011-03-07 17:23:24,699 [main] INFO  net.sourceforge.pebble.index.StaticPageIndex  - Reading index from disk
+2011-03-07 17:23:24,713 [main] WARN  net.sourceforge.pebble.domain.AbstractBlog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,714 [main] WARN  net.sourceforge.pebble.domain.Blog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,728 [main] INFO  net.sourceforge.pebble.domain.Theme  - Copying default theme to /home/heow/prj-personal/lispnyc-jetty/pebbleblog-articles/blogs/heow/theme
+2011-03-07 17:23:24,730 [main] INFO  net.sourceforge.pebble.domain.Blog  - Started blog with ID heow
+2011-03-07 17:23:24,750 [main] INFO  net.sourceforge.pebble.index.StaticPageIndex  - Reading index from disk
+2011-03-07 17:23:24,751 [main] WARN  net.sourceforge.pebble.domain.AbstractBlog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,751 [main] WARN  net.sourceforge.pebble.domain.Blog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,752 [main] INFO  net.sourceforge.pebble.domain.Theme  - Copying default theme to /home/heow/prj-personal/lispnyc-jetty/pebbleblog-articles/blogs/mjp/theme
+2011-03-07 17:23:24,752 [main] INFO  net.sourceforge.pebble.domain.Blog  - Started blog with ID mjp
+2011-03-07 17:23:24,769 [main] INFO  net.sourceforge.pebble.index.StaticPageIndex  - Reading index from disk
+2011-03-07 17:23:24,770 [main] WARN  net.sourceforge.pebble.domain.AbstractBlog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,770 [main] WARN  net.sourceforge.pebble.domain.Blog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,771 [main] INFO  net.sourceforge.pebble.domain.Theme  - Copying default theme to /home/heow/prj-personal/lispnyc-jetty/pebbleblog-articles/blogs/lisppets/theme
+2011-03-07 17:23:24,771 [main] INFO  net.sourceforge.pebble.domain.Blog  - Started blog with ID lisppets
+2011-03-07 17:23:24,787 [main] INFO  net.sourceforge.pebble.index.StaticPageIndex  - Reading index from disk
+2011-03-07 17:23:24,789 [main] WARN  net.sourceforge.pebble.domain.AbstractBlog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,789 [main] WARN  net.sourceforge.pebble.domain.Blog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,790 [main] INFO  net.sourceforge.pebble.domain.Theme  - Copying default theme to /home/heow/prj-personal/lispnyc-jetty/pebbleblog-articles/blogs/ericlavigne/theme
+2011-03-07 17:23:24,791 [main] INFO  net.sourceforge.pebble.domain.Blog  - Started blog with ID ericlavigne
+2011-03-07 17:23:24,814 [main] INFO  net.sourceforge.pebble.index.StaticPageIndex  - Reading index from disk
+2011-03-07 17:23:24,815 [main] WARN  net.sourceforge.pebble.domain.AbstractBlog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,815 [main] WARN  net.sourceforge.pebble.domain.Blog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,816 [main] INFO  net.sourceforge.pebble.domain.Theme  - Copying default theme to /home/heow/prj-personal/lispnyc-jetty/pebbleblog-articles/blogs/acheron/theme
+2011-03-07 17:23:24,816 [main] INFO  net.sourceforge.pebble.domain.Blog  - Started blog with ID acheron
+2011-03-07 17:23:24,832 [main] INFO  net.sourceforge.pebble.index.StaticPageIndex  - Reading index from disk
+2011-03-07 17:23:24,834 [main] WARN  net.sourceforge.pebble.domain.AbstractBlog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,834 [main] WARN  net.sourceforge.pebble.domain.Blog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,834 [main] INFO  net.sourceforge.pebble.domain.Theme  - Copying default theme to /home/heow/prj-personal/lispnyc-jetty/pebbleblog-articles/blogs/arthur/theme
+2011-03-07 17:23:24,835 [main] INFO  net.sourceforge.pebble.domain.Blog  - Started blog with ID arthur
+2011-03-07 17:23:24,850 [main] INFO  net.sourceforge.pebble.index.StaticPageIndex  - Reading index from disk
+2011-03-07 17:23:24,852 [main] WARN  net.sourceforge.pebble.domain.AbstractBlog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,852 [main] WARN  net.sourceforge.pebble.domain.Blog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,852 [main] INFO  net.sourceforge.pebble.domain.Theme  - Copying default theme to /home/heow/prj-personal/lispnyc-jetty/pebbleblog-articles/blogs/brian/theme
+2011-03-07 17:23:24,853 [main] INFO  net.sourceforge.pebble.domain.Blog  - Started blog with ID brian
+2011-03-07 17:23:24,866 [main] INFO  net.sourceforge.pebble.index.StaticPageIndex  - Reading index from disk
+2011-03-07 17:23:24,868 [main] WARN  net.sourceforge.pebble.domain.AbstractBlog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,868 [main] WARN  net.sourceforge.pebble.domain.Blog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,870 [main] INFO  net.sourceforge.pebble.domain.Theme  - Copying default theme to /home/heow/prj-personal/lispnyc-jetty/pebbleblog-articles/blogs/cfield/theme
+2011-03-07 17:23:24,871 [main] INFO  net.sourceforge.pebble.domain.Blog  - Started blog with ID cfield
+2011-03-07 17:23:24,893 [main] INFO  net.sourceforge.pebble.index.StaticPageIndex  - Reading index from disk
+2011-03-07 17:23:24,895 [main] WARN  net.sourceforge.pebble.domain.AbstractBlog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,895 [main] WARN  net.sourceforge.pebble.domain.Blog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,896 [main] INFO  net.sourceforge.pebble.domain.Theme  - Copying default theme to /home/heow/prj-personal/lispnyc-jetty/pebbleblog-articles/blogs/rahul/theme
+2011-03-07 17:23:24,896 [main] INFO  net.sourceforge.pebble.domain.Blog  - Started blog with ID rahul
+2011-03-07 17:23:24,911 [main] INFO  net.sourceforge.pebble.index.StaticPageIndex  - Reading index from disk
+2011-03-07 17:23:24,912 [main] WARN  net.sourceforge.pebble.domain.AbstractBlog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,912 [main] WARN  net.sourceforge.pebble.domain.Blog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,912 [main] INFO  net.sourceforge.pebble.domain.Theme  - Copying default theme to /home/heow/prj-personal/lispnyc-jetty/pebbleblog-articles/blogs/default/theme
+2011-03-07 17:23:24,913 [main] INFO  net.sourceforge.pebble.domain.Blog  - Started blog with ID default
+2011-03-07 17:23:24,926 [main] INFO  net.sourceforge.pebble.index.StaticPageIndex  - Reading index from disk
+2011-03-07 17:23:24,927 [main] WARN  net.sourceforge.pebble.domain.AbstractBlog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,927 [main] WARN  net.sourceforge.pebble.domain.Blog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,927 [main] INFO  net.sourceforge.pebble.domain.Theme  - Copying default theme to /home/heow/prj-personal/lispnyc-jetty/pebbleblog-articles/blogs/euske/theme
+2011-03-07 17:23:24,927 [main] INFO  net.sourceforge.pebble.domain.Blog  - Started blog with ID euske
+2011-03-07 17:23:24,939 [main] INFO  net.sourceforge.pebble.index.StaticPageIndex  - Reading index from disk
+2011-03-07 17:23:24,940 [main] WARN  net.sourceforge.pebble.domain.AbstractBlog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,940 [main] WARN  net.sourceforge.pebble.domain.Blog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,940 [main] INFO  net.sourceforge.pebble.domain.Theme  - Copying default theme to /home/heow/prj-personal/lispnyc-jetty/pebbleblog-articles/blogs/marc/theme
+2011-03-07 17:23:24,941 [main] INFO  net.sourceforge.pebble.domain.Blog  - Started blog with ID marc
+2011-03-07 17:23:24,956 [main] INFO  net.sourceforge.pebble.index.StaticPageIndex  - Reading index from disk
+2011-03-07 17:23:24,958 [main] WARN  net.sourceforge.pebble.domain.AbstractBlog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,958 [main] WARN  net.sourceforge.pebble.domain.Blog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:23:24,959 [main] INFO  net.sourceforge.pebble.domain.Theme  - Copying default theme to /home/heow/prj-personal/lispnyc-jetty/pebbleblog-articles/blogs/neo4reo/theme
+2011-03-07 17:23:24,959 [main] INFO  net.sourceforge.pebble.domain.Blog  - Started blog with ID neo4reo
+2011-03-07 17:23:25,104 [main] INFO  net.sourceforge.pebble.web.listener.PebbleContextListener  - Pebble started in 480ms
+2011-03-07 17:23:25,104 [main] INFO  net.sourceforge.pebble.aggregator.NewsFeedContextListener  - Starting newsfeed updater
+2011-03-07 17:23:25.379:INFO::Deployment monitor /home/heow/prj-personal/lispnyc-jetty/contexts at interval 1
+2011-03-07 17:23:25.381:INFO::Deployable added: /home/heow/prj-personal/lispnyc-jetty/contexts/home.xml
+2011-03-07 17:23:25.957:INFO::Deployable added: /home/heow/prj-personal/lispnyc-jetty/contexts/move-meetings.xml
+2011-03-07 17:23:25.974:INFO::Deployable added: /home/heow/prj-personal/lispnyc-jetty/contexts/move-contact.xml
+2011-03-07 17:23:25.991:INFO::Deployable added: /home/heow/prj-personal/lispnyc-jetty/contexts/static.xml
+2011-03-07 17:23:26.016:INFO::Deployable added: /home/heow/prj-personal/lispnyc-jetty/contexts/move-shop.xml
+2011-03-07 17:23:26.029:INFO::Deployable added: /home/heow/prj-personal/lispnyc-jetty/contexts/move-home.xml
+2011-03-07 17:23:26.040:INFO::Deployable added: /home/heow/prj-personal/lispnyc-jetty/contexts/move-index.xml
+2011-03-07 17:23:26.067:INFO::Started SelectChannelConnector@0.0.0.0:8000
+uri: /soc/faq
+uri: /contact
+uri: /blog-signup
+uri: /soc
+uri: /soc/2006
+uri: /contact-thanks
+uri: /soc/2008
+uri: /meeting/rsvp
+uri: /meeting/rsvp-thanks
+uri: /shop
+uri: /soc/thanks
+uri: /soc/idea
+uri: /soc/2005
+uri: /soc/proposal
+uri: /blog-thanks
+uri: /about
+uri: /soc/student-responsibilities
+uri: /meetings
+uri: /soc/2009
+uri: /soc/2007
+Mar 7, 2011 5:23:31 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:23:32 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:23:32 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:23:32 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:23:32 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:23:32 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:23:32 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:23:32 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:23:32 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:23:32 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:23:32 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:23:32 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:23:32 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:23:32 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+2011-03-07 17:23:35,801 [qtp1888765668-22] INFO  net.sourceforge.pebble.web.filter.BlogLookupFilter  - Setting Pebble URL to http://localhost:8000/blog
+2011-03-07 17:24:57,821 [qtp1888765668-23] WARN  org.acegisecurity.event.authentication.LoggerListener  - Authentication event AuthenticationFailureBadCredentialsEvent: neo4reo; details: org.acegisecurity.ui.WebAuthenticationDetails@fffe9938: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 15ilk1rrtyva61h6aui3a19ia5; exception: Bad credentials
+2011-03-07 17:24:58,237 [qtp1888765668-19] WARN  net.sourceforge.pebble.web.action.FourZeroFourAction  - URL is /themes/_pebble/images/favicon.ico
+2011-03-07 17:24:58,514 [qtp1888765668-20] WARN  net.sourceforge.pebble.web.action.FourZeroFourAction  - URL is /themes/_pebble/images/favicon.ico
+2011-03-07 17:25:01,268 [qtp1888765668-20] WARN  net.sourceforge.pebble.web.action.FourZeroFourAction  - URL is /themes/_pebble/images/favicon.ico
+2011-03-07 17:25:07,911 [qtp1888765668-20] WARN  org.acegisecurity.event.authentication.LoggerListener  - Authentication event AuthenticationSuccessEvent: neo4reo; details: org.acegisecurity.ui.WebAuthenticationDetails@fffe9938: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 15ilk1rrtyva61h6aui3a19ia5
+2011-03-07 17:25:07,918 [qtp1888765668-20] WARN  org.acegisecurity.event.authentication.LoggerListener  - Authentication event InteractiveAuthenticationSuccessEvent: neo4reo; details: org.acegisecurity.ui.WebAuthenticationDetails@fffe9938: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: 15ilk1rrtyva61h6aui3a19ia5
+2011-03-07 17:25:48.664:INFO::Graceful shutdown SelectChannelConnector@0.0.0.0:8000
+2011-03-07 17:25:48.677:INFO::Graceful shutdown o.e.j.w.WebAppContext{/blog,[file:/tmp/jetty-0.0.0.0-8000-blog.war-_blog-any-/webinf/, jar:file:/home/heow/prj-personal/lispnyc-jetty/webapps/blog.war!/]},/home/heow/prj-personal/lispnyc-jetty/webapps/blog.war
+2011-03-07 17:25:48.677:INFO::Graceful shutdown o.e.j.w.WebAppContext{/,file:/home/heow/prj-personal/lispnyc-jetty/webapps/home/},/home/heow/prj-personal/lispnyc-jetty/webapps/home
+2011-03-07 17:25:48.677:INFO::Graceful shutdown o.e.j.s.h.MovedContextHandler{/wiki.clp,null}
+2011-03-07 17:25:48.678:INFO::Graceful shutdown o.e.j.s.h.MovedContextHandler{/contact.clp,null}
+2011-03-07 17:25:48.678:INFO::Graceful shutdown o.e.j.s.h.ContextHandler{/static,file:/home/heow/prj-personal/lispnyc-jetty/homebase-static/}
+2011-03-07 17:25:48.678:INFO::Graceful shutdown o.e.j.s.h.MovedContextHandler{/shop.clp,null}
+2011-03-07 17:25:48.678:INFO::Graceful shutdown o.e.j.s.h.MovedContextHandler{/home.clp,null}
+2011-03-07 17:25:48.678:INFO::Graceful shutdown o.e.j.s.h.MovedContextHandler{/index.html,null}
+2011-03-07 17:25:49,685 [Thread-2] INFO  net.sourceforge.pebble.aggregator.NewsFeedContextListener  - Stopping newsfeed updater
+2011-03-07 17:25:49,685 [Thread-2] INFO  net.sourceforge.pebble.web.listener.PebbleContextListener  - Stopping Pebble
+2011-03-07 17:25:49,688 [Thread-2] INFO  net.sourceforge.pebble.domain.Blog  - Stopped blog with ID marc
+2011-03-07 17:25:49,688 [Thread-2] INFO  net.sourceforge.pebble.domain.Blog  - Stopped blog with ID mjp
+2011-03-07 17:25:49,689 [Thread-2] INFO  net.sourceforge.pebble.domain.Blog  - Stopped blog with ID acheron
+2011-03-07 17:25:49,689 [Thread-2] INFO  net.sourceforge.pebble.domain.Blog  - Stopped blog with ID cfield
+2011-03-07 17:25:49,689 [Thread-2] INFO  net.sourceforge.pebble.domain.Blog  - Stopped blog with ID brian
+2011-03-07 17:25:49,690 [Thread-2] INFO  net.sourceforge.pebble.domain.Blog  - Stopped blog with ID rahul
+2011-03-07 17:25:49,690 [Thread-2] INFO  net.sourceforge.pebble.domain.Blog  - Stopped blog with ID neo4reo
+2011-03-07 17:25:49,691 [Thread-2] INFO  net.sourceforge.pebble.domain.Blog  - Stopped blog with ID lisppets
+2011-03-07 17:25:49,691 [Thread-2] INFO  net.sourceforge.pebble.domain.Blog  - Stopped blog with ID default
+2011-03-07 17:25:49,691 [Thread-2] INFO  net.sourceforge.pebble.domain.Blog  - Stopped blog with ID ericlavigne
+2011-03-07 17:25:49,692 [Thread-2] INFO  net.sourceforge.pebble.domain.Blog  - Stopped blog with ID euske
+2011-03-07 17:25:49,692 [Thread-2] INFO  net.sourceforge.pebble.domain.Blog  - Stopped blog with ID heow
+2011-03-07 17:25:49,693 [Thread-2] INFO  net.sourceforge.pebble.domain.Blog  - Stopped blog with ID arthur
+2011-03-07 17:25:49,693 [Thread-2] INFO  net.sourceforge.pebble.web.listener.PebbleContextListener  - Pebble stopped
+2011-03-07 17:25:49.693:INFO:blog:Closing Spring root WebApplicationContext

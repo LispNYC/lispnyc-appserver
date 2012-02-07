@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>Rahul's First Post</title>
+<subtitle>I don't read Slashdot anymore</subtitle>
+<excerpt><![CDATA[the excerpt goes here]]></excerpt>
+<body><![CDATA[<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in porta nibh. Suspendisse erat lorem, lacinia sed sodales et, pulvinar lobortis nunc. Aenean nulla diam, pretium non malesuada vel, rhoncus a massa. Curabitur sed erat nibh, quis pharetra nulla. In non mattis nunc. Duis eget diam ac magna convallis laoreet at nec velit. Nunc in ante eu augue lacinia faucibus at ac nisl. Praesent ac erat libero. Sed ac nibh quam. In ipsum ligula, fermentum ut pellentesque sed, cursus at massa. Curabitur quis molestie massa. Maecenas ut dolor et ipsum tempor euismod quis quis velit. In quis augue malesuada dui pharetra rutrum. Fusce auctor, dui nec blandit pretium, eros felis mattis diam, vitae ullamcorper sapien sem vitae dui. 
+</p>]]></body>
+<date>03 Jan 2011 03:14:00:0 +0000</date>
+<timeZone>Europe/London</timeZone>
+<state>unpublished</state>
+<author>rahul</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags>Lisp Java Hate</tags>
+</blogEntry>

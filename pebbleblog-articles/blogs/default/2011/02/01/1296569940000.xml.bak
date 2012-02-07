@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>Welcome to the new website</title>
+<subtitle>LispNYC 3.0</subtitle>
+<excerpt><![CDATA[<p>We're nearing our 10th year and this is the third major rewrite of LispNYC!&nbsp; The new site is sporting:</p>
+<ul>
+    <li><a href="http://lispnyc.org/blog-signup">blogs (get yours now!)</a></li>
+    <li>dynamic updates from Meetup</li>
+    <li>updated GUI</li>
+</ul>]]></excerpt>
+<body><![CDATA[<p>We're nearing our 10th year and this is the third major rewrite of LispNYC!&nbsp; The new site is sporting:</p>
+<ul>
+    <li>updated GUI</li>
+    <li>dynamic updates from Meetup</li>
+    <li><a href="http://lispnyc.org/blog-signup">blogs (get yours now!)</a></li>
+    <li>SEO&nbsp;friendly</li>
+    <li>backward compatible with our old landing points</li>
+</ul>
+<p>Being written in Clojure, it allows us to easily leverage the interals of our new blog system to display recent updates.&nbsp;&nbsp; Also behind the scenes, we're using Meetup's API to display the most recent meeting and Enlive for both templating AND&nbsp;parsing Meetup's API response.</p>
+<p><strong>LispNYC goes to WAR</strong></p>
+<p>The website is packaged as a Java <strong>W</strong>eb <strong>A</strong>pplication a<strong>R</strong>chive.&nbsp;&nbsp; This means LispNYC is <em>just another webapp</em>.&nbsp;&nbsp; It's as simple as dropping it into a servlet container such as Tomcat or Jetty and watching it go.&nbsp;&nbsp; Actually the site is comprised of TWO webapps, one for the blog system and one for the main site, both happily working together.</p>
+<p>&nbsp;</p>]]></body>
+<date>01 Feb 2011 14:19:00:0 +0000</date>
+<timeZone>Europe/London</timeZone>
+<state>published</state>
+<author>heow</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags/>
+</blogEntry>

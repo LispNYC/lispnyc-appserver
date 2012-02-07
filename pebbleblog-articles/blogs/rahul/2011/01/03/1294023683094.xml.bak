@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>Welcome</title>
+<subtitle/>
+<excerpt/>
+<body><![CDATA[<p>
+Welcome to your new Pebble powered blog. Here are a few suggestions for getting started.
+</p>
+
+<ul>
+<li>Login to see the admin features of your blog. The default username is <code>username</code> and the password is <code>password</code>.</li>
+<li>Modify your <a href="viewBlogProperties.secureaction">blog properties</a></li>
+<li><a href="addBlogEntry.secureaction">Create a new blog entry</a>.</li>
+<li>Give out a link to your <a href="./rss.xml">RSS</a> feed.</li>
+<li>Remove the default user and create your own user on the <a href="viewUsers.secureaction">users page</a>.</li>
+<li>Take a look at the <a href="./help/index.html">online help</a>.</li>
+<li>Delete this blog entry when you're finished with it.</li>
+</ul>
+
+<p>
+Have fun!
+</p>]]></body>
+<date>03 Jan 2011 03:01:23:94 +0000</date>
+<timeZone>Europe/London</timeZone>
+<state>published</state>
+<author>username</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags/>
+</blogEntry>

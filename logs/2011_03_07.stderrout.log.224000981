@@ -1,0 +1,84 @@
+2011-03-07 17:33:43.366:INFO::jetty-7.2.2.v20101205
+2011-03-07 17:33:43.381:INFO::Deployment monitor /home/heow/prj-personal/lispnyc-jetty/webapps at interval 1
+2011-03-07 17:33:43.384:INFO::Deployable added: /home/heow/prj-personal/lispnyc-jetty/webapps/blog
+2011-03-07 17:33:45.031:INFO:blog:Loading Spring root WebApplicationContext
+2011-03-07 17:33:45,651 [main] WARN  org.acegisecurity.intercept.AbstractSecurityInterceptor  - Could not validate configuration attributes as the MethodDefinitionSource did not return a ConfigAttributeDefinition Iterator
+2011-03-07 17:33:45,675 [main] INFO  net.sourceforge.pebble.web.listener.PebbleContextListener  - Starting Pebble
+2011-03-07 17:33:45,750 [main] INFO  net.sourceforge.pebble.index.StaticPageIndex  - Reading index from disk
+2011-03-07 17:33:45,767 [main] WARN  net.sourceforge.pebble.domain.AbstractBlog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:33:45,767 [main] WARN  net.sourceforge.pebble.domain.Blog  - Error while starting e-mail subscription listener - add mail.jar and activation.jar to the server classpath if you want to enable this listener.
+2011-03-07 17:33:45,799 [main] INFO  net.sourceforge.pebble.domain.Blog  - Started blog with ID default
+2011-03-07 17:33:45,800 [main] INFO  net.sourceforge.pebble.web.listener.PebbleContextListener  - Pebble started in 125ms
+2011-03-07 17:33:45,800 [main] INFO  net.sourceforge.pebble.aggregator.NewsFeedContextListener  - Starting newsfeed updater
+2011-03-07 17:33:46.005:INFO::Deployment monitor /home/heow/prj-personal/lispnyc-jetty/contexts at interval 1
+2011-03-07 17:33:46.006:INFO::Deployable added: /home/heow/prj-personal/lispnyc-jetty/contexts/home.xml
+2011-03-07 17:33:46.590:INFO::Deployable added: /home/heow/prj-personal/lispnyc-jetty/contexts/move-meetings.xml
+2011-03-07 17:33:46.615:INFO::Deployable added: /home/heow/prj-personal/lispnyc-jetty/contexts/move-contact.xml
+2011-03-07 17:33:46.634:INFO::Deployable added: /home/heow/prj-personal/lispnyc-jetty/contexts/static.xml
+2011-03-07 17:33:46.655:INFO::Deployable added: /home/heow/prj-personal/lispnyc-jetty/contexts/move-shop.xml
+2011-03-07 17:33:46.680:INFO::Deployable added: /home/heow/prj-personal/lispnyc-jetty/contexts/move-home.xml
+2011-03-07 17:33:46.695:INFO::Deployable added: /home/heow/prj-personal/lispnyc-jetty/contexts/move-index.xml
+2011-03-07 17:33:46.726:INFO::Started SelectChannelConnector@0.0.0.0:8000
+uri: /soc/faq
+uri: /contact
+uri: /blog-signup
+uri: /soc
+uri: /soc/2006
+uri: /contact-thanks
+uri: /soc/2008
+uri: /meeting/rsvp
+uri: /meeting/rsvp-thanks
+uri: /shop
+uri: /soc/thanks
+uri: /soc/idea
+uri: /soc/2005
+uri: /soc/proposal
+uri: /blog-thanks
+uri: /about
+uri: /soc/student-responsibilities
+uri: /meetings
+uri: /soc/2009
+uri: /soc/2007
+Mar 7, 2011 5:33:52 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:33:53 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:33:53 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:33:53 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:33:53 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:33:53 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:33:53 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:33:53 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:33:53 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:33:53 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:33:53 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:33:53 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:33:53 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+Mar 7, 2011 5:33:53 PM net.sourceforge.pebble.index.StaticPageIndex readIndex
+INFO: Reading index from disk
+2011-03-07 17:33:57,155 [qtp1590505011-19] INFO  net.sourceforge.pebble.web.filter.BlogLookupFilter  - Setting Pebble URL to http://localhost:8000/blog
+2011-03-07 17:40:15.653:INFO::Graceful shutdown SelectChannelConnector@0.0.0.0:8000
+2011-03-07 17:40:15.671:INFO::Graceful shutdown o.e.j.w.WebAppContext{/blog,file:/home/heow/prj-personal/lispnyc-jetty/webapps/blog/},/home/heow/prj-personal/lispnyc-jetty/webapps/blog
+2011-03-07 17:40:15.671:INFO::Graceful shutdown o.e.j.w.WebAppContext{/,file:/home/heow/prj-personal/lispnyc-jetty/webapps/home/},/home/heow/prj-personal/lispnyc-jetty/webapps/home
+2011-03-07 17:40:15.671:INFO::Graceful shutdown o.e.j.s.h.MovedContextHandler{/wiki.clp,null}
+2011-03-07 17:40:15.671:INFO::Graceful shutdown o.e.j.s.h.MovedContextHandler{/contact.clp,null}
+2011-03-07 17:40:15.671:INFO::Graceful shutdown o.e.j.s.h.ContextHandler{/static,file:/home/heow/prj-personal/lispnyc-jetty/homebase-static/}
+2011-03-07 17:40:15.671:INFO::Graceful shutdown o.e.j.s.h.MovedContextHandler{/shop.clp,null}
+2011-03-07 17:40:15.671:INFO::Graceful shutdown o.e.j.s.h.MovedContextHandler{/home.clp,null}
+2011-03-07 17:40:15.671:INFO::Graceful shutdown o.e.j.s.h.MovedContextHandler{/index.html,null}
+2011-03-07 17:40:16,677 [Thread-2] INFO  net.sourceforge.pebble.aggregator.NewsFeedContextListener  - Stopping newsfeed updater
+2011-03-07 17:40:16,677 [Thread-2] INFO  net.sourceforge.pebble.web.listener.PebbleContextListener  - Stopping Pebble
+2011-03-07 17:40:16,685 [Thread-2] INFO  net.sourceforge.pebble.domain.Blog  - Stopped blog with ID default
+2011-03-07 17:40:16,685 [Thread-2] INFO  net.sourceforge.pebble.web.listener.PebbleContextListener  - Pebble stopped
+2011-03-07 17:40:16.685:INFO:blog:Closing Spring root WebApplicationContext

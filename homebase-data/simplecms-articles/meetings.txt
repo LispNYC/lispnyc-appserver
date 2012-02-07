@@ -1,0 +1,477 @@
+      title: Meetings
+   uri-path: /meetings
+    section: meetings
+     author: H Goodman
+       tags: meetings
+description: Past Meetings
+
+LispNYC meetings are always scheduled on the second Tuesday of every month, come on in you're always invited.
+
+<p><a href=" http://www.meetup.com/LispNYC/">Our current schedule is on Meetup</a>, here are the past meetings:</p>
+
+<p><span class="header">9 Nov 2010 - Hank Williams on The Death of the Relational Database</span></p>
+
+<p>People have begun to realize the enormous gap between the
+    relational database abstraction and the way people actually
+    think about information. To be clear, I am not suggesting
+    that relational databases will stop being used or that they
+    are going to go away, but that developers are going to stop
+    thinking of their data in relational database terms.
+</p>
+<p>Everyone from regular users to sophisticated developers
+    thinks about information in a pretty simple way. There are
+    objects, and there are connections or relationships between
+    objects. For example if you have two objects, a cup and a
+    table, the relationship between them might be "sitting on",
+    indicating that the cup is sitting on the table. What makes
+    this model so sturdy is that we can continuously add new
+    objects: tables, cups, chairs, floors, table cloths,
+    etc. And we can add infinite relationships, such as sitting
+    on, sitting under, covering, etc. Computer scientists, and
+    now, thanks to Facebook, everybody else, refers to this
+    structure as a graph. </p>
+<p>New data models such as the graph provide new ways to think
+    about persisting data. The death of the relational database
+    means the death of the relational database *abstraction* as
+    a way that programmers think about data. What programmers
+    need is to model data in the most natural way possible, and
+    we are starting to see storage abstractions that are closer
+    to how humans think instead of how computers need to. </p>
+<p>Listen to Hank Williams describe his Lisp system that
+    natively supports these higher level abstractions such
+    as authorization, event notification and user-executable
+    code inside the traditional domain of what used to be
+    called "the database". </p>
+
+<p><span class="header">21 Sep 2010 - AllegroGraph RDF Datastore Internals</span></p>
+
+<p>Graph Databases have become a hot topic within the growing NoSQL 
+movement because they provide Scalability, Flexibility, Social Network 
+Analytics, Event Processing, GeoSpatial Reasoning, and more.</p>
+
+<p>AllegroGraph has emerged as an industry leading high-performance, 
+persistent graph database that scales beyond billions of triples. 
+AllegroGraph provides unique Event Processing capabilities that are 
+being incorporated into new Semantic Web applications such as Amdocs' 
+AIDA platform.</p>
+
+<p>Gary Warren King describes AllegroGraph's, path finding, Social 
+Networking Analytics, GeoSpatial Reasoning and type inference details 
+all of which work together in AllegroGraph's novel scalability strategy. 
+There will be also be some speculative discussion about use cases for 
+Google's July 2010 acquisition of the largest Semantic Technology 
+Company - Metaweb/Freebase.</p>
+
+<ul>
+<li>1 hr presentation part 1, 4GB (mpg) <a href="ftp://lispnyc.org/meeting-assets/2010-09-21_allegrograph/GWK_AG.part1.mpg">ftp</a> <a href="ftp://lispnyc.org/meeting-assets/2010-09-21_allegrograph/GWK_AG.part1.mpg.torrent">torrent</a> 
+<li>1 hr presentation part 2, 450MB (mpg) <a href="ftp://lispnyc.org/meeting-assets/2010-09-21_allegrograph/GWK_AG.part2.mpg">ftp</a> <a href="ftp://lispnyc.org/meeting-assets/2010-09-21_allegrograph/GWK_AG.part2.mpg.torrent">torrent</a> 
+<li><a href="ftp://lispnyc.org/meeting-assets/2010-09-21_allegrograph/lispnyc-allegrograph.ppt">slides (ppt)</a>
+</ul>
+
+<p><span class="header">10 Nov 2009 - Simple Scheme for Tricky Differentials</span></p>
+
+<p>
+Gershom Bazerman demonstrates an novel and elegant approach to modeling 
+differential equations in functional languages.
+</p>
+
+<p>
+Lazy splines can provide a clean way of expressing ordinary differential 
+equations and deriving numeric solutions.  Unlike standard solvers, 
+equations can be expressed simply and declaratively, as first class data 
+in the target language (Scheme, Lisp, Haskell, etc.).  Differential 
+equations can thus be turned directly into  easily readable and 
+maintainable programs.
+</p>
+
+<p>Good turnout with about 30.</p>
+
+<ul>
+<li><a href="ftp://lispnyc.org/meeting-assets/2009-11-10_gershom/simple-scheme-tricky-diffs.mpg">1 hr 4GB presentation (mpg)</a>
+<li><a href="ftp://lispnyc.org/meeting-assets/2009-11-10_gershom/simple-scheme-tricky-diffs.mpg.torrent"> 1 hr 4GB presentation (torrent)</a>
+<li><a href="ftp://lispnyc.org/meeting-assets/2009-11-10_gershom/splines.ss"> slide show/source (.ss)</a>
+</ul>
+
+  <p><span class="header">9 June 2009 - Implementing AltLaw.org in Clojure</span></p>
+
+<p>Stuart Sierra has spent several years working on AltLaw and has gone
+through many technology options.  Here he discusses why he used Clojure
+and how it helped him out.
+</p>
+<p>Includes basic Clojure 101, in-depth in his testing framework and other technologies
+that he used Clojure for.
+</p>
+<p>Great turnout, 40 attendees and about 7 students looking at summer internships</p>
+
+<p>
+<ul>
+<li><a href="ftp://lispnyc.org/meeting-assets/2009-06-09_stuart/stuart-clojure-presentation.m4v">1.5 hour 1GB presentation (m4v)</a>
+<li><a href="ftp://lispnyc.org/meeting-assets/2009-06-09_stuart/stuart-clojure-presentation.mpg">1.5 hour 3GB presentation (mpg)</a>
+<li><a href="ftp://lispnyc.org/meeting-assets/2009-06-09_stuart/stuart-clojure-slides.pdf">slides (pdf)</a>
+<li><a href="http://altlaw.org/">Alt Law</a>
+</ul>
+</p>
+
+
+<p><span class="header">8 April 2008 - DefDoc - TEX-inspired, Lisp-based document processing system</span></p>
+
+<p>Lisp was originally designed for symbolic processing. Syntax
+  manipulation is the most commonly used aspect of Lisp's symbolic
+  processing capabilities currently.  The defmacro form provided by
+  Common Lisp allows one to define new language forms which have full
+  access to the symbolic information of the code within their
+  bodies. Within the macro definiton, the entire facilities of the
+  Common Lisp language may be used, including any other functions or
+  macros you have defined.  This model is extremely powerful, and many
+  advanced techniques for using it are explained in Paul Graham's book,
+  "On Lisp" </p>
+
+<p>
+<ul>
+<li><a href="http://common-lisp.net/project/defdoc/">DefDoc</a>
+</ul>
+</p>
+
+
+
+<p><span class="header">13 November 2007 - Clojure - A Dynamic Programming Language for the JVM</span></p>
+
+<p>Rich Hickey presented the culmination of many years of work into his new dynamic lisp-like language.</p>
+
+<p>Not only does it support a REPL, but everything is dynamically compiled into Java byte-code on the fly.  There really is no interpreter!</p>
+
+<p>Besides performance, Clojure supports run-time polymorphism and an impressive take on making concurrent programming easy by the use of software transactional memory.</p>
+
+<p>Almost 20 people attended, if you weren't one of them, then experience it online:</p>
+
+<p>
+<ul>
+<li><a href="ftp://lispnyc.org/meeting-assets/2007-11-13_clojure/clojure.mp3">audio coverage (mp3) 59MB</a>
+<li><a href="ftp://lispnyc.org/meeting-assets/2007-11-13_clojure/clojuretalk.pdf">presentation slides (PDF)</a>
+<li><a href="http://clojure.sourceforge.net/">Clojure Project</a>
+</ul>
+</p>
+
+<p><span class="header">11 September 2007 - ParenScript, a Rich Internet Application Lisp-to-Javascript Compiler</span></p>
+
+<p>Vladimir demoed his Parenscript suite of tools, it's more than "just" a javascript compiler, it's designed to create target-specific javascript on the fly.  Pretty nifty what you can do with a persistent HTTP connection to Hutchentoot.  There were 20 attendees.</p>
+
+<p>
+<ul>
+<li><a href="ftp://lispnyc.org/meeting-assets/2007-09-11_parenscript/parenscript.mp3">audio coverage (mp3) 33MB</a>
+<li><a href="ftp://lispnyc.org/meeting-assets/2007-09-11_parenscript/parenscript_presentation.tar.gz">presentation and demo code</a>
+<li><a href="http://common-lisp.net/project/parenscript">ParenScript</a>
+</ul>
+</p>
+
+
+
+
+<p><span class="header">14 August 2007 - Otter: A New Dialect of Lisp</span></p>
+
+<p>Perry outlined the implantation of Otter, his new lisp-like language.  Otter has a new compact notation for arrays/objects with an emphasis on compile-time performance.</p>
+
+<p>Impressive work with 30 in attendance.</p>
+
+<p>
+<ul>
+<li><a href="ftp://lispnyc.org/meeting-assets/2007-08-14_otter/IMGP1006.MOV">video coverage</a>
+<li><a href="ftp://lispnyc.org/meeting-assets/2007-08-14_otter/presentation.pdf">presentation slides (PDF)</a>
+<li><a href="http://www.otterlang.org/">OtterLang.org</a>
+</ul>
+</p>
+
+
+
+
+<p><span class="header">12 May 2007 - Anton Unplugged: Pontifications of the R6RS Process</span></p>
+
+<p>Anton presented, in workgroup style, his experiences with the R6RS process.  It was illuminating and humorous with probably more Scheme-political questions than technical ones.  Great meeting with 20 in attendance even considering the rain.</p>
+
+<!-- p>
+<ul>
+<li><a href="ftp://lispnyc.org/meeting-assets/2007-06-12_anton/IMGP1004.MOV">video coverage part 1</a>
+<li><a href="ftp://lispnyc.org/meeting-assets/2007-06-12_anton/IMGP1005.MOV">video coverage part 2</a>
+</ul>
+</p -->
+
+
+<p><span class="header">13 Feb 2007 - Meta-Compilation of Language Abstractions</span></p>
+
+<p>Pinku Surana presented his dissertation <i>"Meta-Compilation of Language Abstractions"</i> where he discussed the benefits of user-written compiler extensions.  This leads to simple APIs, optimizations, and the clean embedding of domain-specific languages.</p>
+
+<p>It was one of those discussions that really makes you think outside the defmacro box, as he takes the idea and expands it's scope to include embedded DSLs.  Very cool indeed with almost 15 attendees.</p>
+
+<p>
+<ul>
+<li><a href="ftp://lispnyc.org/meeting-assets/2007-02-13_pinku/SuranaThesis.pdf">thesis</a>
+<li><a href="ftp://lispnyc.org/meeting-assets/2007-02-13_pinku/thesis_talk.ppt">presentation (PPT)</a>
+<li><a href="ftp://lispnyc.org/meeting-assets/2007-02-13_pinku/IMGP1003.MOV">video coverage part 1</a>
+<li><a href="ftp://lispnyc.org/meeting-assets/2007-02-13_pinku/IMGP1004.MOV">video coverage part 2</a>
+
+</ul>
+</p>
+
+<p><span class="header">16 Nov 2006 - Tilton Algebra I Tutor</span></p>
+
+<p>Ken Tilton presented a live demo of his new product, an algebra tutor: The software is due to be released in three to six months, but the core 
+capabilities are there and it was previewed at the Lisp-NYC.  Almost 30 people attended.</p>
+
+<p>Review: Kenny, having been a teacher in the trenches of low-income school district, was in rare form.  His presentation was delivered in style and 
+the crowd of geeks pushed the limits of his very impressive algerbra tutoring software.
+</p>
+
+<p>
+<ul>
+<li><a href="ftp://lispnyc.org/meeting-assets/2006-11-15_algebra1/">video coverage of the second half of the event (technical errors)</a>
+</ul>
+</p>
+
+<p><span class="header">12 Sept 2006 - CLARITY</span></p>
+
+<p>Samantha Kleinberg, for the second year in a row, won and accepted a Google Summer of Code grant to extend her previous work of CL-GoDB and will be presenting her latest work: <b>"CLARITY: A Common Lisp Data Alignment Repository"</b></p>
+
+<p>Review: Although very technical, her presentation was well planned and presented with 20 people in attendance.
+</p>
+
+<p>
+<ul>
+<li><a href="ftp://lispnyc.org/meeting-assets/2006-09-12_clarity/LispNYC.ppt">presentation (PPT)</a>
+<li><a href="ftp://lispnyc.org/meeting-assets/2006-09-12_clarity/">video coverage of the event</a>
+</ul>
+</p>
+
+
+<p><span class="header">11 May 2006 - Practical Common Lisp </span></p>
+
+<p>Peter Seibel discusses his book &quot;Practical Common Lisp&quot; that was the #1 top selling Lisp book on Amazon, #2 in the Languages & Tools category, #4 in Programming, #11 in Computers & Internet, and #543 in all books.</p>
+
+<p>Review: The meeting was great!  Peter is a very entertaining and engaging
+speaker, his style isn't so much a prepared presentation, but rather a
+story-telling one. </p>
+
+<p>It was a good story too.  Although initially he talked about the
+creation of his book, it naturally led off into tangents helped along
+with audience participation.  He certainly has done his homework, is
+very good at Lisp advocacy and his consulting background has helped in
+weilding the all-powerful parens as a deadly weapon. :-)</p>
+
+<p>Also, we managed to fill up Trinity as it was the largest attendence
+we've ever had: 46 people!  Previous to that was Joel Spolsky.</p>
+
+<p><span class="header">11 Apr 2006 - Social Gathering</span></p>
+<p>Review: It was standing room only at the Westside Brewery, this is a good problem to have!</p>
+
+<p><span class="header">14 March 2006 - nyclisp: An Urban(e) Lisp for the Lazy and Static</span></p>
+
+<p> nyclisp (pronounced "Nice Lisp") is an interesting language
+    falling squarely between Scheme and Common Lisp in it's
+    avoidance of collisions when combining lazy evaluation and
+    side-effects.<p>
+
+<p>In a nutshell, it has:
+<ul>
+<li>13 primitives
+<li>no special-forms
+<li>both macros and types are first-class objects
+<li>utilizes Algo-like thunking by separating argument handling from evaluation for function dispatch
+</ul>
+</p>
+
+<p>This results in a language that is both more static AND more
+    dynamic than both Common Lisp and Scheme.</p>
+
+<p>Review: 20 people showed up for the intimate presentation which gave it a feeling of a workshop.  
+Matt did well and got great feedback.</p>
+
+<p><span class="header">14 Feb 2006 - Social Gathering</span></p>
+
+<p>Let's put some LOVE into LispNYC.org's "I [heart] ()" logo!  Yes, bring
+your special valentine over to Westside and enjoy romantic heart-warming
+tales from the Lisp masters of love.</p>
+
+<p>Geeks listened and brought their dates!</p>
+
+<p><span class="header">10 Jan 2006 - The Hyperreal Dictionary of Mathematics, Part II </span></p>
+
+<p>Joe Corneli, the "other half" of the HDM project, will
+    demonstrate HDM's new hypertext and AI authoring tool
+    Arxana, also known as "the scholium system".</p>
+    
+<p>Arxana is no ordinary hypertext tool, it draws heavily on
+    the ideas from Ted Nelson's Project Xanadu combining them
+    with an AI semantic network strategy and is implemented as a
+    a GNU emacs package.</p>
+
+<p>
+<ul>
+<li>http://planetmath.org/
+<li>http://planetx.cc.vt.edu/AsteroidMeta/The_Hyperreal_Dictionary_of_Mathematics
+</ul>
+</p>
+
+<p>Aside from technical glitches, the presentation went well with about 15 people in attendance, most of them being math geeks.</p>
+
+<p><span class="header">13 Dec 2005 - Holiday Party and Year Four Planning Session</span></p>
+
+<p>Ok, with the amount of people that showed up and the new Symbolics 3620 Lisp Machine, it was definitely a "party". Although there was much ado about LispM with "what else can it do?" there were still plenty of arguments about linear functions.</p>
+
+<p>With thanks to: Ray, Arcady, Stuart, Matt, Ben, Jay, Yusuke, Perry, Conrad, the Ladies of Lisp and many more which I'm sure I forgot!</p>
+
+<p>Special thanks to Richard M. Stallman, leader of the free software world and Lisp hacker extraordinaire. He who epitomizes the hacker-ethic-of-olde and with whom I personally have a deep and powerful appreciation for, go Richard we need more of you.</p>
+
+<p>
+<ul>
+<li><a href="ftp://lispnyc.org/meeting-assets/2005-12-13_party/">video coverage of the event</a>
+</ul>
+</p>
+
+<p><span class="header">8 Nov 2005 - The Next Generation of Language Design and why Lisp is Relevant </span></p>
+
+<p>Joel Spolsky of "Joel on Software" fame speaks on
+    the next-generation of language design and why Lisp is
+    relevant!</p>
+
+<p>Joel's area of expertise while working at Microsoft area was
+    "programmability" where he replaced the Excel macro language
+    (XLMs) with Excel Basic and provided an object-oriented
+    interface to Excel.  Excel Basic thus became "Visual Basic
+    for Applications" and it's OO interface became knows as OLE
+    Automation, a.k.a. IDispatch.</p>
+    
+<p>Joel has been writing about software development,
+    management, and business the the CEO of Fog Creek Software
+    and author of three books on the subject.</p>
+
+<p>
+<ul>
+<li><a href="ftp://lispnyc.org/meeting-assets/2005-11-08_spolsky/">video coverage of the presentation</a>
+<li><a href="http://www.joelonsoftware.com">Joel on Software</a>
+<li><a href="http://www.fogcreek.com">Fog Creek Software</a>
+<li><a href="http://www.amazon.com">Amazon (search under "Spolsky")</a>
+</ul>
+</p>
+
+<p>The meeting was one of the more popular ones, practicly bursting at the seams with over 40 in attendance, go Joell</p>
+
+<p><span class="header">11 Oct 2005 - Social Gathering</span></p>
+<p>A good time was had by all at the Westside Brewery.</p>
+
+<p><span class="header">13 Sep 2005 - How To Tell Stuff To A Computer,
+          The Enigmatic Art of Knowledge Representation</span></p>
+
+<p>Conrad Conrad Barski created this presentation in order to help demistify
+    the science of knowledge representation (KR for short) for
+    all who are interested in this still largely
+    underappreciated scientific field. Representing knowledge,
+    in itself, is not a very difficult thing to understand: It
+    is no mystery that computers are a great way to store and
+    retrieve information. But have you ever wondered where
+    things currently stand with the science behind computer
+    information?  Is the way we currently use information on
+    computers about as good as it can be? ...Or, can we expect
+    that there are major advancements still ahead of us?</p>
+
+<p>
+<ul>
+<li><a href="ftp://lispnyc.org/meeting-assets/2005-09-13_barski/">video coverage of the presentation</a>
+<li><a href="http://www.lisperati.com/">Lisperati</a>
+<li><a href="http://www.tellstuff.com/">online tutorial</a>
+</ul>
+</p>
+
+<p>Concrad's illustrated presentation...</p>
+
+<p>(content missing)</p>
+
+<p><span class="header">9 Aug 2005 - Social Gathering</span></p>
+<p>Our table reservation at Westside Brewery for 10 was a bit tight as 15 people
+ showed up in a very crowded back-room.  It was a good meeting with all the usua
+l characters in attendance with much discussion of math.</p>
+
+<p><span class="header">12 July 2005 - Hyperreal Dictionary of Mathematics</span
+></p>
+<p>Raymond Puzio presented his HDM project to a group of 30 people.  Although hi
+s NJ bus was over an hour late on arrival, he managed to start after a mere 20 m
+inute, which of course allowed us the opportunity for the practice Lisp Stand-up
+, where Jay Sulzberger did an excellent historical perspective of Lisp.</p>
+
+<p>Raymond's presentation was well received with the entire thing, including pre
+sentation, done in Emacs.</p>
+
+<ul>
+<li><a href="http://planetmath.org/">Planet Math</a>
+<li><a href="http://planetx.cc.vt.edu/AsteroidMeta/The_Hyperreal_Dictionary_of_M
+athematics">Hyperreal Dictionary of Mathematics</a>
+<li>video available shortly
+</ul>
+
+<p><span class="header">14 June 2005 - Lisp and the Lambda Calculus </span></p>
+<p><a href="http://www.appsolutions.com/anton/lang.html">Anton van Straaten</a> 
+re-presented his fascinating work with Lambda Calculus to a crowded room of abou
+t 40 people.</p>
+
+<p>The presentation was well executed and he showed, interactively in his Java S
+cript based web environment, how to create a system of functions and numbers usi
+ng Church Numerals and lambda calculus reductions.  This is a fascinating must-s
+ee.</p>
+
+<ul>
+<li>video available shortly
+</ul>
+
+
+<p><span class="header">10 May 2005 - Axiom</span></p>
+
+<p>Timothy Daly presented the entire 30 year history of Axiom, a general-purpose
+ computer algebra system to a crowd of 30.</p>
+<p>Axiom itself is has a long and interesting history coming from a time when it
+ took over a week to build the multi-layered 3 million-line system.  Tim and his
+ gang are breathing new life into Axiom by adding GUI front-ends and graphic out
+put.</p>
+<p>Very interesting presentation at almost 3 hours in length.</p>
+
+<ul>
+<li><a href="http://savannah.nongnu.org/projects/axiom">Axiom</a>
+<li><a href="http://axiom-developer.org/">Axiom Developer</a>
+<li><a href="http://axiom-developer.org/zope/mathaction/ReduceWiki">Axiom W
+iki</a>
+<li>video available shortly
+</ul>
+
+
+<p><span class="header">12 April 2005 - WordsEye: Creating 3D scenes from Textua
+l Descriptions</span></p>
+<p>Bob Coyne presented a preview of WordsEye, a beautiful system that creates 3D
+ hi and low rendered scenes from English descriptions.</p>
+<p>The presentation was slick and spooky close to "rocket science" along with some of the interesting problems they ran into when creating technology of this scale.  With applications going from simple greeting cards to full-fledged illustrated books, the technology they developed at AT&T is being put to good use. </p>
+
+<ul>
+<li><a href="http://www.lispnyc.org/assets/coyne-we-preview.jpg">WordsEye screen-shot</a>
+<li>video available shortly
+</ul>
+
+<p><span class="header">8 March 2005 - Social Gathering</span></p>
+<p>Met at Westside Brewery and discussed which, if any projects, we should re-package for Debian after having almost 200 Lisp packages abandoned.</p>
+
+<p><span class="header">8 February 2005 - Marco Antoniotti</span></p>
+<p>Marco Antoniotti presented his many different <a href="http://bioinformatics.nyu.edu/~marcoxa/common-lisp/code.html">common-lisp.net</a> projects.</p>
+
+<p>Although he presented many different projects, the one that stands out most is <a href="http://www.cliki.net/DEFINER">definer</a>, his generalized def macro which can be used to create anything from CLOS objecs to N-dimensional arrays using a simplified (Python-like) syntax.  Marco's Lisp enumerations are based on the same ease of use and philosophy of consistency.</p>
+
+<ul>
+<li><a href="http://bioinformatics.nyu.edu/~marcoxa/">Marco's Page</a>
+<li><a href="http://common-lisp.net/project/definer/">definer</a>
+<li><a href="http://bioinformatics.nyu.edu/~marcoxa/common-lisp/code/definer/definer.lisp">definer code</a>
+<li><a href="http://www.cliki.net/DEFINER">definer examples</a>
+<li><a href="http://common-lisp.net/project/cl-enumeration">enumerations</a>
+<li><a href="http://bioinformatics.nyu.edu/~marcoxa/common-lisp/code.html">all code samples</a>
+</ul>
+
+<p><span class="header">11 January 2005 - Social Gathering</span></p>
+<p>Met at Westside Brewery and discussed what LispNYC can do for the ALU's CLRFI effort.</p>
+
+<ul>
+<li><a href="http://clrfi.alu.org/">CLFRI</a>
+</ul>
+

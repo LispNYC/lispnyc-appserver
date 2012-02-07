@@ -1,0 +1,42 @@
+      title: Contact LispNYC
+   uri-path: /contact
+    section: home
+     author: H Goodman
+       tags: website feedback
+description: Contact LispNYC
+
+
+<form method="post" action="/contact">
+<input type="hidden" name="subject" value="website feedback">
+<input type="text" name="jobtitle" width="20" style="display: none;">
+<center>                          
+<table border="0" width="100%"><tbody>
+<tr><td valign="top"><p>your email:</p></td>
+    <td valign="top"><p><input type="text" name="email" width="60"></p></td></tr>
+
+<tr><td valign="top"><p>your name:</p></td>
+    <td valign="top"><p><input type="text" name="from" width="60"></p></td></tr>
+
+<tr><td  valign="top"><p>message:</p></td>
+    <td><p><textarea wrap="virtual" name="message" rows="16" cols="60"></textarea></p></td></tr>
+
+</table>
+
+<table border="0"><tbody>
+
+<tr><td valign="top" width="50%"><p>Are you interested in joining the LispNYC.org mailing list?<br></p></td>
+    <td valign="top"><p class="body"><input type="radio" value="yes" name="email_list" checked="checked">Yes, sign me up!<br><input type="radio" value="no" name="email_list">No, I'd rather not.</p></td></tr>
+<tr><td></td><td><p><a href="#privacy">(we respect your privacy!)</a></p></td></tr>
+
+<tr><td><br></td></tr>
+
+<tr><td></td><td><input type="submit" value=" send message "></td></tr>
+                                               
+</tbody></table></center></form>
+
+<br>
+        
+<table cellpadding="2" cellspacing="2" border="0" width="100%"><tbody>
+<tr><td valign="top"><p><a name="privacy">privacy policy</a>:</p></td>
+
+<td valign="top"><p>Your personal information will be treated with the upmost respect which is why, unless you specified otherwise above, LispNYC.org will <b>not divulge to anybody, for any reason, any information</b> that you provide to us.</p></td></tr></tbody></table>
