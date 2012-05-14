@@ -28,7 +28,7 @@ The [Jetty Webserver](http://jetty.codehaus.org/jetty/contains) executes THREE w
 * [Pebble Blog](http://pebble.sourceforge.net/)
 * [JSP Wiki](http://www.jspwiki.org/)
  
-Because the initial homepage of LispNYC is dynamic, the Homebase Webapp is the *main* application and thus runs as the main context.  This means that by default it intercepts all requests including ones for things like CSS, HTML and images ...which is not necessarially what we want 100% of the time.
+Because the initial homepage of LispNYC is dynamic, the Homebase Webapp is the *main* application and thus runs as the main context.  This means that by default it intercepts all requests including ones for things like CSS, HTML and images ...which is not what we want all the time.
 
 There are several techniques to handle this, the one we chose is to set up a seperate context for static files and serve it up there.  It's also a scaling technique: using Apache or a CDN to serve up static files.
 
