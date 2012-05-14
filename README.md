@@ -34,9 +34,9 @@ There are several techniques to handle this, the one we chose is to set up a sep
 
     uri path         handled by
     --------         ----------
-    /static/         Jetty
-    /blog/           Pebble Webapp
-    /wiki/           JSP Wiki
+    /static/         Jetty WebServer
+    /blog/           Pebble Blog WebApp
+    /wiki/           JSP Wiki WebApp
     /*               Homebase Webapp
 
 # Pebble Details
