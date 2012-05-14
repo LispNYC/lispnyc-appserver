@@ -10,11 +10,11 @@ and JSP Wiki webapps.
 ## Requirements
 
   * Java
-  * deploy the [LispNYC Homebase Webapp](https://github.com/lispnyc/lispnyc-homebase)
+  * deploy the [LispNYC Homebase Webapp](https://github.com/lispnyc/lispnyc-homebase-app)
 
 ## Running
 
-After the [LispNYC Homebase Webapp](https://github.com/lispnyc/lispnyc-homebase) has been built and deployed here, just run:
+After the [LispNYC Homebase Webapp](https://github.com/lispnyc/lispnyc-homebase-app) has been built and deployed here, just run:
 
   ./start
   
@@ -24,7 +24,7 @@ Then hit [http://localhost:8000](http://localhost:8000)
 
 The [Jetty Webserver](http://jetty.codehaus.org/jetty/contains) executes THREE webapps:
 
-* [LispNYC Homebase Webapp](https://github.com/lispnyc/lispnyc-homebase) 
+* [LispNYC Homebase Webapp](https://github.com/lispnyc/lispnyc-homebase-app) 
 * [Pebble Blog](http://pebble.sourceforge.net/)
 * [JSP Wiki](http://www.jspwiki.org/)
  
