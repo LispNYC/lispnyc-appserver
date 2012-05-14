@@ -1,7 +1,7 @@
 
 <img src="http://lispnyc.org/static/images/theme-lispnyc.png" alt="lispnyc logo" title="LispNYC's webserver" />
 
-# LispNYC's Webapplication Server
+# LispNYC's Web Application Server
 
 The highly acclaimed lightweight Jetty webserver is configured for the
 use with our LispNYC Homebase Webapp, also included is the Pebble Blog
