@@ -98,26 +98,33 @@ body {
 
 #contentLeft {
   float: left;
-  font-size: 1.0em;
+  font-size: 12px;
   width: 75%;
   margin-bottom: 1em;
   color: #000;
   background: #e9e9ff url("./images/corner_sub_tr-logo.png") no-repeat top right;  
 }
 
+#contentLeft p {  
+  margin: 0.2em 1.2em 1.0em 1.2em;
+  font-size: 12px;
+  line-height: 1.8em;
+}
+
 #contentRight {
   float: right;
-  font-size: 0.75em;
+  font-size: 10px;
   width: 24%;
   color: #000;
   background: #a9a9ff url("./images/corner_sub_tl.gif") no-repeat top left;
 }
 
-#content p {  
+#contentRight p {  
+  font-size: 11px;
   margin: 0.2em 1.2em 1.0em 1.2em;
-  font-size: 0.8em;
-  line-height: 1.8em;
+  line-height: 16px;
 }
+
 
 #content a {  
   text-decoration: none;
@@ -293,4 +300,41 @@ a img {
 border-style: none;
 display: block;
 margin: 0 auto;
+}
+
+/* --- news --- */
+table#news {
+  padding-left: 20px;
+}
+
+/* --- news pager --- */
+p.pager {
+  padding-top: 20px;
+}
+
+#contentLeft p a.pager-better,
+#contentLeft p a.pager-page,
+#contentLeft p a.pager-newer {
+  font-size: 14px;
+  border-bottom: none;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+p .pager-current {
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 6px;
+  padding-left: 6px;
+}
+
+/* --- wiki form --- */
+
+.wikiform {
+    padding-left: 20px;
+}
+
+.wikitable,
+.wikitable td {
+    border: 0px;
 }
