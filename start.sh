@@ -29,10 +29,10 @@ fi
 
 
 # NOTE: useragent is set for google group access, otherwise we're locked out
-AGENT="\"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:10.0.1) Gecko/20100101 Firefox/10.0.1\""
-if [ -d "JAVA_HOME/bin/java" ] ; then 
+AGENT="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:10.0.1) Gecko/20100101 Firefox/10.0.1"
+if [ -d "$JAVA_HOME/bin/java" ] ; then 
   echo "JAVA_HOME is at ${JAVA_HOME}..."
-  $JAVA_HOME/bin/java -Dhttp.agent=$AGENT -jar start.jar
+  ${JAVA_HOME}/bin/java -Dhttp.agent="${AGENT}" -jar start.jar
 else
- java -Dhttp.agent=$AGENT -jar start.jar 
+ java -Dhttp.agent="${AGENT}" -jar start.jar 
 fi
