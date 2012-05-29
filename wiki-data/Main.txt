@@ -1,6 +1,14 @@
-!!!Congratulations Dude!
+[FrontPage]
 
-You have successfully installed [JSPWiki|About].
+[Meetings]
+
+[Contact] [ContactThanks]
+
+[Rsvp] [RsvpThanks]
+
+[RecruitExperts]
+
+!!! JSP Wiki
 
 You have some pages set up for you:
 
@@ -28,4 +36,3 @@ You have some pages set up for you:
   on the top left corner of the browser window, or [click here|SystemInfo].
 
 Good luck, and thanks for choosing JSPWiki!
-
