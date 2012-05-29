@@ -1,0 +1,6 @@
+[{FormOpen form='sprform' hide='onsuccess' method='post' submit='/rsvp'}]
+
+| your name | [{FormInput type='text' name='name'}] (first AND last name)
+|           | [{FormInput type='submit' value='send' name='submit'}]
+
+[{FormClose}]

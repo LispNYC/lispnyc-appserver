@@ -1,0 +1,8 @@
+[{FormOpen form='sprform' hide='onsuccess' method='post' submit='/contact'}]
+
+| email   | [{FormInput type='text' name='email'}]  (privacy ensured)
+| subject | [{FormInput type='text' name='subject'}]
+| message | [{FormInput type='text' name='message'}]
+|         | [{FormInput type='submit' value='send' name='submit'}]
+
+[{FormClose}]
