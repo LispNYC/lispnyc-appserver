@@ -1,5 +1,7 @@
-foo
+LispNYC was not selected as a mentoring organization this year, however related organizations DID get in and there is plenty of work to be done.  Visit their sites for info:
 
-bar
+* [Clojure/core|http://www.google-melange.com/gsoc/org/google/gsoc2012/clojure]
+* [Haskell|http://www.google-melange.com/gsoc/org/google/gsoc2012/haskell]
+* [OpenCog|http://www.google-melange.com/gsoc/org/google/gsoc2012/opencog]
 
-bazbert
+LispNYC is devoted to helping where we can, if you have lisp/functional-related questions or are looking for a mentor, just ping us.
