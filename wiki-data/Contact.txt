@@ -2,7 +2,8 @@
 
 | email   | [{FormInput type='text' name='email'}]  (privacy ensured)
 | subject | [{FormInput type='text' name='subject'}]
-| message | [{FormInput type='text' name='message'}]
+| message | [{FormTextarea name='message' rows=5 cols=40}]
 |         | [{FormInput type='submit' value='send' name='submit'}]
+
 
 [{FormClose}]

@@ -338,3 +338,8 @@ p .pager-current {
 .wikitable td {
     border: 0px;
 }
+
+/* --- spam bait --- */
+input[name='nbf_jobtitle'] {
+    display: none;
+}

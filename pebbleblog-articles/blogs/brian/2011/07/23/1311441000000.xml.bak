@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>The clojure web-dev ecosystem just gets better and better</title>
+<subtitle/>
+<excerpt/>
+<body><![CDATA[<p>I was just working on making a few small changes to LispNYC's website. Did you know <a href="http://github.com/heow/lispnyc-homebase">the full source to our site</a>, in Clojure, is available on github? Anyhow, while I was working with it, I decided to streamline stuff by moving to the relatively recent <a href="https://github.com/weavejester/lein-ring">lein-ring plugin</a>.</p>
+<p>The plugin is simply great. By abstracting away common web development requirements, it allowed me to remove explicit servlet declarations, the 'main' function, dependencies on 2 ring libraries that really should have been development dependencies in the first place, and the need for a separate plugin to generate war files. If you're doing web development in Clojure, I highly suggest you check it out. James Reeves (the author of lein-ring and many other clojure web-development technologies) has a great and simple <a href="http://weavejester.com/getting-started-with-lein-ring">instructions for getting started</a>. If you're using compojure (like we are!) realize that <tt>defroutes</tt> generates a ring handler, so you can just use that as the symbol you hand off to the plugin (though for more recent versions of compojure you probably want to use the result of <tt>compojure.handler/site)</tt>.</p>]]></body>
+<date>23 Jul 2011 17:10:00:0 +0000</date>
+<timeZone>America/New_York</timeZone>
+<state>published</state>
+<author>brian</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags/>
+</blogEntry>

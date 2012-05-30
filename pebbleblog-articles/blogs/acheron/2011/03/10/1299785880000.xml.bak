@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>Compiling a Hello World program</title>
+<subtitle/>
+<excerpt><![CDATA[<p>In this blog post I explain how to compile a &quot;Hello World&quot; program to a JavaScript program that can be executed in the browser.</p>]]></excerpt>
+<body><![CDATA[<p>In this blog post I explain how to compile a &quot;Hello World&quot; program to a JavaScript program that can be executed in the browser.</p>
+<p>This is &quot;Hello World&quot; in Acheron Lisp:</p>
+<p>&nbsp;</p>
+<pre>
+(defun main ()
+  (write &quot;Hello World!&quot;))
+
+(defnative write (str) base #{
+  document.write(str);
+}#)
+</pre>
+<p>&nbsp;</p>
+<p>The <em>main</em> function will be called when the program starts executing. There is currently no <em>write</em> function in the standard library of Acheron Lisp, but we can easily define this function as a <em>native function</em>. The function declaration part of  native functions is like normal functions defined with <em>defun</em>, but the function body of  native functions consists of JavaScript code. Since JavaScript usage might depend on a particular browser implementation, native functions can be defined for each browser variant. In the example above, the write function is valid for any browser variant, denoted with the <em>base</em> keyword. I will explain native functions and the variant concept in a later blog post in more details.</p>
+<p>The example program aboved is saved in the file <em>HelloWorld.lisp</em>. For simplicity, I assume that this file is stored in the folder <em>/files</em>. <br />
+To compile this program to JavaScript you have to first change the directory to the folder where you unzipped the compiler. To compile the program you have to type the following command:</p>
+<pre>
+java -cp acheron.jar de.defmacro.acheron.compiler.CompilerMain 
+     /files/HelloWorld.lisp -o /files
+</pre>
+<p>If you have more than one source file to compile you can list them after ...CompilerMain. The folder where to put the compiled files is specified with the <em>-o</em> argument.</p>
+<p>&nbsp;</p>
+<p>If everything goes well the compiled *.js files are stored in the folder <em>/files</em>. You will get a JavaScript file for each supported browser variant. In the current version of the compiler you  will get these files:</p>
+<ul>
+    <li>compiled_file_IE_v7.js</li>
+    <li>compiled_file_IE_v7_compressed.js</li>
+    <li>compiled_file_IE_v8.js</li>
+    <li>compiled_file_IE_v8_compressed.js</li>
+    <li>compiled_file_MOZILLA_gecko1.8.js</li>
+    <li>compiled_file_MOZILLA_gecko1.8_compressed.js</li>
+    <li>compiled_file_MOZILLA_gecko1.9.js</li>
+    <li>compiled_file_MOZILLA_gecko1.9_compressed.js</li>
+</ul>
+<p>The compiler addtionally outputs a compressed version for each browser variant.</p>
+<p>&nbsp;</p>
+<p>For a future version there is a automatic browser detection planned. The browser detection will then load the appropriate JavaScript file for the detected browser. Having a separate variant for each browser reduces the runtime overhead for dynamic browser detection. This is the reason, why the compiler outputs a distinct JavaScript file for each browser variant.</p>
+<p>If we want to execute the compiled file, we have to manually load it in a HTML file, for example like this:</p>
+<pre>
+&lt;html&gt; 
+  &lt;head&gt;
+   &lt;script type=&quot;text/javascript&quot; src=&quot;compiled_file_IE_v7_compressed.js&quot;&gt;
+   &lt;/script&gt; 
+  &lt;/head&gt;
+  &lt;body onload=&quot;acheron.initFunction();&quot;&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<p>Here the version for Internet Explorer 7 is loaded. It doesn't matter which file we load here, because they are all the same (for the example program). By calling the <em>initFunction()</em> we start executing the compiled <em>main</em> function.</p>
+<p>&nbsp;</p>
+<p>You can download the example program here:<br />
+<a href="http://acheron.defmacro.de/helloWorld/HelloWorld.lisp">Source file</a><br />
+And test the compiled application here:<br />
+<a href="http://acheron.defmacro.de/helloWorld/HelloWorld.html">HTML file</a></p>]]></body>
+<date>10 Mar 2011 19:38:00:0 +0000</date>
+<timeZone>CET</timeZone>
+<state>published</state>
+<author>17</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags/>
+</blogEntry>

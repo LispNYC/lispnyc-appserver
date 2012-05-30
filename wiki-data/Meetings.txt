@@ -1,0 +1,8 @@
+LispNYC holds meetings on the second Tuesday of every month, they are free and open to the public.
+
+Our past meeting details, as well as videos, can be found:
+
+* Meetings: [meetup.lispnyc.org|http://meetup.lispnyc.org|target='_blank']
+* Video: [video.lispnyc.org|http://video.lispnyc.org|target='_blank']
+
+In short order, the content will be expanded here.

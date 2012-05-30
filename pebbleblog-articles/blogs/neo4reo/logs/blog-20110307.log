@@ -21,5 +21,4 @@
 114.22.42.37 - - [07/Mar/2011:20:05:25 +0000] "GET /welcome" 404 - - "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.127 Safari/534.16"
 218.213.130.199 - - [07/Mar/2011:21:20:12 +0000] "GET /" 200 - - "ichiro/4.0 (http://help.goo.ne.jp/door/crawler.html)"
 218.213.130.199 - - [07/Mar/2011:21:28:57 +0000] "GET /rss.xml" 200 - - "ichiro/4.0 (http://help.goo.ne.jp/door/crawler.html)"
-0:0:0:0:0:0:0:1 - - [07/Mar/2011:22:49:20 +0000] "GET /viewBlogProperties.secureaction" 200 - "http://localhost:8000/blog/viewBlogs.secureaction" "Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.15) Gecko/20110303 Ubuntu/10.04 (lucid) Firefox/3.6.15"
-0:0:0:0:0:0:0:1 - - [07/Mar/2011:22:49:32 +0000] "GET /viewBlogProperties.secureaction" 200 - "http://localhost:8000/blog/neo4reo/viewBlogProperties.secureaction" "Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.15) Gecko/20110303 Ubuntu/10.04 (lucid) Firefox/3.6.15"
+66.249.71.206 - - [07/Mar/2011:23:52:08 +0000] "GET /2011/03/04" 200 - - "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"

@@ -1,0 +1,26 @@
+[{FormOpen form='blogsignup' hide='onsuccess' method='post' submit='/blog-signup'}]
+
+Dear LispNYC,
+
+I love Lisp-technologies and would appreciate a space to tell my story in the form of a blog.  I understand LispNYC is an active community and promise try and update it monthly.
+
+My name is [{FormInput type='text' name='name'}] you can reach me by email at [{FormInput type='text' name='email'}].  I'd like my alphanumeric username to be [{FormInput type='text' name='username'}] and the blog name to be &nbsp;&nbsp;&nbsp;&nbsp;http://lispnyc.org/blog/[{FormInput type='text' name='blogname'}]/
+
+[http://lispnyc.org/static/images/blog-example-small.png]
+
+As seen in the example above, I'd like my blog title to be [{FormInput type='text' name='title'}], the description [{FormInput type='text' name='description'}] and my bio to read [{FormInput type='text' name='bio'}].
+
+The graphic I like best is:
+
+[{FormInput type='radio' name='theme' value='barsky-1'}][http://lispnyc.org/static/images/theme-barsky-1.png]
+
+[{FormInput type='radio' name='theme' value='barsky-2'}][http://lispnyc.org/static/images/theme-barsky-2.png]
+
+[{FormInput type='radio' name='theme' value='lispnyc'}][http://lispnyc.org/static/images/theme-lispnyc.png]
+
+[{FormInput type='radio' name='theme' value='mit'}][http://lispnyc.org/static/images/theme-mit.png]
+
+[{FormInput type='radio' name='theme' value='other'}]other, url to image: [{FormInput type='text' name='theme_other'}]
+
+[{FormInput type='submit' value=' start me blogging! ' name='submit'}]
+[{FormClose}]

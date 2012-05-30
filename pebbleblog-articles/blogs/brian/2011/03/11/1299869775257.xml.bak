@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>The Summer of Lisp rolls forward</title>
+<subtitle/>
+<excerpt/>
+<body><![CDATA[
+<p>So today is the day we finalize our application for Google Summer of
+Code. Fingers crossed, next week I'll be able to blog about how after a
+two year absence, LispNYC will have been accepted into the program. I
+really hope we are, because the projects that are shaping up look great
+and could go a long way in both helping the Lisp community and
+burnishing its reputation. As a sometimes-computer-musician, I'm
+particularly excited by the involvement of <a
+href="http://project-overtone.org/">Project Overtone</a>. It looks like
+David Liebke of <a href="http://incanter.org/">Incanter</a> is getting
+involved as well.</p>
+
+<p>We're also happy to announce additional support from our friends at <a
+href="http://aws.amazon.com/solutions/solution-providers/brandorr/">Brandorr
+Group</a>. To show their commitment to open-source, Brandorr has agreed
+to offer a free Business Class Virtual Machine on Amazon Web Services
+to any LispNYC students for use on their Summer of Code project.</p>]]></body>
+<date>11 Mar 2011 18:56:15:257 +0000</date>
+<timeZone>America/New_York</timeZone>
+<state>published</state>
+<author>brian</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags/>
+<comment>
+<title>Re: The Summer of Lisp rolls forward</title>
+<body><![CDATA[<p>We'll get in next year, plus we can fund a proposal or two and can offer a minimum number at the get-go.</p>]]></body>
+<author>Heow Goodman</author>
+<email>heow@lispnyc.org</email>
+<website>http://lispnyc.org:80/blog/brian/authors/heow/</website>
+<avatar/>
+<ipAddress>68.175.66.95</ipAddress>
+<date>08 Apr 2011 13:08:23:831 +0000</date>
+<state>approved</state>
+<authenticated>true</authenticated>
+</comment>
+</blogEntry>

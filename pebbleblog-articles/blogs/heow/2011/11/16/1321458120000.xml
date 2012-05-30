@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>Compojure Cookies Example</title>
+<subtitle>Sessionless Cookies in Compojure</subtitle>
+<excerpt><![CDATA[<p>This demonstrates the use of session-less cookies in Compojure, with working examples.</p>]]></excerpt>
+<body><![CDATA[<p><img alt="cookie" src="https://a248.e.akamai.net/assets.github.com/img/f39849ec59db12cd164e930bf4b4a913c0312c51/687474703a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f342f34322f436f6f6b69652e6769662f31323070782d436f6f6b69652e676966" /></p>
+<p>Clojure, being a relatively new language, uses an even newer web framework: <a title="Compojure" href="https://github.com/weavejester/compojure">Compojure</a>.</p>
+<p>Compojure, still sporting a sub 1.0 version, being under active development and reduced to a thin veneer over <a title="Ring" href="http://github.com/mmcgrana/ring">Ring</a> may prove challenging for developers.  If for any reason because many examples and tutorials are just outdated.</p>
+<p>This demonstrates the use of session-less cookies in Compojure, with working examples.</p>
+<h3>The Bare Essentials</h3>
+<p><a title="Example 1" href="https://github.com/heow/compojure-cookies-example/blob/master/src/example1.clj">Example 1</a>, a simple hello-world application is suitable for running on <a title="Getting Started with Clojure on Heroku/Cedar" href="http://devcenter.heroku.com/articles/clojure">Heroku</a>.</p>
+<div class="highlight">
+<pre><span class="p">(</span><span class="nf">ns</span><span class="w"> </span><span class="nv">example1</span>
+<span class="w">  </span><span class="p">(</span><span class="no">:use</span><span class="w"> </span><span class="p">[</span><span class="nv">ring.adapter.jetty</span><span class="w"> </span><span class="no">:only</span><span class="w"> </span><span class="p">[</span><span class="nv">run-jetty</span><span class="p">]]</span>
+
+<span class="w">        </span><span class="p">[</span><span class="nv">compojure.core</span><span class="w">     </span><span class="no">:only</span><span class="w"> </span><span class="p">[</span><span class="nv">defroutes</span><span class="w"> </span><span class="nv">GET</span><span class="p">]]))</span>
+
+<span class="p">(</span><span class="nf">defroutes</span><span class="w"> </span><span class="nv">routes</span>
+
+<span class="w">  </span><span class="p">(</span><span class="nf">GET</span><span class="w">  </span><span class="s">&quot;/&quot;</span><span class="w"> </span><span class="p">[]</span><span class="w"> </span><span class="s">&quot;Hi there&quot;</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nf">defn</span><span class="w"> </span><span class="nv">-main</span><span class="w"> </span><span class="p">[]</span>
+
+<span class="w">  </span><span class="p">(</span><span class="nf">run-jetty</span><span class="w"> </span><span class="nv">routes</span><span class="w"> </span><span class="p">{</span><span class="no">:port</span><span class="w"> </span><span class="p">(</span><span class="nf">if</span><span class="w"> </span><span class="p">(</span><span class="nf">nil?</span><span class="w"> </span><span class="p">(</span><span class="nf">System/getenv</span><span class="w"> </span><span class="s">&quot;PORT&quot;</span><span class="p">))</span><span class="w"> </span>
+
+<span class="w">                             </span><span class="mi">8000</span><span class="w"> </span><span class="c1">; localhost or heroku?</span>
+<span class="w">                             </span><span class="p">(</span><span class="nf">Integer/parseInt</span><span class="w"> </span><span class="p">(</span><span class="nf">System/getenv</span><span class="w"> </span><span class="s">&quot;PORT&quot;</span><span class="p">)))})</span><span class="w"> </span><span class="p">)</span>
+
+</pre>
+</div>
+<p>After you check out the project from <a title="GitHub Project" href="https://github.com/heow/compojure-cookies-example">GitHub</a>, it's easy to see in action:</p>
+<pre><code>$ lein run -m example1 </code></pre>
+<h3>Middleware is Features</h3>
+<p><a title="Example 2" href="https://github.com/heow/compojure-cookies-example/blob/master/src/example2.clj">Example 2</a>, the addition of a very simple form requires some changes.</p>
+<div class="highlight">
+<pre><span class="p">(</span><span class="nf">ns</span><span class="w"> </span><span class="nv">example2</span>
+<span class="w">  </span><span class="p">(</span><span class="no">:use</span><span class="w"> </span><span class="p">[</span><span class="nv">ring.adapter.jetty</span><span class="w">             </span><span class="no">:only</span><span class="w"> </span><span class="p">[</span><span class="nv">run-jetty</span><span class="p">]]</span>
+
+<span class="w">        </span><span class="p">[</span><span class="nv">compojure.core</span><span class="w">                 </span><span class="no">:only</span><span class="w"> </span><span class="p">[</span><span class="nv">defroutes</span><span class="w"> </span><span class="nv">GET</span><span class="w"> </span><span class="nv">POST</span><span class="p">]]</span>
+<span class="w">        </span><span class="p">[</span><span class="nv">ring.middleware.params</span><span class="w">         </span><span class="no">:only</span><span class="w"> </span><span class="p">[</span><span class="nv">wrap-params</span><span class="p">]]))</span>
+
+<span class="p">(</span><span class="nf">defroutes</span><span class="w"> </span><span class="nv">routes</span>
+<span class="w">  </span><span class="p">(</span><span class="nf">POST</span><span class="w"> </span><span class="s">&quot;/&quot;</span><span class="w"> </span><span class="p">[</span><span class="nv">name</span><span class="p">]</span><span class="w"> </span><span class="p">(</span><span class="nf">str</span><span class="w"> </span><span class="s">&quot;Thanks &quot;</span><span class="w"> </span><span class="nv">name</span><span class="p">))</span>
+
+<span class="w">  </span><span class="p">(</span><span class="nf">GET</span><span class="w">  </span><span class="s">&quot;/&quot;</span><span class="w"> </span><span class="p">[]</span><span class="w"> </span><span class="s">&quot;&lt;form method='post' action='/'&gt; What's your name? &lt;input type='text' name='name' /&gt;&lt;input type='submit' /&gt;&lt;/form&gt;&quot;</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nf">def</span><span class="w"> </span><span class="nv">app</span><span class="w"> </span><span class="p">(</span><span class="nf">wrap-params</span><span class="w"> </span><span class="nv">routes</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nf">defn</span><span class="w"> </span><span class="nv">-main</span><span class="w"> </span><span class="p">[]</span>
+
+<span class="w">  </span><span class="p">(</span><span class="nf">run-jetty</span><span class="w"> </span><span class="nv">app</span><span class="w"> </span><span class="p">{</span><span class="no">:port</span><span class="w"> </span><span class="p">(</span><span class="nf">if</span><span class="w"> </span><span class="p">(</span><span class="nf">nil?</span><span class="w"> </span><span class="p">(</span><span class="nf">System/getenv</span><span class="w"> </span><span class="s">&quot;PORT&quot;</span><span class="p">))</span><span class="w"> </span>
+
+<span class="w">                          </span><span class="mi">8000</span><span class="w"> </span><span class="c1">; localhost or heroku?</span>
+<span class="w">                          </span><span class="p">(</span><span class="nf">Integer/parseInt</span><span class="w"> </span><span class="p">(</span><span class="nf">System/getenv</span><span class="w"> </span><span class="s">&quot;PORT&quot;</span><span class="p">)))})</span><span class="w"> </span><span class="p">)</span>
+
+</pre>
+</div>
+<p>The new POST route uses the <code>name</code> variable from the form.  This is possible because we're now leveraging middleware:</p>
+<pre><code>(def app (wrap-params routes)) </code></pre>
+<p>Simply put: <em>middleware is features</em>.  Rather than forcing you into a one-size-fits all model, it's a way to mix and match whichever ones you need.</p>
+<p>In this case, we have to process form variables.  <code>wrap-params</code> is what does this for us by making the form variable <code>name</code> available as a local.</p>
+<p>You can also look at from an efficiency point of view: <em>ALL</em> we're doing is accessing the form parameters.  We aren't using sessions or a plethora of other features that we may or may not want.</p>
+<h3>C is for Clojure</h3>
+<p><a title="Examlpe 3" href="https://github.com/heow/compojure-cookies-example/blob/master/src/example3.clj">Example3</a>, cookie stuffing without sessions.</p>
+<div class="highlight">
+<pre><span class="p">(</span><span class="nf">ns</span><span class="w"> </span><span class="nv">example3</span>
+<span class="w">  </span><span class="p">(</span><span class="no">:use</span><span class="w"> </span><span class="p">[</span><span class="nv">ring.adapter.jetty</span><span class="w">             </span><span class="no">:only</span><span class="w"> </span><span class="p">[</span><span class="nv">run-jetty</span><span class="p">]]</span>
+
+<span class="w">        </span><span class="p">[</span><span class="nv">compojure.core</span><span class="w">                 </span><span class="no">:only</span><span class="w"> </span><span class="p">[</span><span class="nv">defroutes</span><span class="w"> </span><span class="nv">GET</span><span class="w"> </span><span class="nv">POST</span><span class="p">]]</span>
+<span class="w">        </span><span class="p">[</span><span class="nv">ring.middleware.cookies</span><span class="w">        </span><span class="no">:only</span><span class="w"> </span><span class="p">[</span><span class="nv">wrap-cookies</span><span class="p">]]</span>
+
+<span class="w">        </span><span class="p">[</span><span class="nv">ring.middleware.params</span><span class="w">         </span><span class="no">:only</span><span class="w"> </span><span class="p">[</span><span class="nv">wrap-params</span><span class="p">]]</span>
+<span class="w">        </span><span class="p">[</span><span class="nv">ring.middleware.keyword-params</span><span class="w"> </span><span class="no">:only</span><span class="w"> </span><span class="p">[</span><span class="nv">wrap-keyword-params</span><span class="p">]]))</span>
+
+<span class="p">(</span><span class="nf">defn</span><span class="w"> </span><span class="nv">main-page</span><span class="w"> </span><span class="p">[</span><span class="nv">cookies</span><span class="p">]</span>
+<span class="w">  </span><span class="p">(</span><span class="nf">str</span><span class="w"> </span><span class="s">&quot;Hi there &quot;</span>
+<span class="w">       </span><span class="p">(</span><span class="nf">if</span><span class="w"> </span><span class="p">(</span><span class="nf">empty?</span><span class="w"> </span><span class="p">(</span><span class="no">:value</span><span class="w"> </span><span class="p">(</span><span class="nf">cookies</span><span class="w"> </span><span class="s">&quot;name&quot;</span><span class="p">)))</span>
+
+<span class="w">         </span><span class="s">&quot;&lt;form method='post' action='/'&gt; What's your name? &lt;input type='text' name='name' /&gt;&lt;input type='submit' /&gt;&lt;/form&gt;&quot;</span>
+<span class="w">         </span><span class="p">(</span><span class="no">:value</span><span class="w"> </span><span class="p">(</span><span class="nf">cookies</span><span class="w"> </span><span class="s">&quot;name&quot;</span><span class="p">)))))</span>
+
+<span class="p">(</span><span class="nf">defn</span><span class="w"> </span><span class="nv">process-form</span><span class="w"> </span><span class="p">[</span><span class="nv">params</span><span class="w"> </span><span class="nv">cookies</span><span class="p">]</span>
+<span class="w">  </span><span class="p">(</span><span class="nf">let</span><span class="w"> </span><span class="p">[</span><span class="nv">name</span><span class="w"> </span><span class="p">(</span><span class="nf">if</span><span class="w"> </span><span class="p">(</span><span class="nf">not</span><span class="w"> </span><span class="p">(</span><span class="nf">empty?</span><span class="w"> </span><span class="p">(</span><span class="no">:name</span><span class="w"> </span><span class="nv">params</span><span class="p">)))</span>
+
+<span class="w">               </span><span class="p">(</span><span class="no">:name</span><span class="w"> </span><span class="nv">params</span><span class="p">)</span>
+<span class="w">               </span><span class="p">(</span><span class="no">:value</span><span class="w"> </span><span class="p">(</span><span class="nf">cookies</span><span class="w"> </span><span class="s">&quot;name&quot;</span><span class="p">)))]</span>
+
+<span class="w">    </span><span class="c1">;; set cookie, return html</span>
+<span class="w">    </span><span class="p">{</span><span class="no">:cookies</span><span class="w"> </span><span class="p">{</span><span class="s">&quot;name&quot;</span><span class="w"> </span><span class="nv">name</span><span class="p">}</span>
+<span class="w">     </span><span class="no">:body</span><span class="w"> </span><span class="p">(</span><span class="nf">str</span><span class="w"> </span><span class="s">&quot;&lt;html&gt;&lt;head&gt;&lt;meta HTTP-EQUIV='REFRESH' content='5; url='/'\&quot;&lt;/head&gt;&lt;body&gt;Thanks!&lt;/body&gt;&lt;/html&gt;&quot;</span><span class="p">)}))</span>
+
+<span class="p">(</span><span class="nf">defroutes</span><span class="w"> </span><span class="nv">routes</span>
+<span class="w">  </span><span class="p">(</span><span class="nf">POST</span><span class="w"> </span><span class="s">&quot;/&quot;</span><span class="w"> </span><span class="p">{</span><span class="nv">params</span><span class="w"> </span><span class="no">:params</span><span class="w"> </span><span class="nv">cookies</span><span class="w"> </span><span class="no">:cookies</span><span class="p">}</span><span class="w"> </span><span class="p">(</span><span class="nf">process-form</span><span class="w"> </span><span class="nv">params</span><span class="w"> </span><span class="nv">cookies</span><span class="p">))</span>
+
+<span class="w">  </span><span class="p">(</span><span class="nf">GET</span><span class="w">  </span><span class="s">&quot;/&quot;</span><span class="w"> </span><span class="p">{</span><span class="nv">cookies</span><span class="w"> </span><span class="no">:cookies</span><span class="p">}</span><span class="w">                </span><span class="p">(</span><span class="nf">main-page</span><span class="w"> </span><span class="nv">cookies</span><span class="p">)))</span>
+
+<span class="p">(</span><span class="nf">def</span><span class="w"> </span><span class="nv">app</span><span class="w"> </span><span class="p">(</span><span class="nf">-&gt;</span><span class="w"> </span><span class="o">#</span><span class="ss">'routes</span><span class="w"> </span><span class="nv">wrap-cookies</span><span class="w"> </span><span class="nv">wrap-keyword-params</span><span class="w"> </span><span class="nv">wrap-params</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nf">defn</span><span class="w"> </span><span class="nv">-main</span><span class="w"> </span><span class="p">[]</span>
+<span class="w">  </span><span class="p">(</span><span class="nf">run-jetty</span><span class="w"> </span><span class="nv">app</span><span class="w"> </span><span class="p">{</span><span class="no">:port</span><span class="w"> </span><span class="p">(</span><span class="nf">if</span><span class="w"> </span><span class="p">(</span><span class="nf">nil?</span><span class="w"> </span><span class="p">(</span><span class="nf">System/getenv</span><span class="w"> </span><span class="s">&quot;PORT&quot;</span><span class="p">))</span><span class="w"> </span>
+
+<span class="w">                          </span><span class="mi">8000</span><span class="w"> </span><span class="c1">; localhost or heroku?</span>
+<span class="w">                          </span><span class="p">(</span><span class="nf">Integer/parseInt</span><span class="w"> </span><span class="p">(</span><span class="nf">System/getenv</span><span class="w"> </span><span class="s">&quot;PORT&quot;</span><span class="p">)))})</span><span class="w"> </span><span class="p">)</span>
+
+</pre>
+</div>
+<h4>Keyword Params</h4>
+<p>Starting from the bottom, we're now wrapping cookies and keyword params using <a title="Threading" href="http://clojure.github.com/clojure/clojure.core-api.html#clojure.core/-%3E">threading</a>:</p>
+<pre><code>(def app (-&gt; #'routes wrap-cookies wrap-keyword-params wrap-params)) </code></pre>
+<p>Keyword params change the input parameters from string-based to keyword based.  By default it's string based because form variables can contain spaces, however I've yet to see it in real life.</p>
+<pre><code>{&quot;name&quot; &quot;Hello world&quot;} ; params without keyword-params {:name  &quot;Hello world&quot;} ; params with keyword-params </code></pre>
+<h4>Destructuring Syntax</h4>
+<p>The routes have a <a href="https://github.com/weavejester/compojure/wiki/Destructuring-Syntax">startling new destructing syntax</a>:</p>
+<pre><code>(POST &quot;/&quot; {params :params cookies :cookies} (process-form params cookies)) </code></pre>
+<p>Because we want to manipulate cookies, we need to operate at slightly lower level of abstraction.   This syntax allow us to pass in cookies so they can be read.</p>
+<h4>Return Value</h4>
+<pre><code>{:cookies {&quot;name&quot; name}  :body (str &quot;&lt;html&gt;&lt;head&gt; ... </code></pre>
+<p>The return value isn't just a string anymore, in order to save a cookie in the browser we need to pass them out much in the manner it arrived.   Besides, returning a string is a shortcut for setting the <code>:body</code>, you also can <a href="https://github.com/mmcgrana/ring/wiki/Creating-responses">set other various things</a> like headers.</p>
+<h3>That's it</h3>
+<p>This avoids the overhead and complexity  of sessions, meaning the cookie is stored <strong>unencrypted and in plain view</strong> in the user's browser (for obvious reasons, avoid this technique for sensitive data).  Unlike sessions which store a token that is associated with your data in the web-server, the browser holds everything so the data survives server restarts but is readable and modifiable by the user.</p>
+<p>It's not a lot of code, you've learned alternative input and outputs, destructuring, form processing, Ring's middleware and cookie management.</p>
+<p>Now grab the code from GitHub and make something fun:</p>
+<pre><code>git clone https://github.com/heow/compojure-cookies-example.git</code></pre>]]></body>
+<date>16 Nov 2011 15:42:00:0 +0000</date>
+<timeZone>America/New_York</timeZone>
+<state>published</state>
+<author>heow</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags/>
+<comment>
+<title>Re: Compojure Cookies Example</title>
+<body><![CDATA[<p>The git clone url should be https://github.com/heow/compojure-cookies-example.git as the other one will attempt to access the repo over SSH, but there won't be access unless you've explicitly added them to the project contributors list.</p>]]></body>
+<author>Anonymous</author>
+<email>apgwoz@gmail.com</email>
+<website/>
+<avatar/>
+<ipAddress>160.79.2.194</ipAddress>
+<date>10 Nov 2011 14:24:12:171 +0000</date>
+<state>approved</state>
+<authenticated>false</authenticated>
+</comment>
+<comment>
+<title>Re: Compojure Cookies Example</title>
+<body><![CDATA[<p>Noted and fixed, thanks!</p>]]></body>
+<author>Heow Goodman</author>
+<email>heow@lispnyc.org</email>
+<website>http://lispnyc.org:80/blog/heow/authors/heow/</website>
+<avatar/>
+<ipAddress>207.237.114.201</ipAddress>
+<date>26 Mar 2012 20:42:21:945 +0000</date>
+<state>approved</state>
+<authenticated>true</authenticated>
+</comment>
+</blogEntry>

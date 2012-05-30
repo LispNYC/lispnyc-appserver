@@ -98,4 +98,16 @@ it would be great if this could be fixed.]]></body>
 <authenticated>true</authenticated>
 <parent>1298509852636</parent>
 </comment>
+<comment>
+<title>Re: Programming Power Font</title>
+<body><![CDATA[<p>Yuk. &nbsp;This emphasizes the least important part of the code: you don't need to look at the parentheses most of the time, at least if the code is properly indented.&nbsp;</p>]]></body>
+<author>John Cowan</author>
+<email>cowan@ccil.org</email>
+<website>http://www.ccil.org/~cowan</website>
+<avatar/>
+<ipAddress>98.14.172.212</ipAddress>
+<date>10 Nov 2011 17:18:29:741 +0000</date>
+<state>pending</state>
+<authenticated>false</authenticated>
+</comment>
 </blogEntry>

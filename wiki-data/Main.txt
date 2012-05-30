@@ -1,12 +1,11 @@
-[FrontPage]
+! LispNYC Pages
 
-[Meetings]
-
-[Contact] [ContactThanks]
-
-[Rsvp] [RsvpThanks]
-
-[RecruitExperts]
+* [FrontPage]
+* [Meetings]
+* [Contact] [ContactThanks]
+* [Rsvp] [RsvpThanks]
+* [RecruitExperts]
+* [BlogSignup][BlogThanks]
 
 !!! JSP Wiki
 
@@ -17,11 +16,6 @@ You have some pages set up for you:
 * For testing things, try the [SandBox].
 * For a quick look on what Wiki is, check out [OneMinuteWiki].
 * For a guideline on good working habits with wiki, see [WikiEtiquette].
-
-!Installation issues
-
-* If you run Microsoft Windows, or you are having trouble with UTF-8 then you probably want to take a look
-  at [InstallationTips] for further information.
 
 !Documentation
 

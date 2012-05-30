@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>Summer of Code 2012</title>
+<subtitle>Summer of Clojure</subtitle>
+<excerpt/>
+<body><![CDATA[<p>LispNYC was not selected as a mentoring organization this year, however related organizations DID get in and there is plenty of work to be done.&nbsp; Visit their sites for info:</p>
+<ul>
+    <li><a href="http://www.google-melange.com/gsoc/org/google/gsoc2012/clojure">Clojure/core</a></li>
+    <li><a href="http://www.google-melange.com/gsoc/org/google/gsoc2012/haskell">Haskell</a></li>
+    <li><a href="http://www.google-melange.com/gsoc/org/google/gsoc2012/opencog">OpenCog</a></li>
+</ul>
+<p>LispNYC&nbsp;is devoted to helping where we can, if you have lisp/functional-related questions or are looking for a mentor, just ping us.</p>]]></body>
+<date>26 Mar 2012 20:30:00:0 +0000</date>
+<timeZone>America/New_York</timeZone>
+<state>published</state>
+<author>heow</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags/>
+</blogEntry>

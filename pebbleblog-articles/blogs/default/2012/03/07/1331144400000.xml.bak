@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>Summer of Code 2012</title>
+<subtitle/>
+<excerpt/>
+<body><![CDATA[<p>LispNYC is petitioning to be a mentoring organization for <a href="http://code.google.com/soc/">Google's
+Summer of Code</a> 2012.</p>
+
+<p>We're available at <a href="irc://irc.freenode.net:6667/summeroflisp">#summeroflisp at
+irc.freenode.net</a> (9-5 EST)
+if you'd like to discuss anything in realtime.</p>
+
+<p>Project ideas are being fleshed out at
+<a href="http://reddit.lispnyc.org">reddit.lispnyc.org</a>.  Anyone can submit,
+vote and comment on the Scheme, Clojure and Common Lisp projects you
+feel are great!</p>]]></body>
+<date>07 Mar 2012 18:20:00:0 +0000</date>
+<timeZone>Europe/London</timeZone>
+<state>published</state>
+<author>heow</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags/>
+</blogEntry>

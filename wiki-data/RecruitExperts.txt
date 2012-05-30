@@ -1,1 +1,17 @@
-we rock
+Finding qualified, motivated people is hard enough but finding them for a domain-specific difficult problem is even harder.
+
+Regardless of your issue, the self-selective nature of the Lisp-community excels at [beating the averages|http://www.paulgraham.com/avg.html|target="_blank"], so even if your technology-choice is NOT lisp-based, it's in your best interest to seek them out.
+
+LispNYC can help you access those curve-busting developers and managers.
+
+[{FormOpen form='recruit' method='post' submit='/contact'}]
+
+| subject    | [{FormInput type='text' name='subject' value='interested in recruiting''}]  
+| email      | [{FormInput type='text' name='email'}]  (privacy ensured)
+| phone      | [{FormInput type='text' name='phone'}]
+| short note | [{FormInput type='text' name='message'}]
+|            | [{FormInput type='submit' value='send' name='submit'}] 
+
+[{FormInput type='text' name='jobtitle' style='display: none;'}] 
+
+[{FormClose}]

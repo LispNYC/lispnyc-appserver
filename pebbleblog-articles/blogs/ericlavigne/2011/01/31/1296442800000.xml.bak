@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogEntry>
+<title>A tour of the Clojure landscape</title>
+<subtitle>Network analysis of Clojure projects</subtitle>
+<excerpt/>
+<body><![CDATA[<img src="http://lispnyc.org/blog/ericlavigne/files/images/clojure-landscape.jpg" alt="Clojure landscape" width="100%" />
+
+<p>I am working on an automatically-generated, <a href="https://github.com/ericlavigne/browse-clojure">browseable directory</a> of Clojure libraries. If I am viewing a library in such a directory, the directory should be able to give me a list of other libraries that I should consider instead, as well as a list of libraries that work well with this one. The directory application could infer such information automatically based on how often various libraries are used together on Github.</p>
+
+<p>While I originally generated the map above as an intermediate step towards that goal, I also found the map itself interesting. There were a lot of projects that I hadn't heard about, and those that I did know about tended to be close to eachother. Did I actually have a position on this map, so that I would only hear about nearby projects? With that in mind, here is a quick tour of Clojure's landscape. Clojure's community is growing fast, and it can be hard to keep up with all the projects. Hopefully I can introduce you to some interesting projects that you haven't heard of before.</p>
+
+<h2>1 ) The capital city: Clojure and Clojure-contrib</h2>
+<p>This is where Rich Hickey and other <a href="http://clojure.com">Clojure/core</a> members are hard at work on Clojure 1.3, including performance improvements such as primitive function arguments, primitive return values, and pods. Clojure/core also provides support, mentorship, training, and consulting services for companies that are adopting Clojure. You can learn more in Rich Hickey's recent <a href="http://www.infoq.com/interviews/hickey-clojure-protocols">InfoQ interview</a>. I just sent in my <a href="http://clojure.org/contributing">contributor's agreement</a> and am eager to join the effort.</p>
+
+<h2>2 ) Building Clojure projects: Leiningen</h2>
+<p><a href="https://github.com/technomancy/leiningen">Leiningen</a> is an easy-to-use alternative to Java's Ant and Maven. It provides built-in commands for common tasks like downloading dependencies, compiling the project, creating a JAR file, and launching a REPL. Leiningen's creator, Phil Hagelberg, has been remarkably effective at soliciting contributions, and a wide variety of community plugins provide additional Leiningen commands.</p>
+
+<h2>3 ) Dev Ops: Pallet and JClouds</h2>
+<p><a href="http://hugoduncan.github.com/pallet/">Pallet</a> is an alternative to shell scripts and manual server administration. It communicates with cloud providers tostart up new instances, configure those instances based on predefined recipes, and perform day-to-day tasks like deploying new versions of an application.</p>
+
+<p>Behind the scenes, <a href="http://www.jclouds.org/">JClouds</a> allows the same commands to work for a variety of cloud providers.</p>
+
+<p>Some good introductions include Hugo Duncan's article on <a href="http://hugoduncan.org/post/2010/shell_scripting_in_clojure_with_pallet.xhtml">shell scripting</a>, and Chas Emerick's article on <a href="http://cemerick.com/2010/11/02/continuous-deployment-of-clojure-web-applications/">continuous deployment of web applications</a>.</p>
+
+<h2>4 ) Cake: a Leiningen rival</h2>
+<p><a href="https://github.com/ninjudd/cake">Cake</a> competes with Leiningen as a Clojure build tool. It is compatible with most Leiningen project.clj files, and comes with extra features such as fast start-up, a dependency based task model that allows you to extend existing tasks, and an enhanced REPL with paren matching and tab completion.</p>
+
+<h2>5 ) Web development: Ring, Compojure, Enlive, Hiccup, and Sandbar</h2>
+<p>So far, Clojure's web development options are based on small, easily-composable libraries. In other words, more like Sinatra than Rails. <a href="https://github.com/mmcgrana/ring">Ring</a> provides an abstraction over web servers, as well as support for defining middleware. <a href="https://github.com/weavejester/compojure">Compojure</a> takes care of routing. You can generate HTML with <a href="https://github.com/swannodette/enlive-tutorial/">Enlive</a> if you prefer pure HTML templates, or with <a href="https://github.com/weavejester/hiccup">Hiccup</a> if you prefer to write views directly in Clojure. <a href="https://github.com/brentonashworth/sandbar">Sandbar</a> takes care of some of the remaining issues, like authentication/authorization and form validation.</p>
+
+<p><a href="https://github.com/macourtney/Conjure">Conjure</a> is another option, which is closer to the Rails style.</p>
+
+<h2>6 ) Beginner's projects: TryClojure, Clojure 101, Clojure Koans, and LabREPL</h2>
+Each of these projects helps new Clojure programmers to learn the language. Try <a href="http://www.try-clojure.org/">Clojure</a> allows you to try out Clojure in your web browser, no download required, and even includes a small tutorial. <a href="https://github.com/ghoseb/clojure101">Clojure 101</a> and <a href="http://clojure-notes.rubylearning.org/">these notes</a> are training materials for an online course offered by <a href="http://www.rubylearning.org/class/">RubyLearning</a>. <a href="https://github.com/functional-koans/clojure-koans">Clojure Koans</a> is a test-driven approach to learning, in which you fix small code examples to make tests pass (based on a <a href="http://rubykoans.com/">similar project</a> for Ruby). <a href="https://github.com/relevance/labrepl">LabREPL</a> is part of the training materials for <a href="http://clojure.com/">Clojure/core</a>'s Clojure training program.</p>
+
+<h2>7 ) Testing: Midje and Lazytest</h2>
+<p>Both Midje and Lazytest are alternatives to the clojure.test framework that is built in to Clojure. <a href="https://github.com/marick/Midje">Midje</a> encourages a separation between the actual tests and "checkers" that determine whether a test passed. <a href="https://github.com/stuartsierra/lazytest">Lazytest</a> can be set up to watch your project's files, and rerun the tests automatically whenever your source code changes.</p>
+
+<h2>8 ) Musical Clojure: Overtone</h2>
+<p>I was surprised and delighted to discover Clojure's musical island, at the bottom of the map. Jeff Rose created <a href="http://project-overtone.org">Overtone</a> as a replacement for a Serge Modular synthesizer that he enjoyed playing with, but that didn't have a save button or other nice abstractions. He presented Overtone at a Rails conference (<a href="http://vimeo.com/16143967">video</a>).</p>
+
+<h2>9 ) Further into the frontier</h2>
+<p>Brian Carper's <a href="https://github.com/briancarper/cow-blog">Cow-Blog</a> is so far out on the frontier that it doesn't even show up on my map. This blog engine seems to be rather rough around the edges, but I'm considering migrating my own blog from Wordpress to Cow-Blog. I like the idea of taking a peek under the hood and tinkering with the Clojure code. Plus, it looks like it comes with support for syntax highlighting of code examples.</p>
+
+<p>I created the map above by tying projects together that share at least two contributors. Naturally, any single-contributor projects wouldn't show up on such a map, and projects with only a few contributors also have low odds of showing up. Several startups have used Clojure for distributed computing, but projects like <a href="http://tech.backtype.com/introducing-cascalog-a-clojure-based-query-la-0">Cascalog</a>(<a href="http://tech.backtype.com/videos-from-the-may-hadoop-meet-up">video</a>), <a href="http://github.com/amitrathore/swarmiji">swarmiji</a>, and <a href="https://github.com/stuartsierra/clojure-hadoop">clojure-hadoop</a> aren't on the map.</p>
+
+<p>What other projects should be included in a tour of Clojure? Share your ideas by commenting below or on <a href="http://news.ycombinator.com/item?id=2160071">Hacker News</a>.</p>]]></body>
+<date>31 Jan 2011 03:00:00:0 +0000</date>
+<timeZone>America/New_York</timeZone>
+<state>published</state>
+<author>ericlavigne</author>
+<staticName/>
+<commentsEnabled>true</commentsEnabled>
+<trackBacksEnabled>true</trackBacksEnabled>
+<tags/>
+<comment>
+<title>Re: A tour of the Clojure landscape</title>
+<body><![CDATA[<p>&nbsp;Great post! Very informative for a clojure beginner like me.</p>]]></body>
+<author>Ryan</author>
+<email/>
+<website/>
+<avatar/>
+<ipAddress>50.80.170.245</ipAddress>
+<date>02 Mar 2011 23:51:23:87 +0000</date>
+<state>approved</state>
+<authenticated>false</authenticated>
+</comment>
+</blogEntry>

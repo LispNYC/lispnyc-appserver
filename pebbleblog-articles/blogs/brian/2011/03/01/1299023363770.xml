@@ -57,7 +57,7 @@ form!</p>]]></body>
 <avatar/>
 <ipAddress>98.221.143.95</ipAddress>
 <date>06 Mar 2011 16:54:22:803 +0000</date>
-<state>pending</state>
+<state>approved</state>
 <authenticated>false</authenticated>
 <parent>1299102097522</parent>
 </comment>
@@ -71,7 +71,7 @@ form!</p>]]></body>
 <avatar/>
 <ipAddress>220.108.210.20</ipAddress>
 <date>03 Mar 2011 12:43:20:549 +0000</date>
-<state>pending</state>
+<state>approved</state>
 <authenticated>true</authenticated>
 </comment>
 <comment>
@@ -83,7 +83,7 @@ form!</p>]]></body>
 <avatar/>
 <ipAddress>184.218.134.47</ipAddress>
 <date>07 Mar 2011 14:21:25:493 +0000</date>
-<state>pending</state>
+<state>approved</state>
 <authenticated>false</authenticated>
 </comment>
 </blogEntry>

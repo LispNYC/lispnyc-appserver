@@ -12,3 +12,7 @@
 184.74.199.18 - - [07/Mar/2011:12:42:08 -0500] "GET /this-post-was-written-in-emacs" 200 - - "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13"
 24.210.33.80 - - [07/Mar/2011:12:48:42 -0500] "GET /this-post-was-written-in-emacs" 200 - - "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15"
 218.213.130.199 - - [07/Mar/2011:16:37:05 -0500] "GET /" 200 - - "ichiro/4.0 (http://help.goo.ne.jp/door/crawler.html)"
+218.213.130.199 - - [07/Mar/2011:16:45:07 -0500] "GET /rss.xml" 200 - - "ichiro/4.0 (http://help.goo.ne.jp/door/crawler.html)"
+67.195.114.220 - - [07/Mar/2011:19:12:05 -0500] "GET /rss.xml" 200 - - "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"
+166.137.137.214 - - [07/Mar/2011:20:10:07 -0500] "GET /this-post-was-written-in-emacs" 200 - - "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148a Safari/6533.18.5"
+74.101.212.221 - - [07/Mar/2011:22:22:28 -0500] "GET /this-post-was-written-in-emacs" 200 - - "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.126 Safari/534.16"

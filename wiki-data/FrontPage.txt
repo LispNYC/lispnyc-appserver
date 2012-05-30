@@ -1,7 +1,11 @@
-LispNYC was not selected as a mentoring organization this year, however related organizations DID get in and there is plenty of work to be done.  Visit their sites for info:
+2012 Lisp-related Summer of Code projects:
 
 * [Clojure/core|http://www.google-melange.com/gsoc/org/google/gsoc2012/clojure]
 * [Haskell|http://www.google-melange.com/gsoc/org/google/gsoc2012/haskell]
 * [OpenCog|http://www.google-melange.com/gsoc/org/google/gsoc2012/opencog]
 
-LispNYC is devoted to helping where we can, if you have lisp/functional-related questions or are looking for a mentor, just ping us.
+Upcoming events:
+
+* Jul 5-9, [META 2012 - Third International Valentin Turchin Workshop on Metacomputation|http://meta2012.pereslavl.ru/] near Moscow, Russia
+* Sep 23-25, [Strange Loop|https://thestrangeloop.com/|target='_blank'] in St. Louis
+* Oct 21-24, [International Lisp Conference 2012|http://www.international-lisp-conference.org/2012/|target='blank'] in Kyoto, Japan
