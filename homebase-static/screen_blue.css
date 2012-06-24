@@ -98,33 +98,26 @@ body {
 
 #contentLeft {
   float: left;
-  font-size: 12px;
+  font-size: 1.0em;
   width: 75%;
   margin-bottom: 1em;
   color: #000;
   background: #e9e9ff url("./images/corner_sub_tr-logo.png") no-repeat top right;  
 }
 
-#contentLeft p {  
-  margin: 0.2em 1.2em 1.0em 1.2em;
-  font-size: 12px;
-  line-height: 1.8em;
-}
-
 #contentRight {
   float: right;
-  font-size: 10px;
+  font-size: 0.75em;
   width: 24%;
   color: #000;
   background: #a9a9ff url("./images/corner_sub_tl.gif") no-repeat top left;
 }
 
-#contentRight p {  
-  font-size: 11px;
+#content p {  
   margin: 0.2em 1.2em 1.0em 1.2em;
-  line-height: 16px;
+  font-size: 0.8em;
+  line-height: 1.8em;
 }
-
 
 #content a {  
   text-decoration: none;
@@ -249,7 +242,7 @@ acronym {
 /* -- <ul> tag styles -- */
 
 ul{
-  font-size: 12px;
+  font-size: 0.8em;
   padding-top: 2px;
   padding-bottom: 2px;
   list-style-image: url("./images/lambda-tiny.gif");
@@ -302,44 +295,33 @@ display: block;
 margin: 0 auto;
 }
 
-/* --- news --- */
-table#news {
-  padding-left: 20px;
-}
+/* -- meetings -- */
 
-/* --- news pager --- */
-p.pager {
-  padding-top: 20px;
-}
 
-#contentLeft p a.pager-better,
-#contentLeft p a.pager-page,
-#contentLeft p a.pager-newer {
-  font-size: 14px;
-  border-bottom: none;
-  padding-right: 5px;
-  padding-left: 5px;
-}
+/*table, td, td {
+    border: 1px solid black;
+}*/
 
-p .pager-current {
-  font-size: 14px;
-  font-weight: bold;
-  padding-right: 6px;
-  padding-left: 6px;
-}
-
-/* --- wiki form --- */
-
-.wikiform {
+table#meeting {
     padding-left: 20px;
+    padding-right: 10px;
 }
 
-.wikitable,
-.wikitable td {
-    border: 0px;
+td.meeting-date {
+    width: 110px;
 }
 
-/* --- spam bait --- */
-input[name='nbf_jobtitle'] {
-    display: none;
+td.meeting-title {
+    padding-bottom: 20px;
+}
+
+td.meeting-video {
+    width: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+td.meeting-video a {
+    font-size: 11px;
+    margin-top: -10px;
 }
