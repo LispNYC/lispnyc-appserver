@@ -298,9 +298,9 @@ margin: 0 auto;
 /* -- meetings -- */
 
 
-/*table, td, td {
-    border: 1px solid black;
-}*/
+table, td, td {
+    border: 0px;
+}
 
 table#meeting {
     padding-left: 20px;
