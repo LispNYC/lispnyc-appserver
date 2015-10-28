@@ -1,0 +1,155 @@
+
+body {
+    background-color: #e6e6e6;
+    background-image: url("/static/images/nyc-skyline.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    padding-top: 0px;
+}
+
+/* top bar */
+nav.top-bar section.top-bar-section a {
+    font-size: 1.0rem;
+}
+
+nav.top-bar ul.title-area li.name a {
+    padding-left: 60px;
+    font-size: 1.3rem;
+}
+
+img.title {
+    position: absolute;
+    height: 38px;
+    z-index: 1;
+    left: 1.0rem;
+    top: 4px;
+}
+
+/* all panels */
+div.panel {
+    border: 0rem;
+    background-color: #e6e6e6;
+}
+
+/* news/main */
+div#announcement {
+    padding-top: 1rem;
+
+}
+
+div.main.panel {
+    background-color: rgba(230,230,230,0.85); /* #e6 */
+    border-radius: 25px;
+}
+
+/* meeting panel */
+div.meeting.panel {
+    background-color: rgba(230,230,230,0.85); /* #e6 */
+    border-radius: 25px;
+}
+
+/* support */
+table#support {
+    background-color: #e6e6e6;
+    border: 0rem none;
+}
+
+/* news */
+table {
+    background-color: #e6e6e6;
+    border: 0rem none;
+}
+
+table tbody tr td {
+    background-color: #e6e6e6;
+    border: 0rem none;
+}
+
+td.news-icon img {
+  max-width: none; /* don't resize icon */
+}
+
+p.pager a {
+    font-size: 1.2rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+p.pager span.pager-current {
+    font-size: 1.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+/* info */
+div.info.row.show-for-medium-up {
+    padding-top: 3rem;
+}
+
+div.info.panel {
+    padding: 0.7rem;
+    /* background-color: #f9f9f9; */
+    background-color: #e6e6e6;
+}
+
+div.info.panel p {
+    font-size: 0.8rem;
+}
+
+/* navigation */
+ul.button-group.even.four-up li a.nav.tiny.round.button {
+    background-color: white;
+    foreground-color: black;
+    color: #909090;
+    font-size: 1.0rem;
+    margin-right: 1.0rem;
+}
+
+ul.button-group.even.four-up li a.nav.tiny.round.button:hover {
+    background-color: yellow;
+}
+
+/* ad */
+div.ad-panel {
+    padding: 0.5rem;
+    /* background-color: white; */
+    foreground-color: black;
+}
+
+div.ad-panel p {
+    font-size: 0.7rem;
+    color: black;
+}
+
+/* social */
+div.social.tiny.round.button {
+    margin-top: 2rem;
+    background-color: white;
+    color: #909090;
+}
+
+div.social.tiny.round.button:hover {
+    background-color: yellow;
+}
+
+div.social.tiny.round.button ul.button-group li a img {
+    padding: 0.5rem;
+}
+
+/* footer */
+div#footerLeft.about.panel {
+    font-size: 0.9rem;
+}
+
+div.footer.row {
+    margin-top: 3rem;
+}
+
+/* meetings */
+td.meeting-date {
+    width: 6rem;
+}
+
+td.meeting-video {
+    width: 100px;
+}
